@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: ./scripts/init_env.sh # Setup ruby env
-      - run: bundle install && bundle exec jekyll build
+      - run: gem install bundler && bundle install && bundle exec jekyll build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
