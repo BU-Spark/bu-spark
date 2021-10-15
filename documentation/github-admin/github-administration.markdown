@@ -1,25 +1,26 @@
 ---
 layout: page
 title: Github Administration
-permalink: /docs/github-admin
+permalink: /docs/github-admin/
 ---
 # What is this document
 This document will guide you through administration of a Spark! owned Github repository, adding and managing collaborators and basic branch use.
 # Introduction
-Spark! utilizes Github.com to store and manage all code produced from our various project. It is treated as the single source of truth for code from projects and is used both during active development and for archival purposes. 
+Spark! utilizes Github.com to store and manage all code produced from our various projects. It is treated as the single source of truth for code from projects and is used both during active development and for archival purposes. 
 # Quick Summary
-To add users to a repository utilize the `COLLABORATORS` file located in the root of the repository. Put a single Github username per line and commit to `main` or `master`. In the case that either branch is protected you can commit to `dev`. The Github action will run automatically and sent invites to the new users and remove users who are no longer on the list.
+To add users to a repository utilize the `COLLABORATORS` file located in the root of the repository. Put a single Github username per line and commit to `main` or `master`. In the case that either branch is protected you can commit to `dev`. A Github Action will run automatically and send invites to the new users and remove users who are no longer on the list.
 # In depth
 This part will go over in more detail the process and intricacies of adding and managing users.
 ## Types of Repositories
-Repositories can be of two types, private or public. Private repositories can only be viewed by those who have been explicitly added whereas public repositories can be viewed by anyone(including non-BU affiliated individuals). In both cases, users must be added as collaborators in order to contribute code to the repository. 
+Repositories can be of two types, private or public. Private repositories can only be viewed by those who have been explicitly added whereas public repositories can be viewed by anyone (including non-BU affiliated individuals). In both cases, users must be added as collaborators in order to contribute code to the repository. 
 
-You can identify if a particular repository is public or private by look for the label next to the name of the repository on Github. 
+Look for the label next to the name of the repository on Github to identify if it is public or private.
 
 ![Public Repository Example](assets/repo-type.jpg){: width="500px"}
 
 ## Adding or removing a user to a repository
-To add a user you need to add their Github username to the `COLLABORATORS` file and commit it to the correct branch. In this case we will edit the file directly on Github so you do not have to download anything to your computer. We want to add users to the `COLLABORATORS` file on the `dev` branch. 
+To add a user you need to add their Github username to the `COLLABORATORS` file and commit it to the correct branch(typically `dev`). In this case we will edit the file directly on Github so you do not have to download anything to your computer. 
+
 ### Select `dev` branch
 The first step is selecting the `dev` branch from the list of branches on Github.
 
@@ -39,7 +40,7 @@ Once you have created or selected the `dev` branch you should verify that the yo
 
 ### Locate file
 
-Now that you are on the `dev` branch locate the `COLLABORATORS` file in the root of the repository and select it:
+Now that you are on the `dev` branch, locate the `COLLABORATORS` file in the root of the repository and select it
 
 ![Locate COLLABORATORS file](assets/collab-root.jpg){: width="1000px"}
 
@@ -51,7 +52,7 @@ Next you need to enter edit mode in order to add Github usernames, this is locat
 
 ### Add Github usernames
 
-Now you are editing the file and can add or remove usernames from the list. There should only be one Github username to per line.
+Now you are editing the file and can add or remove usernames from the list. There should only be one Github username to per line. Do **NOT** use email addresses, this must be their github account name.
 
 ![Add Github Usernames](assets/add-usernames.jpg){: width="1000px"}
 
@@ -67,6 +68,6 @@ You have now added/removed users and just need to wait for the automatic process
 
 ## Why not commit directly to main?
 
-It might seem odd that we have made the change on `dev` instead of `main` or `master`. We have chosen `dev` because `main` and `master` are typically protected branches that do not allow anyone other than Spark! staff to make changes. This includes making edits to files such as COLLABORATORS or pushing changes from their local machines. For this reason, `dev` is used throughout the semester and is where students and PMs can make changes to files. 
+It might seem odd that we have made the change on `dev` instead of `main` or `master`. We have chosen `dev` because `main` and `master` are typically protected branches that do not allow anyone other than Spark! staff to make changes. This includes making edits to files such as `COLLABORATORS` or pushing changes from their local machines. For this reason, `dev` is used throughout the semester and is where students and PMs can make changes to files. 
 
 
