@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: ../scripts/init_env.sh # Setup ruby env
       - run: bundle install && bundle exec jekyll build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
