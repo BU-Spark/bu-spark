@@ -2,6 +2,8 @@
 layout: page
 title: Spark! Tech Stack 
 permalink: /docs/tech-stack/
+nav_order: 3
+has_children: true
 ---
 # Introduction
 Spark! has selected a set of technology stacks(tech stacks) and development suggestions with the end goal of having better knowledge transfer between different projects within Spark!. Although a selection of a tech stack from this document is recommended, student teams are free to select a different combination of technologies. Students are encouraged to select one of the preferred tech stacks as there are more resources and assistance available to students through Spark! when using one of the preferred tech stacks. 
