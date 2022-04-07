@@ -47,11 +47,11 @@ In order to request access to resources please do the following:
     Content: 
 
         - Names + emails of all team members who need access
-        - Detailed List of resources needed 
+        - Detailed list of resources needed 
         - A complete description on how you plan to use the resources
         - List any relevant course deadlines
 2. Assign the created issue to @IanSaucy on Github
-3. You should also send an email to sparkeng at bu d0t edu wit the link to the ticket. You should copy both your PM and course instructor on this email as well.
+3. You also need to send an email to sparkeng at bu dot edu with the link to the Github Issue. You should copy both your PM and course instructor on this email as well. This email is required.
 4. Future correspondence should happen through the Github 
 5. If you don't hear and update within 4 days, ping on Github or via email. 
 
