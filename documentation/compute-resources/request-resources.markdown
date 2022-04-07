@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Requesting Compute Resources
-parent: Compute Resources
 nav_order: 1
 ---
 
