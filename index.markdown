@@ -4,6 +4,7 @@ title: Home
 nav_order: 0
 description: "Homepage"
 permalink: /
+logo: "/assets/spark-logo-round.png"
 ---
 
 # This website is the source for all technical resources of CDS Spark!
@@ -26,22 +27,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### How to install bat (Ubuntu)
 
 1. Install `bat` through `apt` (admin privilege required)
-
-```bash
-$ sudo apt install bat
-```
+  ```bash
+  $ sudo apt install bat
+  ```
 
 2. Make an alias in `~/.bashrc` (due to naming conflicts, `bat` is referred to as `batcat` in linux)
-
-```bash
-$ echo "alias cat='batcat'"
-```
+  ```bash
+  $ echo "alias cat='batcat'"
+  ```
 
 3. Use superior `cat`
-
-```bash
-$ cat ~/.bashrc
-```
+  ```bash
+  $ cat ~/.bashrc
+  ```
 
 <!-- 1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
 
