@@ -4,7 +4,7 @@ title: Home
 nav_order: 0
 description: "Homepage"
 permalink: /
-logo: "/assets/spark-logo-round.png"
+logo: "/documentation/assets/spark-logo-round.png"
 ---
 
 # This website is the source for all technical resources of CDS Spark!
