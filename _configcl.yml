@@ -29,7 +29,9 @@ baseurl: "." # the subpath of your site, e.g. /blog
 ### the url field should not be active for preview deployments.
 ### otherwise, only the initial homepage will be using the link generated for preview hosting
 ### and any other subsequent redirects will lead to the actual website.
-# url: "https://bu-spark.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+${{ if eq(env.CF_PAGES_BRANCH), 'main' }}:
+  url: "https://bu-spark.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 ###
 
 github_username:  bu-spark
