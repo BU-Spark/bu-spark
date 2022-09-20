@@ -11,6 +11,6 @@ Spark! has selected a set of technology stacks(tech stacks) and development sugg
 # Specific Tech stacks
 We have a few different documents depending on the type of project you are working on. See the links below for specifics.
 
-- [Software Engineering Tech Stack]({% /tech-stack/software-engineering.markdown %})
-- [UI/UX Design Tech Stack]({% /tech-stack/ui-ux.markdown %})
+- [Software Engineering Tech Stack]({% link /tech-stack/software-engineering.markdown %})
+- [UI/UX Design Tech Stack]({% link /tech-stack/ui-ux.markdown %})
 
