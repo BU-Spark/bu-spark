@@ -9,36 +9,15 @@ permalink: /
 # This website is the source for all technical resources of CDS Spark!
 {: .fs-9 }
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Donec enim diam vulputate ut pharetra sit. Ipsum consequat nisl vel pretium lectus quam. Etiam non quam lacus suspendisse faucibus interdum. In nisl nisi scelerisque eu ultrices vitae auctor eu. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Vel elit scelerisque mauris pellentesque pulvinar. Sagittis id consectetur purus ut faucibus pulvinar elementum. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. In pellentesque massa placerat duis ultricies. Egestas tellus rutrum tellus pellentesque eu. A pellentesque sit amet porttitor.
-{: .fs-6 .fw-300 }
+Boston University Spark! is the home for much of the experiential learning opportunies for BU students. If you want to learn more about Spark! itself, you should check out the [Spark! Homepage](https://www.bu.edu/spark/).
 
-[Sitemap](#site-map){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/BU-Spark/bu-spark.github.io){: .btn .fs-5 .mb-4 .mb-md-0 }
+[buspark.io](https://buspark.io) is the home for resources and documentation for people engaged in a project.
 
----
+* You can find information about how to get resources for your project on the [Requesting Compute Resources]({% link documentation/compute-resources/request-resources.markdown %}) page.
+* If you want to know how to document your project to makje sure there is a successful handoff, check out [Project Documentation Guidelines]]({% link documentation/project-guides/project-documentation-guidelines.markdown %})
+* Spark! recommends various technologies to use in your projects in the [Spark! Tech Stack]({% link documentation/tech-stack/tech-stack-overview.markdown %})
+* Lastly, if you want to know how to interact with the automation we have in place for Github, check out [GitHub Administration]({% link documentation/github-admin/github-administration.markdown %})
 
-## Site Map
-
-### Something
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Donec enim diam vulputate ut pharetra sit. Ipsum consequat nisl vel pretium lectus quam. Etiam non quam lacus suspendisse faucibus interdum. In nisl nisi scelerisque eu ultrices vitae auctor eu. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Vel elit scelerisque mauris pellentesque pulvinar. Sagittis id consectetur purus ut faucibus pulvinar elementum. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. In pellentesque massa placerat duis ultricies. Egestas tellus rutrum tellus pellentesque eu. A pellentesque sit amet porttitor.
-<!-- Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/). -->
-
-### How to install bat (Ubuntu)
-
-1. Install `bat` through `apt` (admin privilege required)
-  ```bash
-  $ sudo apt install bat
-  ```
-
-2. Make an alias in `~/.bashrc` (due to naming conflicts, `bat` is referred to as `batcat` in linux)
-  ```bash
-  $ echo "alias cat='batcat'"
-  ```
-
-3. Use superior `cat`
-  ```bash
-  $ cat ~/.bashrc
-  ```
 
 <!-- 1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
 
