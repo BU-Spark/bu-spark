@@ -10,4 +10,4 @@ Spark! provides a number of tools to support project teams to be as effective as
 
 # Tools
 
-- [Slack]({% link documentation/project-org/slack.markdown %})
+- [Slack]({% link documentation/project-organization/slack.markdown %})
