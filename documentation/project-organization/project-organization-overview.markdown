@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spark! Project Organization
-permalink: /docs/project-org/
+permalink: /docs/project-organization/
 nav_order: 3
 has_children: true
 ---
