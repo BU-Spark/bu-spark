@@ -6,7 +6,7 @@ description: "Homepage"
 permalink: /
 ---
 
-# This website is the source for all technical resources of CDS Spark!
+# CDS Spark! Technical Resources
 {: .fs-9 }
 
 Boston University Spark! is the home for much of the experiential learning opportunies for BU students. If you want to learn more about Spark! itself, you should check out the [Spark! Homepage](https://www.bu.edu/spark/).
@@ -14,7 +14,7 @@ Boston University Spark! is the home for much of the experiential learning oppor
 [buspark.io](https://buspark.io) is the home for resources and documentation for people engaged in a project.
 
 * You can find information about how to get resources for your project on the [Requesting Compute Resources]({% link documentation/compute-resources/request-resources.markdown %}) page.
-* If you want to know how to document your project to makje sure there is a successful handoff, check out [Project Documentation Guidelines]]({% link documentation/project-guides/project-documentation-guidelines.markdown %})
+* If you want to know how to document your project to makje sure there is a successful handoff, check out [Project Documentation Guidelines]({% link documentation/project-guides/project-documentation-guidelines.markdown %})
 * Spark! recommends various technologies to use in your projects in the [Spark! Tech Stack]({% link documentation/tech-stack/tech-stack-overview.markdown %})
 * Lastly, if you want to know how to interact with the automation we have in place for Github, check out [GitHub Administration]({% link documentation/github-admin/github-administration.markdown %})
 
