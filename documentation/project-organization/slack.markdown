@@ -15,16 +15,16 @@ Slack channels are used for different purposes and the name of those channels sh
 * angle brackets (`<>`) mean the information needs to be fillled in but is required
 * square brackets (`[]`)  mean that the information is optional but is literal
 * `[i-]` -- indictates that the channel is *internal* and *only* the project team no third parties (like partners)
-* `<season>` -- one of `s`, `f`, `su` to indicate when the project is taking place
+* `<season>` -- one of `sp`, `fa`, `sum` to indicate when the project is taking place
 * `<2 digit year>` -- the year in two digits
-* `<project>` -- name of the project, preferably as short as reasonable
+* `<project>` -- name of the project or class, preferably as short as reasonable
 * `[mgmt]` -- optional, should include only Spark! staff, PMs, and TEs. May include EIRs and Mentors
 * `[inst]` -- optional, should include only instructors and, at the instructor's discretion, others
 
 
 ## Examples:
 
-* `internal-F22-myproj`
-* `internal-F22-myproj-management`
-* `F22-myproj`
-* `internal-SP22-myproj-instructors`
+* `i-fa22-myproj`
+* `i-fa22-myproj-mgmt`
+* `fa22-myproj`
+* `i-sp22-myproj-inst`
