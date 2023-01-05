@@ -20,7 +20,7 @@ We do not offer AWS services in general. If a comparable resource is not offered
 
 ## Github Pages
 
-If you just need to deploy your static website Github pages is the the simplest option.
+If you just need to deploy your static website Github pages is the simplest option.
 
 ## Shared Computing Cluster (SCC)
 
