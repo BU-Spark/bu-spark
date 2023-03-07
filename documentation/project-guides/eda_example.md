@@ -17,7 +17,7 @@ The dataset we will be using in this tutorial is from Analyze Boston. Analyze Bo
 
 We will be working with the 2022 311 Service Requests dataset. The dataset consists of service requests from all channels of engagement. 311 allows you to report non-emergency issues or request non-emergency City services. 
 
-Link: https://data.boston.gov/dataset/311-service-requests 
+[Link to dataset](https://data.boston.gov/dataset/311-service-requests)
 
 
 ```python
