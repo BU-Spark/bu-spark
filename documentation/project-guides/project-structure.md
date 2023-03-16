@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How to Structure a Data Science Project
+title: Project Workflow Guide
 parent: Data Science Project Documentation Guidelines
 nav_order: 1
 ---
