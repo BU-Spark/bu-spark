@@ -1,3 +1,10 @@
+---
+layout: default
+title: Exploratory Data Analysis
+parent: Data Science Project Documentation Guidelines
+nav_order: 3
+---
+
 # Exploratory Data Analysis (EDA) 
 
 ## What EDA?
