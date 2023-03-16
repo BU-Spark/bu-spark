@@ -1,3 +1,10 @@
+---
+layout: default
+title: Project Workflow Guide
+parent: Data Science Project Documentation Guidelines
+nav_order: 1
+---
+
 # How to Structure a Data Science Project
 
 The purpose of this document is to provide data science project groups with some guidelines on how to best structure their projects in a way that encourages consistent workflows across projects and promotes collaboration. This document is based off of Red Hat's ET team's [data science workflows](https://github.com/aicoe-aiops/data-science-workflows) documentation.
