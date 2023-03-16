@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EDA Example
+title: Getting Started With Exploratory Data Analysis (EDA)
 parent: Data Science Project Documentation Guidelines
 nav_order: 4
 ---
