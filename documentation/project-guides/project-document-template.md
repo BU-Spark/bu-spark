@@ -1,3 +1,10 @@
+---
+layout: default
+title: Project Document Template
+parent: Data Science Project Documentation Guidelines
+nav_order: 2
+---
+
 # Project Outline Template
 
 ## _Authors,  20xx-Month-Day vx.x.x-dev_
