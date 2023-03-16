@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Project Document Template
+title: Project Outline Template
 parent: Data Science Project Documentation Guidelines
 nav_order: 2
 ---
