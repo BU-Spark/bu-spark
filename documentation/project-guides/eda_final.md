@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Exploratory Data Analysis
+title: Exploratory Data Analysis (EDA)
 parent: Data Science Project Documentation Guidelines
 nav_order: 3
 ---
