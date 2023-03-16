@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Data Science Project Documentation Guidelines
 permalink: /docs/project-guides/
 nav_order: 1
