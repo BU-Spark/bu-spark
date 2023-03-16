@@ -12,6 +12,6 @@ Useful Resources
 
 * [Project Document Template]({% link documentation/project-guides/project-document-template.md %}): This document serves as a template for a project outline documentation. It includes project goals, plans for implementation, proposed methologies and links to meeting notes documents. Teams can use this template to structure their project outlines, basing it off their meeting with stakeholders, project documents provided to them.
 
-* [Exploratory Data Analysis]({% link documentation/project-guides/eda_final.md %}): This document gives an introduction to EDA. 
+* [Exploratory Data Analysis]({% link documentation/project-guides/eda_final.md %}): This document gives an introduction to exploratory data analysis. It includes descriptions on popular EDA python packages, different types of data and visualizations, and commonly-used statistical measures used in EDA.
 
-* [EDA Example]({% link documentation/project-guides/eda_example.md %}): Example EDA on Boston 311 service requests dataset.
+* [EDA Example]({% link documentation/project-guides/eda_example.md %}): This document provides an example of what a complete EDA looks like. See one way to clean, analyze, and explore a Boston 311-service request dataset in python using Pandas, Numpy, MatplotLib, Seaborn, and a geocoder for spatial data. 
