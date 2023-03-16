@@ -1,3 +1,10 @@
+---
+layout: default
+title: EDA Example
+parent: Data Science Project Documentation Guidelines
+nav_order: 4
+---
+
 # Getting Started With Exploratory Data Analysis (EDA)
 
 This notebook serves as a starter guide or template for exploratory data analysis. It will go over the topics mentioned in the EDA guide. 
