@@ -1,4 +1,4 @@
-﻿---
+---
 layout: default
 title: Data Science Tech Stack
 parent: Spark! Tech Stack 
