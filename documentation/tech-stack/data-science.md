@@ -9,7 +9,6 @@ nav_order: 3
 
 By the end of this document, you will have gained an idea of the common technologies that data scientists use.
 
-# Table of Contents
 * TOC
 {:toc}
 
