@@ -10,12 +10,6 @@ nav_order: 3
 By the end of this document, you will have gained an idea of the common technologies that data scientists use.
 
 # Table of Contents
-1. [Microsoft Excel and Google Sheets](#Microsoft-Excel-and-Google-Sheets)
-2. [Common IDEs](#Common-IDEs)
-3. [Python](#Python)
-4. [SQL](#SQL)
-5. [Kaggle and Google Dataset Search](#Kaggle-and-Google-Dataset-Search)
-
 * TOC
 {:toc}
 
