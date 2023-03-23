@@ -97,7 +97,7 @@ SQL is designed to work with large databases, and it can handle millions of reco
 
 However, SQL can be limited when it comes to data cleaning and transformation as it does not have built-in functions for data cleaning or transformation like Pandas does. In addition, SQL is not ideal for complex statistical analysis or machine learning.
 
-## Kaggle/google dataset search 
+## Kaggle/Google Dataset Search 
 [Kaggle](https://www.kaggle.com/) is a platform for data scientists to find and participate in machine learning competitions, collaborate on data science projects, and learn from other data scientists. 
 
 The most appealing part of Kaggle is that it hosts a large collection of datasets that can be used for research and analysis. These datasets cover a wide range of topics, from healthcare, finance, and social sciences to video games, zebra crossings, and mushroom attributes. The idea is that this library gives you a playground to practice your skills in.
