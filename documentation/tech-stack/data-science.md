@@ -10,13 +10,13 @@ nav_order: 3
 By the end of this document, you will have gained an idea of the common technologies that data scientists use.
 
 # Table of Contents
-1. [Excel/Google Sheets](#Excel/Google-Sheets)
+1. [Microsoft Excel and Google Sheets](#Microsoft-Excel-and-Google-Sheets)
 2. [Common IDEs](#Common-IDEs)
 3. [Python](#Python)
 4. [SQL](#SQL)
-5. [Kaggle/Google Dataset Search](#Kaggle/Google-Dataset-Search)
+5. [Kaggle and Google Dataset Search](#Kaggle-and-Google-Dataset-Search)
 
-## Excel/Google Sheets
+## Microsoft Excel and Google Sheets
 Data science is a broad field that involves collecting, cleaning, analyzing, and interpreting data to extract insights and make informed decisions. While coding is an essential aspect of data science, not all data science problems require programming skills. In some cases, simple calculations or analyses can be done using tools like Microsoft Excel or Google Sheets.
 
 Not to be underestimated, Excel and Sheets offer a wide range of functions and features that can be used to perform simple data analyses. So if your goal is to just inspect some data and calculate a few things, programming knowledge may not be necessary. 
@@ -97,7 +97,7 @@ SQL is designed to work with large databases, and it can handle millions of reco
 
 However, SQL can be limited when it comes to data cleaning and transformation as it does not have built-in functions for data cleaning or transformation like Pandas does. In addition, SQL is not ideal for complex statistical analysis or machine learning.
 
-## Kaggle/Google Dataset Search 
+## Kaggle and Google Dataset Search 
 [Kaggle](https://www.kaggle.com/) is a platform for data scientists to find and participate in machine learning competitions, collaborate on data science projects, and learn from other data scientists. 
 
 The most appealing part of Kaggle is that it hosts a large collection of datasets that can be used for research and analysis. These datasets cover a wide range of topics, from healthcare, finance, and social sciences to video games, zebra crossings, and mushroom attributes. The idea is that this library gives you a playground to practice your skills in.
