@@ -9,6 +9,13 @@ nav_order: 3
 
 By the end of this document, you will have gained an idea of the common technologies that data scientists use.
 
+# Table of Contents
+1. [Excel/Google Sheets](#Excel/Google-Sheets)
+2. [Common IDEs](#Common-IDEs)
+3. [Python](#Python)
+4. [SQL](#SQL)
+5. [Kaggle/Google Dataset Search](#Kaggle/Google-Dataset-Search)
+
 ## Excel/Google Sheets
 Data science is a broad field that involves collecting, cleaning, analyzing, and interpreting data to extract insights and make informed decisions. While coding is an essential aspect of data science, not all data science problems require programming skills. In some cases, simple calculations or analyses can be done using tools like Microsoft Excel or Google Sheets.
 
