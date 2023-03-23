@@ -16,6 +16,9 @@ By the end of this document, you will have gained an idea of the common technolo
 4. [SQL](#SQL)
 5. [Kaggle and Google Dataset Search](#Kaggle-and-Google-Dataset-Search)
 
+* TOC
+{:toc}
+
 ## Microsoft Excel and Google Sheets
 Data science is a broad field that involves collecting, cleaning, analyzing, and interpreting data to extract insights and make informed decisions. While coding is an essential aspect of data science, not all data science problems require programming skills. In some cases, simple calculations or analyses can be done using tools like Microsoft Excel or Google Sheets.
 
