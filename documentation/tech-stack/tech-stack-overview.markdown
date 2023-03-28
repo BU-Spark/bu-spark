@@ -13,4 +13,5 @@ We have a few different documents depending on the type of project you are worki
 
 - [Software Engineering Tech Stack]({% link documentation/tech-stack/software-engineering.markdown %})
 - [UI/UX Design Tech Stack]({% link documentation/tech-stack/ui-ux.markdown %})
+- [Data Science Tech Stack]({% link documentation/tech-stack/data-science.md %})
 
