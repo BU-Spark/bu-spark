@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Science Tech Stack
-parent: Spark! Tech Stack 
+parent: Spark! Tech Stack
 nav_order: 3
 ---
 
