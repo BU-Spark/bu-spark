@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Data Science Tech Stack
@@ -24,15 +25,17 @@ Excel and Google Sheets can also be used to perform simple predictive analyses. 
 Here is an [article](https://medium.com/analytics-vidhya/data-analysis-in-spreadsheets-8ffb1d6fe4db) that goes through how you can do data analysis with Google Sheets. Likewise, [here](https://ankitanshu.medium.com/useful-excel-function-for-data-analysis-2772a36d6604) is one for Excel.
 ## Common IDEs
 Before writing any code, we need to choose a place to write the code. Integrated Development Environments (IDEs) are software applications that provide a comprehensive environment for developing and testing code. IDEs typically offer features such as code debugging, syntax highlighting, auto-completion, and version control, making them an ideal choice for software developers who need to work on large-scale projects. 
-### Jupyter Notebook
-Jupyter Notebook is an open-source web application that allows users to create and share documents that contain live code, equations, visualizations, and narrative text. This tool is particularly useful for data scientists who need to combine code, data, and explanatory text in a single document. Jupyter Notebook supports multiple programming languages such as Python, R, and Julia, making it a versatile tool for data analysis.
+### Anaconda
+A Jupyter Notebook is an open-source web application that allows users to create and share documents that contain live code, equations, visualizations, and narrative text. This tool is particularly useful for data scientists who need to combine code, data, and explanatory text in a single document. Jupyter Notebook supports multiple programming languages such as Python, R, and Julia, making it a versatile tool for data analysis.
 
 An easy way to get set up a Jupyter Notebook is with [Anaconda](https://www.anaconda.com/products/distribution). Anaconda is a distribution of Python and R programming languages, which includes a large number of data science libraries and tools. It provides a convenient way to install, manage, and update all the essential libraries and dependencies that data scientists use on a daily basis.
+
 ### Google Colab
 Another option is [Google Colab](https://colab.research.google.com/).  If you want to code in Python but don't want to install anything then Google Colab is for you. Some benefits over Jupyter Notebooks include: notebook sharing at the click of a button, access to Google's hardware resources for faster model training, and Git/Github integration. There's not much setup needed, just make sure you're logged into your Google account and start coding!
+
 ## Python
 ### Numpy
-NumPy is a Python library that provides support for large, multi-dimensional arrays and matrices, as well as a variety of mathematical functions to operate on these arrays. It is widely used in data science for data manipulation, numerical analysis, and scientific computing. NumPy provides a powerful and efficient way to work with large datasets, especially when they involve mathematical operations or linear algebra. NumPy is particularly useful for machine learning, as it provides a way to perform linear algebra operations on large matrices quickly and efficiently.
+[NumPy](https://numpy.org/) is a Python library that provides support for large, multi-dimensional arrays and matrices, as well as a variety of mathematical functions to operate on these arrays. It is widely used in data science for data manipulation, numerical analysis, and scientific computing. NumPy provides a powerful and efficient way to work with large datasets, especially when they involve mathematical operations or linear algebra. NumPy is particularly useful for machine learning, as it provides a way to perform linear algebra operations on large matrices quickly and efficiently.
 
 Some key features of NumPy:
 - linear algebra for ML
@@ -40,7 +43,7 @@ Some key features of NumPy:
 - calculating statistics (faster, more built in functions, integration with other libraries)
 
 ### Pandas
-Pandas is a popular open-source Python library and will be your best friend for data manipulation and analysis. It provides a fast, flexible, and efficient data structure for working with structured data. Pandas is widely used by data scientists for a number range of tasks, including data cleaning, data transformation, and data analysis. In fact, Pandas is built on top of NumPy, which makes for fast and efficient numerical operations.
+[Pandas](https://pandas.pydata.org/docs/user_guide/index.html) is a popular open-source Python library and will be your best friend for data manipulation and analysis. It provides a fast, flexible, and efficient data structure for working with structured data. Pandas is widely used by data scientists for a number range of tasks, including data cleaning, data transformation, and data analysis. In fact, Pandas is built on top of NumPy, which makes for fast and efficient numerical operations.
 
 In Pandas, a DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It is similar to a spreadsheet or a SQL table and is often used as the primary data structure in data analysis and manipulation tasks.
 
@@ -62,18 +65,19 @@ Check out [this](https://towardsdatascience.com/pandas-dataframe-a-lightweight-i
 Here is a useful [cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf) with a lot more functions!
 
 ### Matplotlib
-Matplotlib is a Python package used by data scientists to create quick visualizations of their data. Matplotlib provides a range of customizable plots, including line plots, scatter plots, bar plots, and histograms, among others. It also offers a range of customization options, allowing users to adjust everything from axis labels to colors and fonts. It integrates well with other popular data science packages in Python, such as NumPy and Pandas. This allows them to easily create visualizations of their data when doing EDA.
+[Matplotlib](https://matplotlib.org/stable/gallery/index) is a Python package used by data scientists to create quick visualizations of their data. Matplotlib provides a range of customizable plots, including line plots, scatter plots, bar plots, and histograms, among others. It also offers a range of customization options, allowing users to adjust everything from axis labels to colors and fonts. It integrates well with other popular data science packages in Python, such as NumPy and Pandas. This allows them to easily create visualizations of their data when doing EDA.
 
 Check out [this](https://towardsdatascience.com/matplotlib-cheat-sheet-f441c43971c4) beginner-friendly article about matplotlib and a figure's anatomy.
+
 ### Seaborn/Plotly
-Seaborn and Plotly are two powerful visualization tools used in data science to create stunning and interactive graphs and charts. While Matplotlib is a great base plotting library, Seaborn and Plotly take it to the next level by providing more advanced features and improved aesthetics.
+[Seaborn](https://seaborn.pydata.org/tutorial/introduction.html) and [Plotly](https://plotly.com/python/getting-started/) are two powerful visualization tools used in data science to create stunning and interactive graphs and charts. While Matplotlib is a great base plotting library, Seaborn and Plotly take it to the next level by providing more advanced features and improved aesthetics.
 
 Seaborn is known for its ability to create aesthetically pleasing static visualizations with minimal coding, making it a popular choice after creating quick-and-dirty plots using matplotlib. It provides default color palettes and styles that can be easily customized to fit the specific needs of the user, and overall a more polished finish to the plots it produces.
 
 On the other hand, Plotly is a library that allows users to create interactive web-based visualizations in Python. It provides a wide range of graph types, including scatter plots, bar charts, line charts, and more. Plotly's interactive features allow users to zoom, pan, and hover over data points to see their values. This can be especially useful when dealing with large datasets, as it allows users to explore the data in more detail. Plotly also allows users to create 3D visualizations and animations, which can be useful in certain applications. Another key advantage of Plotly is its ability to create dashboards and reports that can be easily shared and published online.
 
 ### Scikit-learn
-Scikit-learn, also known as sklearn, is a machine learning library for Python. It is built on top of NumPy, SciPy, and matplotlib, and provides a wide range of tools for different tasks related to machine learning, such as classification, regression, clustering, dimensionality reduction, model selection, and preprocessing. Just to name some, linear and logistic regression, support vector machines, decision trees, random forests, and k-means clustering are all included in sklearn and can be implemented in just several lines of code. 
+[Scikit-learn](https://scikit-learn.org/stable/tutorial/basic/tutorial.html), also known as sklearn, is a machine learning library for Python. It is built on top of NumPy, SciPy, and matplotlib, and provides a wide range of tools for different tasks related to machine learning, such as classification, regression, clustering, dimensionality reduction, model selection, and preprocessing. Just to name some, linear and logistic regression, support vector machines, decision trees, random forests, and k-means clustering are all included in sklearn and can be implemented in just several lines of code. 
 
 Data preprocessing is often a critical step in machine learning, as it can have a significant impact on the performance of the final model---sklearn  provides a number of tools for this too, such as feature selection, normalization, and imputation. 
 
