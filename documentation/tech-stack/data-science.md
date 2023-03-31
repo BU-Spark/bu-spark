@@ -21,7 +21,7 @@ For instance, you can use Excel and Sheets to calculate basic statistical measur
 Excel and Google Sheets can also be used to perform simple predictive analyses. For instance, you can use regression analysis to model the relationship between two variables and make predictions about the future based on the model. While this may not be as sophisticated as other coding alternatives, it can be useful in making simple predictions based on historical data.
 
 Here is an [article](https://medium.com/analytics-vidhya/data-analysis-in-spreadsheets-8ffb1d6fe4db) that goes through how you can do data analysis with Google Sheets and [here](https://ankitanshu.medium.com/useful-excel-function-for-data-analysis-2772a36d6604) is one for Excel.
-## Common IDEs
+## Getting Started
 Before writing any code, we need to choose a place to write the code. Integrated Development Environments (IDEs) are software applications that provide a comprehensive environment for developing and testing code. IDEs typically offer features such as code debugging, syntax highlighting, auto-completion, and version control, making them an ideal choice for software developers who need to work on large-scale projects. 
 ### Anaconda
 A Jupyter Notebook is an open-source web application that allows users to create and share documents that contain live code, equations, visualizations, and narrative text. This tool is particularly useful for data scientists who need to combine code, data, and explanatory text in a single document. Jupyter Notebook supports multiple programming languages such as Python, R, and Julia, making it a versatile tool for data analysis.
