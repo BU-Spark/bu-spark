@@ -40,7 +40,7 @@ When working with geographical data, .shp files are the most common format, howe
 
 ```python
 # read in the census data
-census = gpd.read_file('data/Census2020_BlockGroups.shp')
+census = gpd.read_file('census/Census2020_BlockGroups.shp')
 census.head()
 ```
 
@@ -957,4 +957,4 @@ plt.show()
 
 There's a lot more you can do with these datasets, for example, you could try finding the average distance between wifi locations, or incorporate another dataset with demographic information and try to find a relationship between income, education level, population density, etc and wifi locations. but this notebook should serve as a good starting point for your geographical analysis. 
 
-Click [here](https://drive.google.com/drive/u/1/folders/1J5-9x_gEDeJ2rbuRw-kMlnE4GsZjbJN1) to download this Jupyter Notebook (make sure you are signed in with your BU email)!
+Click [here](https://drive.google.com/drive/u/1/folders/1J5-9x_gEDeJ2rbuRw-kMlnE4GsZjbJN1) to download this Jupyter Notebook and data (make sure you are signed in with your BU email)!
