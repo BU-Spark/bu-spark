@@ -13,9 +13,10 @@ The dataset we will be using in this tutorial is from Analyze Boston. Analyze Bo
 
 We will be working with two datasets. First is the 2020 CENSUS TRACTS IN BOSTON dataset, and second is the WICKED FREE WIFI LOCATIONS dataset. The first dataset contains the geographical boundaries of each census tract in Boston, and the second dataset contains the geographical location of each free wifi location in Boston.
 
-https://data.boston.gov/dataset/wicked-free-wifi-locations
+[Census Tracts in Boston](https://data.boston.gov/dataset/2020-census-tracts-in-boston1/resource/0eb72f57-7226-4552-b8e1-a76b6b142bc3)
 
-https://data.boston.gov/dataset/2020-census-tracts-in-boston1/resource/0eb72f57-7226-4552-b8e1-a76b6b142bc3
+[Wicked Free Wifi Locations](https://data.boston.gov/dataset/wicked-free-wifi-locations)
+
 
 
 ```python
@@ -29,7 +30,12 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
-When working with geographical data, .shp files are the most common format. These files are often accompanied by other files with the same name but different extensions. For example, a .shp file might be accompanied by a .dbf, .prj, .shx, and .cpg file. These files are all necessary for the .shp file to work properly.
+When working with geographical data, .shp files are the most common format, however these files are often accompanied by other files with the same name but different extensions. For example, a .shp file might come with a .dbf, .prj, .shx, and .cpg file. These are necessary files and are used in the background. GeoPandas (and other GIS software) typically expect these files to be in the same directory as the .shp file and to share the same base filename.
+
+
+
+
+
 
 
 ```python
