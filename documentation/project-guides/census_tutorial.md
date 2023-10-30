@@ -11,11 +11,6 @@ October 25, 2023
 
 These slides were modified from Max Palmer.
 
-## Introductions 👋
-
-- Langdon White - Spark! Technical Director 
-- Michelle Voong - Spark! Data Science Solutions Engineer
-
 ## Agenda 
 
 - What is the Census? What is the Census Bureau?
@@ -219,4 +214,3 @@ print(block_data[1]) # print data
 - [Analyze Boston](https://data.boston.gov/) has census data for Boston at tract level and block group level
   - Plus Boston Neighborhoods!
 - [Census Geocoder](https://geocoding.geo.census.gov/geocoder/)
-- Checkout [buspark.io](https://buspark.io/) for tech resources (including what was presented tonight)!
