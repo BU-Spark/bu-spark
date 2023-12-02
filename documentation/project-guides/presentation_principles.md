@@ -20,19 +20,11 @@ Students enrolled in Spark! courses/practicum are usually loaded with adequate t
 # Case Study
 ## Case Study Background
 
-The case study used in the blog post is from a Spark! data science project that centers around unanswered survey data, where we want to help analyze survey data over the past 8-9 years. For a desensitized data, please refer to [this spreadsheet](https://docs.google.com/spreadsheets/d/1wBBV9612tsHR8MsMihHI3gY7ebE2YMsE/edit?usp=sharing&ouid=101499547981540031808&rtpof=true&sd=true) (Every data entry is populated with augmented data).
+The case study used in the blog post is from a Spark! data science project that centers around unanswered survey data, where we want to help analyze survey data over the past 8-9 years.
 
 ## Case Study Practice
 
-Before going deeper into the blog post, imagine you were given a tabular survey data for 20 survey responders across 10 years e.g. "Effectiveness of head coach's communication skills (on a scale from 1 to 4)". How would you use it to answer the following questions, "How have athletes' perceptions of coach communication evolved over the 8-9 year period?". Se the highlighted two rows below.
-
-> Survey Data
->
-> ![png](presentation_pngs/coach_communication_survey_data.png)
-
-> Headcoach Change
->
-> ![png](presentation_pngs/head_coach_change.png)
+Before going deeper into the blog post, imagine you were given a tabular survey data for 20 survey responders across 10 years e.g. "Effectiveness of head coach's communication skills (on a scale from 1 to 4)", and a list of the head coach changes for all the teams throughout the years. How would you use it to answer the following questions, "How have athletes' perceptions of coach communication evolved over the 8-9 year period?". 
 
 ## Two Options
 **Option A**: 
