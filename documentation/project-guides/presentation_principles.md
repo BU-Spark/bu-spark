@@ -44,7 +44,7 @@ Implementations:
 
 **Option B**: 
 
-*A dashboard approach utilizing BI software Tableau. Find [the dashboard](https://public.tableau.com/app/profile/handi.xie/viz/BU_Athletics/BUAthletics-CoachPerceptionsReport) here.*
+*With the help of using an interactive dashboard such as Tableau*
 
 1. A written conclusion indicating which team are under-performing/over-performing, which teams have experienced a large spike (upward and downward), whether the head coach change will impact the communications.
 2. An interactive dashboard to show each individual team's survey rating and head coach changing history.
