@@ -1,3 +1,9 @@
+---
+layout: page
+title: Github Conventions
+permalink: /docs/git-conventions/
+nav_order: 2
+---
 # Jump to Section
 
 - [Motivation](#motivation)
