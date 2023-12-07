@@ -16,7 +16,7 @@ Boston University Spark! is the home for much of the experiential learning oppor
 * You can find information about how to get resources for your project on the [Requesting Compute Resources]({% link documentation/compute-resources/request-resources.markdown %}) page.
 * If you want to know how to document your project to makje sure there is a successful handoff, check out [Project Documentation Guidelines]({% link documentation/project-guides/project-documentation-guidelines.markdown %})
 * Spark! recommends various technologies to use in your projects in the [Spark! Tech Stack]({% link documentation/tech-stack/tech-stack-overview.markdown %})
-* Lastly, if you want to know how to interact with the automation we have in place for Github, check out [GitHub Administration]({% link documentation/github-admin/github-administration.markdown %})
+* Lastly, if you want to know how to interact with the automation we have in place for Github, check out [Git Guides]({% link documentation/git-guides/git-guides.markdown %})
 
 
 <!-- 1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
