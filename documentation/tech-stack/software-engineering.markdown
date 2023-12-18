@@ -66,7 +66,7 @@ Features:
 
 Google provides excelent documentation and can be leveraged as your main source for documentation.
 
-- [Getting Started with React](https://docs.flutter.dev/get-started)
+- [Getting Started with Flutter](https://docs.flutter.dev/get-started)
 
 ### Flutter Add-ons
 
