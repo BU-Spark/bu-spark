@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 title: Github Administration
-permalink: /docs/github-admin/
-nav_order: 2
+parent: Spark! Git Guidelines
+nav_order: 1
 ---
 # What is this document
 This document will guide you through administration of a Spark! owned Github repository, adding and managing collaborators and basic branch use.
