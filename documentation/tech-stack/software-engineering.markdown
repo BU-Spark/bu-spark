@@ -72,16 +72,16 @@ Google provides excelent documentation and can be leveraged as your main source 
 
 This is a non-comprehensive list of extensions and add-ons to the core flutter framework that Spark! recommends.
 
-#### [State Management] (https://docs.flutter.dev/data-and-backend/state-mgmt/simple)
+#### [State Management](https://docs.flutter.dev/data-and-backend/state-mgmt/simple)
 
 This is an inherently opinionated and project driven choice but we recommend the following:
 
 1. Flutter RiverPod - Most modern and fully featured. Stepper learning curve
-2. [Provider] (https://pub.dev/packages/provider) - Less features but easier to learn, superseded by RiverPod
+2. [Provider](https://pub.dev/packages/provider) - Less features but easier to learn, superseded by RiverPod
 
 ### Resources:
-- [Flutter Archetecture] (https://docs.flutter.dev/resources/architectural-overview)
-- [Flutter Provider Architecture with Firebase] (https://medium.com/flutter-community/flutter-provider-architecture-with-firebase-full-guide-by-building-a-working-crud-app-4824cec04e59)
+- [Flutter Archetecture](https://docs.flutter.dev/resources/architectural-overview)
+- [Flutter Provider Architecture with Firebase](https://medium.com/flutter-community/flutter-provider-architecture-with-firebase-full-guide-by-building-a-working-crud-app-4824cec04e59)
 
 
 # Backend 
