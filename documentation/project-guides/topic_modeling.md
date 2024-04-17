@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Topic Modeling Guide
+title: Topic Modeling
 parent: Data Science Project Documentation Guidelines
 nav_order: 9
 ---
