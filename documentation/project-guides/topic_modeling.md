@@ -1,3 +1,10 @@
+---
+layout: default
+title: Topic Modeling Guide
+parent: Data Science Project Documentation Guidelines
+nav_order: 7
+---
+
 ## Analyzing Text Data with Topic Modeling 
 March 27, 2024
 
