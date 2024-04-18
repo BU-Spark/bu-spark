@@ -23,3 +23,5 @@ Useful Resources
 * [Presenting Data Science Findings]({% link documentation/project-guides/presentation_principles.md %}): This article outlines three fundamental principles for presenting data science findings to clients effectively, emphasizing the importance of data-driven storytelling, audience understanding, and ownership. It includes a case study from a Spark! data science project to illustrate how these principles can be applied in practice.
 
 * [Effective Data Visualizations]({% link documentation/project-guides/data_viz.md %}): This guide walks through some good and bad practices when creating data visualizations. It walks readers through the process of data cleaning, choosing appropriate visualization techniques, and effectively using design elements to convey information in an accessible manner.
+
+* [Topic Modeling]({% link documentation/project-guides/topic_modeling.md %}): This guide serves as an introduction to topic modeling. It demonstrates how to automatically extract and identify themes or topics from a collection of text documents using techniques like BERTopic.
