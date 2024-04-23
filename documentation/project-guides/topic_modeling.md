@@ -1560,30 +1560,8 @@ ar_topic_model.get_topic(27)
 
 ### Resources
 
-- Tutorial notebook: https://github.com/mvoong18/topic-modeling-tutorial 
+- Download this notebook [here](https://github.com/BU-Spark/ds-resources/tree/main/topic-modeling)
 - Other tech resources: https://buspark.io/ 
 - More information on BERTopic: 
   - https://maartengr.github.io/BERTopic/index.html
   - https://txt.cohere.com/topic-modeling-with-bertopic/ 
-
-
-
-```python
-import openai
-from bertopic.representation import OpenAI
-
-# create your representation model 
-client = openai.OpenAI(api_key=my_api_key)
-prompt = """ 
-         I have a topic that contains the following documents:
-         [DOCUMENTS]
-         The topic is described by the following keywords: [KEYWORDS]
-
-         Based on the infromation above, extract a short topic label in the following format:
-         topic: <topic label>
-         """
-representation_model = OpenAI(model="gpt-3.5-turbo", chat=True, client=client, prompt=prompt, nr_docs=10, delay_in_seconds=3)
-
-# Use the representation model in BERTopic on top of the default pipeline
-topic_model = BERTopic(representation_model=representation_model)
-```
