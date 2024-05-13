@@ -56,7 +56,7 @@ It's important to note that BeautifulSoup is excellent for static content, but n
 
 # BeautifulSoup
 
-Here's the website we'll use in this part of the guide: (realpython.github.io/fake-jobs/)[https://realpython.github.io/fake-jobs/]
+Here's the website we'll use in this part of the guide: [realpython.github.io/fake-jobs/](https://realpython.github.io/fake-jobs/)
 
 It's a static page designed for educational purposes, allowing learners to practice their web scraping skills without the ethical and legal complexities that come with scraping real-world websites.
 
@@ -415,9 +415,9 @@ Using Python and Selenium for web scraping offers several advantages over other 
 1. pip install selenium
 2. Install a WebDriver: WebDriver is a separate executable that Selenium uses to control the browser. For this guide, I will be using ChromeDriver. Here are the links I found to download WebDriver for the most popular browsers:
 
-    - (Chrome)[https://sites.google.com/a/chromium.org/chromedriver/downloads]
-    - (Firefox)[https://github.com/mozilla/geckodriver/releases]
-    - (Edge)[https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/]
+    - [Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+    - [Firefox](https://github.com/mozilla/geckodriver/releases)
+    - [Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
     
 
@@ -430,7 +430,7 @@ Using Python and Selenium for web scraping offers several advantages over other 
     driver = webdriver.Chrome('/path/to/chromedriver')
     ```
 
-After installing, try running this next cell. A separate chrome window should pop up with the (quotes.toscrape.com/js-delayed)[https://quotes.toscrape.com/js-delayed/] webpage. Similar to the previous example, this one is a "toy" website built for people to practice webscraping. The webpage contains pages of famous quotes, except this time, it's loaded dynamically using JavaScript.
+After installing, try running this next cell. A separate chrome window should pop up with the [quotes.toscrape.com/js-delayed](https://quotes.toscrape.com/js-delayed/) webpage. Similar to the previous example, this one is a "toy" website built for people to practice webscraping. The webpage contains pages of famous quotes, except this time, it's loaded dynamically using JavaScript.
 
 
 ```python
@@ -648,7 +648,7 @@ Web scraping with BeautifulSoup and Selenium are powerful tools for extracting d
 This guide is just the tip of the iceberg, showing you the popular tools and common techniques to get started, but there's a lot much more to explore. As you dive deeper, you'll discover even more advanced methods and new challenges that will enhance your abilities and understanding of web scraping. 
 
 For some additional resources on webscraping, check out these articles:
-- (realpython.com/beautiful-soup-web-scraper-python/)[https://realpython.com/beautiful-soup-web-scraper-python/]
-- (browserstack.com/guide/web-scraping-using-selenium-python)[https://www.browserstack.com/guide/web-scraping-using-selenium-python]
+- [realpython.com/beautiful-soup-web-scraper-python/](https://realpython.com/beautiful-soup-web-scraper-python/)
+- [browserstack.com/guide/web-scraping-using-selenium-python](https://www.browserstack.com/guide/web-scraping-using-selenium-python)
 
 
