@@ -1,3 +1,10 @@
+---
+layout: default
+title: Web Scraping
+parent: Data Science Project Documentation Guidelines
+nav_order: 10
+---
+
 # Introduction to Web Scraping
 
 ## What is web scraping?
@@ -10,7 +17,7 @@ At a high level, the steps for any webscraping project goes something like:
 3. Extract the info needed
 
 
-![Image](webscraping.png)
+![Image](webscraping_pngs/webscraping.png)
 
 
 
@@ -37,7 +44,7 @@ For example, if you're doing a project that relies on product/price information 
 - Job postings and internships
 - Phone numbers/emails for sales and marketing campaigns
 
-![Image](applications.png)
+![Image](webscraping_pngs/applications.png)
 
 
 ## Overview of Tools and Libraries for Web Scraping in Python
@@ -116,7 +123,7 @@ If you inspect the webpage, you can find the HTML object that contains all the j
 
 ``` <div id="ResultsContainer" class="columns is-multiline">```
 
-![Image](ID.png)
+![Image](webscraping_pngs/ID.png)
 
 
 ```python
