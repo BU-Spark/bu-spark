@@ -4,26 +4,26 @@ title: Code Review Manual
 nav_order: 1
 ---
 
-# What to do when reviewing Pull Requests
-- Ensure Pull Request is complete. A complete Pull      Request;
-  - Must have a clear description of feature or bug 
-Should include a gif/video of before and after feature was added, if it introduces visual features. 
+# What to do when reviewing a pull requests
+- Ensure pull request is complete. A complete pull request;
+  - Must have a clear description of feature or bug.
+  - Should include a gif/video of before and after feature was added, if it introduces visual features. 
 Eg: ![Screenshot of deletion feature](delete-entry.gif)
 
 
   - Contains code that all contributes to a single feature.
-  - Must not be commits behind main branch
-  - Passes all CI/CD checks
+  - Must not be commits behind main branch (or the branch it's about to merge into).
+  - Passes all CI/CD checks.
 
 - Provide actionable comments. 
 State directly what should be changed and why
 Egs: 
-   - Instead of "I am not clear on what’s going here", you could comment "group lines 23-65 into a function “calculateCoordinatesOfScalingBox()” and move it to a utils.ts file to make your code more readable"
+   - Instead of "I am not clear on what’s going here", you could comment "group lines 23-65 into a function “calculateCoordinatesOfScalingBox()” and move it to a utils.ts file to make your code more readable".
 
-   - Instead of "Your branch doesn’t seem to be up to date", you could comment "Merge with main to get latest changes"
+   - Instead of "Your branch doesn’t seem to be up to date", you could comment "Merge with main to get latest changes".
 
-- Run branch locally to verify functionality
-- Approve asap
+- Run branch locally to verify functionality.
+- Approve asap.
 
 
 # Code review checklist
@@ -61,7 +61,7 @@ Nextjs : https://nextjs.org/docs/getting-started/project-structure
   - Magic numbers should be replaced with named constants placed at the top of a file or in a constants.ts/config.ts file, accompanied by necessary comments.
   - Code blocks prone to unpredictable errors should be placed in a try catch block or handled gracefully. 
     - Eg are file i/o, network requests, etc
-  - if else should be simplified with ternary statements where possible
+  - if else should be simplified with ternary statements where possible.
 
   ```
   if(age >= 18 ){
@@ -74,10 +74,10 @@ Nextjs : https://nextjs.org/docs/getting-started/project-structure
    const message = (age >= 18) ? "You are an adult" : "You are not an adult yet";
 
   ```
-  - See [here](https://axolo.co/blog/p/top-10-code-smells-to-identify-in-pull-requests-with-code-examples) for more examples of code smells
+  - See [here](https://axolo.co/blog/p/top-10-code-smells-to-identify-in-pull-requests-with-code-examples) for more examples of code smells.
 
 - Common React pitfalls
-  - Elements in a list should have keys
+  - Elements in a list should have keys.
   ```
   export const DatasetsView: React.FC<DatasetsViewProps> = ({ datasets, additionalColumns }) => {
     return (
@@ -95,7 +95,7 @@ Nextjs : https://nextjs.org/docs/getting-started/project-structure
 
   ```
   - Custom hooks
-    - Code that resides in a hook (eg useState, useEffect, useCallback etc) and is repeated in multiple files should be refactored into a [custom hook](https://legacy.reactjs.org/docs/hooks-custom.html)
+    - Code that resides in a hook (eg useState, useEffect, useCallback etc) and is repeated in multiple files should be refactored into a [custom hook](https://legacy.reactjs.org/docs/hooks-custom.html).
    
 - Nits:
   - Comments should add context rather than repeat code.
