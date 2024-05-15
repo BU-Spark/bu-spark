@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Code Review Manual
-parent: Spark! Git Guidelines
-nav_order: 1
+parent: Spark! Guidelines
+nav_order: 3
 ---
 
 # Code review goals
