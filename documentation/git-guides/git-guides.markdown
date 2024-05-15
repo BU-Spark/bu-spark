@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spark! Git Guidelines
+title: Spark! Guidelines
 permalink: /docs/git-guides/
 nav_order: 3
 has_children: true

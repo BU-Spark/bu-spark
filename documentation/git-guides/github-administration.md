@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Github Administration
-parent: Spark! Git Guidelines
+parent: Spark! Guidelines
 nav_order: 1
 ---
 # What is this document

@@ -1,4 +1,9 @@
-
+---
+layout: default
+title: Trello + Github Sync
+parent: Spark! Guidelines
+nav_order: 1
+---
 
 ## Trello + Github sync
 Tasks defined in Trello are linked to github branches to help product managers and technical product managers keep track of progress. 
@@ -22,7 +27,7 @@ The are two major steps
 2. Configure action for Github repo.
 
 ###  1. Get api access to trello
- - In Trello, create a Power-Up : https://trello.com/power-ups/admin/new .
+ - In Trello, create a [Power-Up](https://trello.com/power-ups/admin/new).
 - Select workspace.
     
     Spark has multiple trello workspaces. Select the one associated with the Github repos you intend to sync.
@@ -46,7 +51,7 @@ The are two major steps
     
 - add action workflow file.
 
-    For a particular repo to run the github action, it must have the action defined in a yaml file in it's .github/worflows folder. See an example here https://github.com/BU-Spark/se-computerized-mapping-visual-fields/blob/dev/.github/workflows/trello.yml
+    For a particular repo to run the github action, it must have the action defined in a yaml file in it's .github/worflows folder. See [an example here](https://github.com/BU-Spark/se-computerized-mapping-visual-fields/blob/dev/.github/workflows/trello.yml)
     - check the readme of [sync-with-trello](https://github.com/mannyakosah/sync-with-trello) for available options. 
 
 ## Usage
