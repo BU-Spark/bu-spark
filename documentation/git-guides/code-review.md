@@ -1,8 +1,17 @@
 ---
 layout: default
 title: Code Review Manual
+parent: Spark! Git Guidelines
 nav_order: 1
 ---
+
+# Code review goals
+
+- Teach best practices.
+  - Students should not only learn but also demonstrate their understanding of best software practices by delivering code that meets high standards.
+- Produce quality product for clients and next batch of students.
+  - Spark wants continued collaboration with clients.
+  - Students should be able to focus on their contribution rather than fixing previous code.
 
 # What to do when reviewing a pull requests
 
@@ -10,7 +19,7 @@ nav_order: 1
 
   - Must have a clear description of feature or bug.
   - Should include a gif/video of before and after feature was added, if it introduces visual features.
-    Eg: ![Screenshot of deletion feature](delete-entry.gif)
+    Eg: ![Screenshot of deletion feature](assets/delete-entry.gif)
 
   - Contains code that all contributes to a single feature.
   - Must not be commits behind main branch (or the branch it's about to merge into).
@@ -32,9 +41,9 @@ nav_order: 1
 - Project structure
 
   - Organized according to conventions of frameworks used. - Egs
-    Nextjs : https://nextjs.org/docs/getting-started/project-structure
-  - Make use of folders. Eg : https://dev.to/noruwa/folder-structure-for-modern-web-applications-4d11
-  - Folders/Files should have a consistent naming convention.
+    [Nextjs](https://nextjs.org/docs/getting-started/project-structure)
+  - Make use of folders. Eg [folder-structure-for-modern-web-applications](https://dev.to/noruwa/folder-structure-for-modern-web-applications-4d11)
+  - Folders and files should have a consistent naming convention.
 
 - Code organization
 
