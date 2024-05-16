@@ -2,7 +2,7 @@
 layout: default
 title: Trello + Github Sync
 parent: Spark! Guidelines
-nav_order: 3
+nav_order: 4
 ---
 
 ## Trello + Github sync
