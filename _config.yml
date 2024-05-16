@@ -1,3 +1,8 @@
+# Not in use, not sure if it can be removed, see _configcl.yml
+#
+#
+#
+#
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -8,7 +13,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -38,13 +43,13 @@ search_enabled: true
 heading_anchors: true
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/BU-Spark/bu-spark.github.io" # the github URL for your repo
+gh_edit_repository: "/documentation/git-guides/how-to-help" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 
 # Aux links for the upper right navigation
 aux_links:
-  "BU Spark Tech Resources on GitHub":
-    - "//github.com/BU-Spark/bu-spark.github.io"
+  "Anything Missing?: Submit a PR!":
+    - "{% link documentation/git-guides/how-to-help.md %}"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
