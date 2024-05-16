@@ -53,7 +53,7 @@ The are two major steps
 
   ![screnshot of github secrets](assets/github-secrets.png)
 
-- add action workflow file.
+- Add action workflow file.
 
   For a particular repo to run the github action, it must have the action defined in a yaml file in it's .github/worflows folder. See [an example here](https://github.com/BU-Spark/se-computerized-mapping-visual-fields/blob/dev/.github/workflows/trello.yml)
 
