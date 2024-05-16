@@ -116,6 +116,15 @@ nav_order: 3
     - Code that resides in a hook (eg useState, useEffect, useCallback etc) and is repeated in multiple files should be refactored into a [custom hook](https://legacy.reactjs.org/docs/hooks-custom.html).
 
 - Nits:
+
   - Comments should add context rather than repeat code.
   - There shouldn’t be confusing spelling mistakes in variable/function names.
-  - Short, non descriptive variable/function names must be used.
+  - Variable and function names must be concise yet descriptive enough.
+
+  ```
+    function getId() {...} // ok
+    function getUserId() {...} //better
+
+    const duration = videoRef.current.duration; //ok
+    const videoDuration = videoRef.current.duration; //better
+  ```
