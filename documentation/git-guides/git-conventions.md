@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Git Conventions
-parent: Spark! Git Guidelines
+parent: Spark! Guidelines
 nav_order: 2
 ---
 
