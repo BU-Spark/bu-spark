@@ -66,10 +66,10 @@ In order to request access to resources please do the following:
 2. Assign the appropriate person to the issue:
    - For Software Engineering related projects
       - Assign the created issue to @langdon on Github
-      - Send an email to <langd0n at bu dot edu> with a link to the Github Issue. You should copy both your PM and course instructor on this email as well. This email is required.
+      - Send an email to <langd0n@bu.edu> with a link to the Github Issue. You should copy both your PM and course instructor on this email as well. This email is required.
    - For Data Science or Machine Learning related projects
-      - Assign the created issue to @mvoong18 on Github
-      - Send an email to <mvoong at bu dot edu> with a link to the Github Issue. You should copy both your PM and course instructor on this email as well. This email is required.
+      - Assign the created issue to @funkyvoong on Github
+      - Send an email to <mvoong@bu.edu> with a link to the Github Issue. You should copy both your PM and course instructor on this email as well. This email is required.
 3. Future correspondence should happen through the Github Issue
 4. If you don't hear an update within 4 days, [bump](https://www.quora.com/What-does-bump-mean-in-forums?no_redirect=1) on Github or via email.
 
