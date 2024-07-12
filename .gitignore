@@ -4,4 +4,4 @@ _site
 .jekyll-metadata
 vendor
 .vscode
-.config.yml
+_config*
