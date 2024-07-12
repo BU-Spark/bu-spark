@@ -7,4 +7,4 @@ VOLUME [ '/srv/jekyll' ]
 VOLUME [ '/usr/local/bundle' ]
 EXPOSE 4000
 
-ENTRYPOINT [ './launch.sh' ]
+ENTRYPOINT [ "bundler", "exec", "jekyll", "serve", "-H", "0.0.0.0"]

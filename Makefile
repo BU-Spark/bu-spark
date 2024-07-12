@@ -3,7 +3,7 @@
 IMAGE_NAME ?= bu-spark
 
 build:
-	docker build -t $(IMAGE_NAME) .
+	docker build -f Containerfile -t $(IMAGE_NAME) .
 
 run:
 	docker rm $(IMAGE_NAME) || true
