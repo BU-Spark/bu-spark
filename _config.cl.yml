@@ -25,13 +25,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "." # the subpath of your site, e.g. /blog
+#url: "https://<!CODESPACE_NAME>-4000.app.github.dev" # the subpath of your site, e.g. /blog
+url: "https://cautious-space-happiness-96vp5pwxw39pgp-4000.app.github.dev" # the subpath of your site, e.g. /blog
 
 ### the url field should not be active for preview deployments.
 ### otherwise, only the initial homepage will be using the link generated for preview hosting
 ### and any other subsequent redirects will lead to the actual website.
 
-${{ if eq(env.CF_PAGES_BRANCH), 'main' }}:
-  url: "https://bu-spark.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#${{ if eq(env.CF_PAGES_BRANCH), 'main' }}:
+#  url: "https://bu-spark.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 ###
 
 github_username:  bu-spark
