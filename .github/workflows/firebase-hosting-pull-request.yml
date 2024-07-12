@@ -13,7 +13,7 @@ jobs:
         with:
           ruby-version: '3.0'
           bundler-cahe: true
-      - run: bundle install && bundle exec jekyll build --config _configpr.yml
+      - run: bundle install && bundle exec jekyll build --config _config.pr.yml
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
