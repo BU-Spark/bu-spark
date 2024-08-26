@@ -1,11 +1,10 @@
 ---
 layout: page
-title: Spark! FAQs 
+title: Spark! FAQs Overview
 permalink: /docs/faqs/
 nav_order: 4
 has_children: true
 ---
-
 # Introduction
 
  We've compiled a list of the most common questions we receive to help you find the answers you need quickly, including our tech intern hiring timelines.
