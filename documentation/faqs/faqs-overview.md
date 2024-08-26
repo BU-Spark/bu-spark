@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spark! FAQs 
-permalink: /docs/gaqs/
+permalink: /docs/faqs/
 nav_order: 4
 has_children: true
 ---
