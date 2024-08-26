@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tech Hiring Timelines
-parent: FAQs
+parent: faqs
 nav_order: 2
 ---
 
