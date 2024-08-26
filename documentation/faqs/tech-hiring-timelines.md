@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tech Hiring Timelines
-parent: faqs
+parent: Spark! FAQs
 nav_order: 2
 ---
 
