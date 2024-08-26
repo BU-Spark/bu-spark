@@ -1,8 +1,8 @@
 ---
 layout: default
 title: How to Help
-parent: Spark! Git Guidelines
-nav_order: 3
+parent: Spark! Guidelines
+nav_order: 5
 ---
 
 # Want to help?!?!?!
