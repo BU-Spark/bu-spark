@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FAQs
+title: Spark! FAQs
 parent: FAQs
 nav_order: 1
 ---
