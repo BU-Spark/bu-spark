@@ -18,7 +18,7 @@ The use of a non-standard file is to support a need for a separate config (in th
 ### Via GitHub Codespaces
 By far the easiest mechanism to make changes.
 
-1. Click on the big green "<> Code>" button, click to the 2nd tab (Codespaces), click the "+" sign.
+1. Click on the big green "<> Code" button, click to the 2nd tab (Codespaces), click the "+" sign.
 2. Once it is done warming up, you should be able to open a terminal and run `./launch.sh`.
 3. However, if you get an error about dependencies, run `bundle update` then run `./launch.sh`.
 4. Copy the url to your codespace which will look something like `https://obscure-dollop-qsdadASD.github.dev/`
@@ -32,7 +32,7 @@ If anyone has any bright ideas about how to make this a launch configuration I w
 
 ### Via Local VS Code
 1. Install `docker` or `podman` and `make`.
-2. Find the URI for the repo under the big green "<> Code>" button.
+2. Find the URI for the repo under the big green "<> Code" button.
 3. `git clone` the repo somewhere.
 4. Open the folder in VS Code.
 5. In a terminal run `make build` or `make build-podman` as appropriate.
@@ -42,4 +42,4 @@ If anyone has any bright ideas about how to make this a launch configuration I w
 ### Notes
 * You should always be making a branch for your changes
 * You should not use a fork as then the preview automation won't work
-* Once you are pretty happy with your code, create a PR from your branch (after you pushed to GitHub) and add `WIP` to the beggining of the name of the PR. Go to your PR and you should see a link to preview of the site (it can take awhile).
+* Once you are pretty happy with your code, create a PR from your branch (after you pushed to GitHub) and add `WIP` to the beggining of the name of the PR. Go to your PR and you should see a link to preview of the site (it can take awhile). When you think everything is correct, delete the `WIP` from the name of the PR and tag some reviewers.
