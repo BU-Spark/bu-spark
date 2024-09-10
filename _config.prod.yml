@@ -1,7 +1,5 @@
-# Not in use, not sure if it can be removed, see _configcl.yml
-#
-#
-#
+# Only used for the GitHub Pages deployment
+# see https://github.com/BU-Spark/bu-spark/blob/main/.github/workflows/build-jekyll.yml
 #
 # Welcome to Jekyll!
 #
