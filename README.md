@@ -39,5 +39,7 @@ If anyone has any bright ideas about how to make this a launch configuration I w
 6. run `make run` or `make run-podman`.
 7. You should be able to go to a browser and goto [http://localhost:4000](http://localhost:4000) and see the site.
 
-
-
+### Notes
+* You should always be making a branch for your changes
+* You should not use a fork as then the preview automation won't work
+* Once you are pretty happy with your code, create a PR from your branch (after you pushed to GitHub) and add `WIP` to the beggining of the name of the PR. Go to your PR and you should see a link to preview of the site (it can take awhile).
