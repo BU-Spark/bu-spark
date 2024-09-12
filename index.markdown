@@ -20,7 +20,11 @@ Boston University Spark! is the home for much of the experiential learning oppor
 * Have a question? We might have covered it in the [Spark! FAQs]({% link documentation/faqs/faqs-overview.md %})
 
 
-<!-- 1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
+<!--
+
+I think the github action is not the thing doing the deployments.
+
+1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
 
 ```yaml
 remote_theme: just-the-docs/just-the-docs
