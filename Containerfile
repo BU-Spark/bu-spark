@@ -1,4 +1,4 @@
-FROM ruby:3.3.4
+FROM ruby:3.0
 RUN gem install bundler
 
 WORKDIR /srv/jekyll/
