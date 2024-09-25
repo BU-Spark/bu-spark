@@ -415,7 +415,7 @@ Using Python and Selenium for web scraping offers several advantages over other 
 1. pip install selenium
 2. Install a WebDriver: WebDriver is a separate executable that Selenium uses to control the browser. For this guide, I will be using ChromeDriver. Here are the links I found to download WebDriver for the most popular browsers:
 
-    - [Chrome](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+    - [Chrome](https://developer.chrome.com/docs/chromedriver/downloads)
     - [Firefox](https://github.com/mozilla/geckodriver/releases)
     - [Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
