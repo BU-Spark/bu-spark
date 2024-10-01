@@ -32,13 +32,9 @@ body:
       description: "Check the tools you need access to"
       options:
         - label: "Google Drive"
-          description: "Shared documents and files"
         - label: "GitHub"
-          description: "Access to repository"
         - label: "Notion Board"
-          description: "Project management and notes"
         - label: "Slack"
-          description: "Team communication"
         - label: "Other (specify below)"
   - type: textarea
     id: additional_tools
