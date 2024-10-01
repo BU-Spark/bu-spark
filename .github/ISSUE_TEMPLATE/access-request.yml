@@ -14,17 +14,23 @@ body:
       label: "Project Name"
       description: "Enter your project name here"
       placeholder: "e.g., Collaboration Dashboard Project"
+    validations:
+      required: true
   - type: textarea
     id: team_members
     attributes:
       label: "Team Members + Emails + Github Username"
       description: "Enter the names, emails,and Github (if needed) of all team members that need access"
       placeholder: "e.g., John Doe, johndoe@bu.edu, johndoe"
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
         ## Tool Access
         Please specify which tools you need access to and describe the reason for each one.
+
   - type: checkboxes
     id: tools_needed
     attributes:
@@ -36,6 +42,9 @@ body:
         - label: "Notion Board"
         - label: "Slack"
         - label: "Other (specify below)"
+    validations:
+      required: true
+
   - type: textarea
     id: additional_tools
     attributes:
