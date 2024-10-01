@@ -1,5 +1,5 @@
 ---
-name: Request for Spark! Tech Resources
+name: Request for Spark! Tech Resources 2
 about: Use this template to request technical resources for your project
 title: "Request for Spark! Tech Resources for [your project name]"
 labels: tech-resource-request
