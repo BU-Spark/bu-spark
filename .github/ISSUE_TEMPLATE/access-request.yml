@@ -1,6 +1,7 @@
 name: "Request for Access to Collaboration Tools"
 description: "Use this template to request access to shared tools like Google Drive, GitHub, and Notion boards."
 title: "Request for Access to Collaboration Tools for [your project name]"
+assignees: "oeaugustin"
 labels: 
   - access-request
 body:
@@ -17,9 +18,9 @@ body:
   - type: textarea
     id: team_members
     attributes:
-      label: "Team Members + Emails"
-      description: "Enter the names and emails of all team members that need access"
-      placeholder: "e.g., John Doe (johndoe@bu.edu)"
+      label: "Team Members + Emails + Github Username
+      description: "Enter the names, emails,and Github (if needed) of all team members that need access"
+      placeholder: "e.g., John Doe, johndoe@bu.edu, johndoe"
   - type: markdown
     attributes:
       value: |
@@ -42,9 +43,3 @@ body:
       label: "Additional Tools (if needed)"
       description: "List any other tools you need access to and explain their usage"
       placeholder: "e.g., Miro for brainstorming, Jira for task management"
-  - type: textarea
-    id: usage_description
-    attributes:
-      label: "Description of Tool Usage"
-      description: "Describe how you will use these tools in the project"
-      placeholder: "e.g., We need GitHub to manage our project code and Notion to track our tasks."
