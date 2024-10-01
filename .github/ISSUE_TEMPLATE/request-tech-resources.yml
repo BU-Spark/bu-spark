@@ -1,0 +1,68 @@
+name: "Request for Spark! Tech Resources"
+description: "Use this template to request technical resources for your project"
+title: "Request for Spark! Tech Resources for [your project name]"
+labels: 
+  - tech-resource-request
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Team Information
+
+  - type: input
+    id: project_name
+    attributes:
+      label: "Project Name"
+      description: "Enter your project name here"
+      placeholder: "e.g., Foreclosure Analysis Project"
+      required: true
+
+  - type: textarea
+    id: team_members
+    attributes:
+      label: "Team Members + Emails"
+      description: "Enter the names and emails of all team members that needs access"
+      placeholder: "e.g., John Doe (johndoe@bu.edu)"
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Resource Details
+
+  - type: textarea
+    id: resources_needed
+    attributes:
+      label: "Detailed List of Resources Needed"
+      description: "List all resources you require (e.g., software, data access)"
+      placeholder: "e.g., Access to server, dataset X"
+      required: true
+
+  - type: textarea
+      id: resource_usage
+      attributes:
+        label: "Description of Resource Usage"
+        description: "Describe how you will use these resources in the project"
+        placeholder: "e.g., We need the server to train models on..."
+        required: true
+
+    - type: textarea
+      id: course_deadlines
+      attributes:
+        label: "Course Deadlines (if applicable)"
+        description: "List any relevant deadlines for the course or project"
+        placeholder: "e.g., Midterm report due on [date]"
+
+    - type: markdown
+      attributes:
+        value: |
+          ## Assignee & Notification
+
+          - For **Software Engineering related projects**, assign @langdon and send an email to langd0n@bu.edu with a link to this issue. Copy your PM and course instructor.
+          - For **Data Science or Machine Learning related projects**, assign @funkyvoong and send an email to mvoong@bu.edu with a link to this issue. Copy your PM and course instructor.
+
+          ## Future Correspondence
+
+          - All future communication should happen through this GitHub issue.
+          - If no updates within **4 days**, please bump the issue or send a follow-up email.
