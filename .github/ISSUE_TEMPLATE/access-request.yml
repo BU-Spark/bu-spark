@@ -1,0 +1,54 @@
+name: "Request for Access to Collaboration Tools"
+description: "Use this template to request access to shared tools like Google Drive, GitHub, and Notion boards."
+title: "Request for Access to Collaboration Tools for [your project name]"
+labels: 
+  - access-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Team Information
+  - type: input
+    id: project_name
+    attributes:
+      label: "Project Name"
+      description: "Enter your project name here"
+      placeholder: "e.g., Collaboration Dashboard Project"
+  - type: textarea
+    id: team_members
+    attributes:
+      label: "Team Members + Emails"
+      description: "Enter the names and emails of all team members that need access"
+      placeholder: "e.g., John Doe (johndoe@bu.edu)"
+  - type: markdown
+    attributes:
+      value: |
+        ## Tool Access
+        Please specify which tools you need access to and describe the reason for each one.
+  - type: checkboxes
+    id: tools_needed
+    attributes:
+      label: "Select Tools Needed"
+      description: "Check the tools you need access to"
+      options:
+        - label: "Google Drive"
+          description: "Shared documents and files"
+        - label: "GitHub"
+          description: "Access to repository"
+        - label: "Notion Board"
+          description: "Project management and notes"
+        - label: "Slack"
+          description: "Team communication"
+        - label: "Other (specify below)"
+  - type: textarea
+    id: additional_tools
+    attributes:
+      label: "Additional Tools (if needed)"
+      description: "List any other tools you need access to and explain their usage"
+      placeholder: "e.g., Miro for brainstorming, Jira for task management"
+  - type: textarea
+    id: usage_description
+    attributes:
+      label: "Description of Tool Usage"
+      description: "Describe how you will use these tools in the project"
+      placeholder: "e.g., We need GitHub to manage our project code and Notion to track our tasks."
