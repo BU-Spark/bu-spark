@@ -1,8 +1,7 @@
 name: "Request for Spark! Tech Resources"
 description: "Use this template to request technical resources for your project"
 title: "Request for Spark! Tech Resources for [your project name]"
-labels: 
-  - tech-resource-request
+labels: "tech resource request"
 body:
   - type: markdown
     attributes:

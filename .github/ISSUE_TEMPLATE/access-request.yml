@@ -2,8 +2,7 @@ name: "Request for Access to Collaboration Tools"
 description: "Use this template to request access to shared tools like Google Drive, GitHub, and Notion boards."
 title: "Request for Access to Collaboration Tools for [your project name]"
 assignees: "oeaugustin"
-labels: 
-  - access-request
+labels: "access request"
 body:
   - type: markdown
     attributes:
