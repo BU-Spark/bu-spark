@@ -25,11 +25,11 @@ body:
     validations:
       required: true
 
-   - type: dropdown
+  - type: dropdown
     id: project_type
     attributes:
-      label: Project Type
-      description: What type of project are you working on?
+      label: "Project Type"
+      description: "What type of project are you working on?"
       options:
         - Data Science / Machine Learning
         - Software Engineering
@@ -56,13 +56,14 @@ body:
       label: "Description of Resource Usage"
       description: "Describe how you will use these resources in the project"
       placeholder: "e.g., We need the server to train models on..."
-    
+
   - type: textarea
     id: course_deadlines
     attributes:
       label: "Course Deadlines (if applicable)"
       description: "List any relevant deadlines for the course or project"
       placeholder: "e.g., Midterm report due on [date]"
+
   - type: markdown
     attributes:
       value: |
