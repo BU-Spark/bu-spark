@@ -3,6 +3,7 @@ description: "Use this template to request technical resources for your project"
 title: "Request for Spark! Tech Resources for [your project name]"
 labels: 
   - tech-resource-request
+assignees: ''
 body:
   - type: markdown
     attributes:
@@ -14,14 +15,12 @@ body:
       label: "Project Name"
       description: "Enter your project name here"
       placeholder: "e.g., Foreclosure Analysis Project"
-      required: true
   - type: textarea
     id: team_members
     attributes:
       label: "Team Members + Emails"
       description: "Enter the names and emails of all team members that need access"
       placeholder: "e.g., John Doe (johndoe@bu.edu)"
-      required: true
   - type: markdown
     attributes:
       value: |
@@ -32,14 +31,12 @@ body:
       label: "Detailed List of Resources Needed"
       description: "List all resources you require (e.g., software, data access)"
       placeholder: "e.g., Access to server, dataset X"
-      required: true
   - type: textarea
     id: resource_usage
     attributes:
       label: "Description of Resource Usage"
       description: "Describe how you will use these resources in the project"
       placeholder: "e.g., We need the server to train models on..."
-      required: true
   - type: textarea
     id: course_deadlines
     attributes:
