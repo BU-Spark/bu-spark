@@ -18,7 +18,7 @@ body:
   - type: textarea
     id: team_members
     attributes:
-      label: "Team Members + Emails + Github Username
+      label: "Team Members + Emails + Github Username"
       description: "Enter the names, emails,and Github (if needed) of all team members that need access"
       placeholder: "e.g., John Doe, johndoe@bu.edu, johndoe"
   - type: markdown
