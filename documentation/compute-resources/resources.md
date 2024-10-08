@@ -3,6 +3,7 @@ layout: default
 title: Compute Resources
 has_children: true
 permalink: /docs/compute-resources/
+nav_order: 2
 ---
 
 # Compute Resources
