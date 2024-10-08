@@ -16,15 +16,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: team_members
-    attributes:
-      label: "Team Members + Emails"
-      description: "Enter the names and emails of all team members that need access"
-      placeholder: "e.g., John Doe (johndoe@bu.edu)"
-    validations:
-      required: true
-
   - type: dropdown
     id: project_type
     attributes:
@@ -34,6 +25,15 @@ body:
         - Data Science / Machine Learning
         - Software Engineering
       default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: team_members
+    attributes:
+      label: "Team Members + Emails"
+      description: "Enter the names and emails of all team members that need access"
+      placeholder: "e.g., John Doe (johndoe@bu.edu)"
     validations:
       required: true
 
