@@ -8,7 +8,7 @@ nav_order: 2
 
 # Compute Resources
 
-Spark! has several compute resources available for student projects. Student's should not be creating hosted resources on their own personal accounts(AWS, GCP etc) instead they should use the Spark! accounts unless specifically told otherwise by Spark! staff.
+Spark! has several compute resources available for student projects. Student’s should not be creating hosted resources on their own personal accounts(AWS, GCP etc) instead they should use the Spark! accounts unless specifically told otherwise by Spark! staff. Please go [here](/docs/compute-resources/request/) to request any resource.
 
 # Resources Offered
 
