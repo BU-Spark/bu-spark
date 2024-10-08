@@ -2,6 +2,7 @@
 layout: default
 title: Requesting Compute Resources
 parent: Compute Resources
+permalink: /docs/compute-resources/request/
 nav_order: 1
 ---
 
