@@ -47,32 +47,41 @@ If you need to host your API for a Spark! project you can and should do so on a 
 
 We do have some other random resources. If you don't see what you need, reach out to us and we can help you out!
 
-# How to request access
+# How to Request Access From Spark!
 
-In order to request access to resources please do the following:
+This guide will walk you through the process of requesting access to resources and collaboration tools.
 
-1. Open an issue on your project's Github Repository with the following structure:
+## 1. Request Tech Resources
 
-    Title:
+If your project requires any technical resources (such as OpenAI credits, servers, or datasets), you will need to submit a request.
 
-        Request for Spark! Tech Resources for [your project name]
+Follow these steps:
 
-    Content:
+1. Click the link below to generate an issue for requesting tech resources:
+   
+   [Request Tech Resources](https://github.com/BU-Spark/bu-spark/issues/new?assignees=&labels=tech+resource+request&projects=&template=request-tech-resources.yml&title=Request+for+Spark%21+Tech+Resources+for+%5Byour+project+name%5D)
 
-        - Names + emails of all team members who need access
-        - Detailed list of resources needed
-        - A complete description on how you plan to use the resources
-        - List any relevant course deadlines
-2. Assign the appropriate person to the issue:
-   - For Software Engineering related projects
-      - Assign the created issue to @langdon on Github
-      - Send an email to <langd0n@bu.edu> with a link to the Github Issue. You should copy both your PM and course instructor on this email as well. This email is required.
-   - For Data Science or Machine Learning related projects
-      - Assign the created issue to @funkyvoong on Github
-      - Send an email to <mvoong@bu.edu> with a link to the Github Issue. You should copy both your PM and course instructor on this email as well. This email is required.
-3. Future correspondence should happen through the Github Issue
-4. If you don't hear an update within 4 days, [bump](https://www.quora.com/What-does-bump-mean-in-forums?no_redirect=1) on Github or via email.
+2. Fill out the form, providing details about your project, team members, and the specific resources you need. Make sure to assign the issue to the correct person based on your project type:
+   - **Software Engineering**: Assign **@oeaugustin** (Omar)
+   - **Data Science / Machine Learning**: Assign **@funkyvoong** (Michelle)
 
+3. Submit the issue and wait for approval. You will be notified once the requested resources are available.
 
+## 2. Request Access to Collaboration Tools
 
+If you or your team need access to tools like Google Drive, GitHub, Notion, or Slack, follow these steps:
+
+1. Click the link below to generate an issue for requesting access to collaboration tools:
+   
+   [Request Access to Collaboration Tools](https://github.com/BU-Spark/bu-spark/issues/new?assignees=oeaugustin&labels=access+request&projects=&template=access-request.yml&title=Request+for+Access+to+Collaboration+Tools+for+%5Byour+project+name%5D)
+
+2. Select the tools you need access to and provide a description of how you will use them in the project.
+
+3. Submit the issue and wait for access to be granted.
+
+## 3. Follow-Up
+
+For any requests that have not been addressed within business**4 days**, please bump the issue by adding a comment or send a follow-up email to the assigned admin.
+
+If you have any further questions or need additional support, don't hesitate to reach out to your PM or course instructor.
 
