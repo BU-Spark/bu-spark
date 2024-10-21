@@ -39,6 +39,8 @@ If anyone has any bright ideas about how to make this a launch configuration I w
 6. run `make run` or `make run-podman`.
 7. You should be able to go to a browser and goto [http://localhost:4000](http://localhost:4000) and see the site.
 
+**Running into problems getting the docker / podman container to start?** Look at `TemporaryFix.md`
+
 ### Notes
 * Make a new branch for your changes
 * You should not use a fork, as then the preview automation won't work
