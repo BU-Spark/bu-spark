@@ -12,8 +12,7 @@ In all of these steps be sure to change `docker` --> `podman` if you are using i
 5. **Run a few lines from `./launch.sh`**: We will manually run parts of the launch script for codespaces (they work for localhost too)
     - `bundle check || bundle install`: install dependencies
     - `bundle exec jekyll build`: build jekyll site which helps us create static HTML and CSS files
-    - `cd _site`: change directory to the newly made one
-    - `bundle exec jekyll serve --host 0.0.0.0 --livereload`: host the site locally with hot reload
+    - `bundle exec jekyll serve --host 0.0.0.0 --livereload --baseurl=""`: host the site locally with hot reload
 
 
 ### In case you'd like the comamnds all in one block:
@@ -23,6 +22,5 @@ make -n run
 docker run -it --entrypoint /bin/bash --name < paste copied part here >
 bundle check || bundle install
 bundle exec jekyll build
-cd _site
-bundle exec jekyll serve --host 0.0.0.0 --livereload
+bundle exec jekyll serve --host 0.0.0.0 --livereload --baseurl=""
 ```
