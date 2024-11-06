@@ -6,7 +6,7 @@ nav_order: 1 # Order under the "Coding Quests" section
 permalink: /docs/coding-quests/about/
 ---
 
-![react logo](react_pngs/react-badge.png){:style="width:100, margin-left: auto;margin-right: auto;" }
+![react logo](react_pngs/react-badge.png){:style="width:100px; display: block; margin-left: auto; margin-right: auto;"}
 
 <!-- <p align="center" >
 <img src="react_pngs/react-badge.png" alt="react-logo" width="100px">
@@ -28,7 +28,7 @@ _Learn the basics of what React is and complete a quiz to earn a bronze badge!_
 
 _Start building an app of your own with guidance by doing **one** of the following_
 
-1. 🗣️ **Attend Hack4Impact's React Workshop** November 5th ([Subscribe to Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19iZDQyZWYwMzQwZmU1ZGZhYTk5NGI5NDQyNWM2YzE1Y2M0NThmYWE5YmZhNzg0MGY0N2E3MTUzYzg5NTY4YWE0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20))
+1. 🗣️ **Attend Hack4Impact's React Workshop** November 19th ([Subscribe to Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19iZDQyZWYwMzQwZmU1ZGZhYTk5NGI5NDQyNWM2YzE1Y2M0NThmYWE5YmZhNzg0MGY0N2E3MTUzYzg5NTY4YWE0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20))
 2. 🧑‍💻 Complete a **[React Microchallenge: Build your own Weather App](https://github.com/BU-Spark-Learning-Ambassadors/react-level-2)**
 
 ### 🏔️ Level 3
@@ -37,7 +37,7 @@ _Blaze your own trail by making an app entirely on your own ⚔_
 
 **See the [Github Repository](https://github.com/BU-Spark-Learning-Ambassadors/react-level-3)** for directions, advice, and submission details!
 
-![badge colors](react_pngs/react-badges.png){:style="width:600, margin-left: auto;margin-right: auto;" }
+![badge colors](react_pngs/react-badges.png){:style="width:600px; display: block; margin-left: auto; margin-right: auto;"}
 
 <!-- <p align="center" >
     <img src="react_pngs/react-badges.png" alt="badge colors" width="600px">
