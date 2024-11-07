@@ -29,7 +29,7 @@ _Learn the basics of what React is and complete a quiz to earn a bronze badge!_
 _Start building an app of your own with guidance by doing **one** of the following_
 
 1. 🗣️ **Attend Hack4Impact's React Workshop** November 19th ([Subscribe to Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19iZDQyZWYwMzQwZmU1ZGZhYTk5NGI5NDQyNWM2YzE1Y2M0NThmYWE5YmZhNzg0MGY0N2E3MTUzYzg5NTY4YWE0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20))
-2. 🧑‍💻 Complete a **[React Microchallenge: Build your own Weather App](https://github.com/BU-Spark-Learning-Ambassadors/react-level-2)**
+2. 🧑‍💻 Complete a **[React Side Quest: Build your own Weather App](https://github.com/BU-Spark-Learning-Ambassadors/react-level-2)**
 
 ### 🏔️ Level 3
 
