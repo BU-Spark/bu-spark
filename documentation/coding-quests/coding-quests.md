@@ -33,7 +33,7 @@ Level one consists of a document and short quiz
 
 ### 🥈 Level Two
 
-level two is a Spark! Microchallenge or workshop for select topics
+level two is a Spark! Side Quest or workshop for select topics
 
 ### 🥇 Level Three
 
