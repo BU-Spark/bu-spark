@@ -6,11 +6,7 @@ nav_order: 1 # Order under the "Coding Quests" section
 permalink: /docs/coding-quests/about/
 ---
 
-![react logo](react_pngs/react-badge.png){:style="width:100px; display: block; margin-left: auto; margin-right: auto;"}
-
-<!-- <p align="center" >
-<img src="react_pngs/react-badge.png" alt="react-logo" width="100px">
-</p> -->
+![logo](react_pngs/react-badge.png){:style="width:100px; display: block; margin-left: auto; margin-right: auto;"}
 
 # React.js ⚛
 
@@ -38,7 +34,3 @@ _Blaze your own trail by making an app entirely on your own ⚔_
 **See the [Github Repository](https://github.com/BU-Spark-Learning-Ambassadors/react-level-3)** for directions, advice, and submission details!
 
 ![badge colors](react_pngs/react-badges.png){:style="width:600px; display: block; margin-left: auto; margin-right: auto;"}
-
-<!-- <p align="center" >
-    <img src="react_pngs/react-badges.png" alt="badge colors" width="600px">
-</p> -->
