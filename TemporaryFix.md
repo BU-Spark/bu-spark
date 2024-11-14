@@ -4,7 +4,7 @@ Hypothesis is that jekyll is not playing well with containers, possible due to t
 To get around its shortcomings for now, please follow the steps below
 
 ## Steps
-In all of these steps be sure to change `docker` --> `podman` if you are using it instead.
+In all of these steps be sure to change `docker` --> `podman` if you are using it instead. Make sure you are running docker (or podman) when doing this.
 1. `docker rm -f bu-spark`: remove the old image to avoid errors
 2. `make -n run`: outputs what the command would have been if you ran `make run`, which is not working
 3. **Copy everything from `buspark` to the end**: this is the path which is relative to your computer
