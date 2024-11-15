@@ -1,3 +1,11 @@
+---
+layout: default
+title: Adding More Coding Quests
+parent: Coding Quests
+nav_order: 1 # Order under the "Coding Quests" section
+permalink: /docs/coding-quests/adding-more-coding-quests
+---
+
 # Adding More Coding Quests
 
 Follow these instructions and the example of `./coding-quests/react.md` for how to create a page for your Coding Quest!
