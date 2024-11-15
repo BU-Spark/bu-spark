@@ -39,9 +39,35 @@ If anyone has any bright ideas about how to make this a launch configuration I w
 6. run `make run` or `make run-podman`.
 7. You should be able to go to a browser and goto [http://localhost:4000](http://localhost:4000) and see the site.
 
-**Running into problems getting the docker / podman container to start?** Look at `TemporaryFix.md`
-
 ### Notes
 * Make a new branch for your changes
 * You should not use a fork, as then the preview automation won't work
 * Once you are pretty happy with your code, create a PR from your branch (after you pushed to GitHub) and add `WIP` to the begining of the name of the PR. Go to your PR and you should see a link to preview of the site (it can take awhile). When you think everything is correct, delete the `WIP` from the name of the PR and tag some reviewers.
+<hr/>
+
+### Running into problems getting the docker / podman container to start? 
+
+#### The Issue
+* Hypothesis is that jekyll is not playing well with containers, possible due to the fact that it predates the modern adoption of containers. 
+* To get around its shortcomings for now, please follow the steps below
+
+#### Steps
+* In all of these steps be sure to change `docker` --> `podman` if you are using it instead. Make sure you are running docker (or podman) when doing this.
+1. `docker rm -f bu-spark`: remove the old image to avoid errors
+2. `make -n run`: outputs what the command would have been if you ran `make run`, which is not working
+3. **Copy everything from `buspark` to the end**: this is the path which is relative to your computer
+4. `docker run -it --entrypoint /bin/bash --name < paste copied part here >`: this will run an interative version of the command, allowing us to interact manually with the container
+5. **Run a few lines from `./launch.sh`**: We will manually run parts of the launch script for codespaces (they work for localhost too)
+    - `bundle check || bundle install`: install dependencies
+    - `bundle exec jekyll build`: build jekyll site which helps us create static HTML and CSS files
+    - `bundle exec jekyll serve --host 0.0.0.0 --livereload --baseurl=""`: host the site locally with hot reload
+
+#### In case you'd like the comamnds all in one block:
+```
+docker rm -f bu-spark
+make -n run
+docker run -it --entrypoint /bin/bash --name < paste copied part here >
+bundle check || bundle install
+bundle exec jekyll build
+bundle exec jekyll serve --host 0.0.0.0 --livereload --baseurl=""
+```
