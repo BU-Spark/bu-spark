@@ -2,8 +2,7 @@
 title: 🧠 GEN-AI-DEATHON 2024
 permalink: /gen-ai
 ---
-
-# 🧠 GEN-AI-DEATHON 2024
+![banner](assets/gen-ai-banner.png){:style="width:1200px; display: block; margin-left: auto; margin-right: auto;"}
 <br/>
 Welcome to the Generative AI Hackathon! We’re excited to have you here for an engaging and collaborative experience. Whether you're a seasoned expert or just starting out, this is your chance to experiment with cutting-edge AI tools, tackle real-world challenges, and push the boundaries of innovation. Get ready to think big, collaborate, and create something amazing. Good luck, and let’s make it happen!
 <br/>
