@@ -3,6 +3,7 @@ layout: default
 title: Adding More Coding Quests
 parent: Coding Quests
 nav_order: 1 # Order under the "Coding Quests" section
+published: false
 permalink: /docs/coding-quests/adding-more-coding-quests
 ---
 
@@ -50,6 +51,6 @@ This uses a crazy Jekyll syntax so be very careful to only swap out the IMG PATH
 
 Replace the one at the top and one at the bottom. If you want to add more refer to the examples on how to style in those two images.
 
-
 # YOU'RE DONE!
+
 Now consult [TemporaryFix.md](./TemporaryFix.md) and [README.md](./README.md) for how to create a Pull Request to add your work to the live site!
