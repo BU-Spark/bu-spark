@@ -8,13 +8,13 @@ permalink: /docs/coding-quests/about/
 
 ![logo](git_pngs/git-badge.png){:style="width:100px; display: block; margin-left: auto; margin-right: auto;"}
 
-# Git 🗃️ ⚛
+# Git 🗃️
 
 Git is a widely used version control system that helps developers track changes in their code, collaborate efficiently, and manage project history. Originally created by Linus Torvalds for Linux development, Git enables branching, merging, and distributed workflows, making it essential for open-source and team-based projects. With Git, developers can experiment with new features, roll back to previous versions, and synchronize code across multiple contributors.
 
 ### 🔭 Level 1
 
-_Learn the basics of what Git is and complete a quiz to earn a bronze badge! We really recommend reading chapters 1.1 through 1.4 from the [Getting Started section of Pro Git_](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)_
+_Learn the basics of what Git is and complete a quiz to earn a bronze badge!<br>We recommend reading chapters 1.1 through 1.4 from the [Getting Started section of Pro Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)_
 
 **📄 [Start your Journey](https://docs.google.com/document/d/1MB07HfrhiKjTecpnNySINL_8FDOfMSxeA5G6w-24u20/edit?tab=t.0)**
 
