@@ -6,7 +6,7 @@ nav_order: 2 # Order under the "Coding Quests" section
 permalink: /docs/coding-quests/about/
 ---
 
-![logo](react_pngs/react-badge.png){:style="width:100px; display: block; margin-left: auto; margin-right: auto;"}
+![logo](git_pngs/git-badge.png){:style="width:100px; display: block; margin-left: auto; margin-right: auto;"}
 
 # Git 🗃️ ⚛
 
@@ -32,4 +32,4 @@ _Demonstrate advanced Git skills by collaborating on a project, managing branche
 
 **See the [Github Repository](https://github.com/hajiix/git-level3)** for directions, advice, and submission details!
 
-![badge colors](react_pngs/react-badges.png){:style="width:600px; display: block; margin-left: auto; margin-right: auto;"}
+![badge colors](git_pngs/git-badges.png){:style="width:600px; display: block; margin-left: auto; margin-right: auto;"}
