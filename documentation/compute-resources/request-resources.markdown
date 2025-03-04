@@ -20,9 +20,9 @@ Follow these steps:
    
    [Request Tech Resources](https://github.com/BU-Spark/bu-spark/issues/new?assignees=&labels=tech+resource+request&projects=&template=request-tech-resources.yml&title=Request+for+Spark%21+Tech+Resources+for+%5Byour+project+name%5D)
 
-2. Fill out the form, providing details about your project, team members, and the specific resources you need. Make sure to assign the issue to the correct person based on your project type:
-   - **Software Engineering**: Assign **@oeaugustin** (Omar)
-   - **Data Science / Machine Learning**: Assign **@funkyvoong** (Michelle)
+2. Fill out the form, providing details about your project, team members, and the specific resources you need. Make sure to "tag" the correct person in the comment based on your project type:
+   - **Software Engineering**: Tag **@oeaugustin** (Omar)
+   - **Data Science / Machine Learning**: Tag **@funkyvoong** (Michelle)
 
 3. Submit the issue and wait for approval. You will be notified once the requested resources are available.
 

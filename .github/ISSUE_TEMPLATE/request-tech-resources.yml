@@ -69,8 +69,8 @@ body:
       value: |
         ## Assignee & Notification
 
-        - For **Software Engineering related projects**, assign @oeaugustin and send an email to oea@bu.edu with a link to this issue. Copy your PM and course instructor.
-        - For **Data Science or Machine Learning related projects**, assign @funkyvoong and send an email to mvoong@bu.edu with a link to this issue. Copy your PM and course instructor.
+        - For **Software Engineering related projects**, Tag @oeaugustin in the comments and send an email to oea@bu.edu with a link to this issue. Copy your PM and course instructor.
+        - For **Data Science or Machine Learning related projects**, Tag @funkyvoong in the comments and send an email to mvoong@bu.edu with a link to this issue. Copy your PM and course instructor.
 
         ## Future Correspondence
 
