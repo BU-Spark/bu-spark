@@ -232,4 +232,4 @@ Have fun using Git! If you do it right it will save you a ton of time and troubl
 
 # Authors
 Written by: [Eamon Niknafs](https://github.com/eamonniknafs)
-Contributors: [Arnav Singh](linkedin.com/in/arnav2x)
+Contributors: [Arnav Singh](https://linkedin.com/in/arnav2x)
