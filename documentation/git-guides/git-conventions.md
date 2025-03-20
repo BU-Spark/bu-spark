@@ -168,6 +168,56 @@ After your dev branch has gotten to a point where your team would be comfortable
 5. I'll merge my changes into dev
 6. Much later, after my team is happy with the state of the project and all the progress made, we will decide its time to merge our `dev` branch into `main`. We get many reviews from team members and maintainers, then merge our PR.
 
+## Branch Naming Strategy
+To ensure a well-structured repository, follow this branch naming strategy:
+
+### General format:
+`[category]/[short-description]-[your-initials]`
+
+### Examples:
+- `feature/add-login-ar`
+- `bugfix/fix-chart-rendering-js`
+- `chore/update-readme-js`
+
+### Categories:
+- `feature/` → New features (e.g., `feature/add-user-auth`)
+- `bugfix/` → Fixing bugs (e.g., `bugfix/fix-navbar`)
+- `chore/` → Maintenance tasks (e.g., `chore/update-dependencies`)
+- `refactor/` → Code improvements without changing functionality (e.g., `refactor/improve-api-structure`)
+- `test/` → Adding or updating tests (e.g., `test/add-integration-tests`)
+- `docs/` → Documentation updates (e.g., `docs/update-api-endpoints`)
+
+Following this naming convention keeps the repository organized and makes it easier to track work.
+
+## Working with Git Commands
+To streamline development and avoid conflicts, follow these steps when working with branches:
+
+### Fetch the latest changes and create a new branch:
+```sh
+git fetch origin
+git checkout dev
+git pull origin dev
+git checkout -b <your_branch_name>  # Use the branch naming schema outlined above.
+git push -u origin <your_branch_name>
+```
+### Regular development workflow:
+Add, commit, and push your changes as usual:
+
+```sh
+git add <file_name> # Refrain from 'git add .' in order to be conscious of what files you add.
+git commit -m "your descriptive commit message"
+git push
+```
+Before pushing new changes, keep your branch up to date to avoid conflicts:
+
+```sh
+git fetch origin
+git rebase origin/dev
+```
+### When your work is complete:
+- Open a Pull Request (PR) into dev, following the provided PR template.
+- Ensure your changes are reviewed before merging.
+
 ## Issues
 If you are using Issues, leave a detailed description on each issue page you create. Everyone working on an issue should be assigned to it (usually people assign themselves to issues). Be sure to leave comments if you are blocked, and feel free to tag team members, PRs, or other Issues in those comments. If you aren't planning on fixing an issue, tag it with `wontfix` and explain why you aren't fixing it in a comment before closing it. Otherwise link a merged PR that solves the issue before closing it.
 
@@ -180,5 +230,6 @@ Have fun using Git! If you do it right it will save you a ton of time and troubl
 - https://www.atlassian.com/git/tutorials/syncing
 - https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67
 
-# Author
-Written by [Eamon Niknafs](https://github.com/eamonniknafs)
+# Authors
+Written by: [Eamon Niknafs](https://github.com/eamonniknafs)
+Contributors: [Arnav Singh](linkedin.com/in/arnav2x)
