@@ -12,7 +12,7 @@ nav_order: 1
 
 We use Next.js, an industry-standard React framework, for front-end development. It provides built-in support for *server-side rendering (SSR)*, *static site generation (SSG)*, and *client-side rendering (CSR)*, optimizing performance, SEO, and scalability while maintaining React’s component-based architecture.  
 
-##### Built on React  
+### Built on React  
 
 Next.js extends React while preserving its core functionality, including:  
 
@@ -21,7 +21,7 @@ Next.js extends React while preserving its core functionality, including:
 - **Context & Redux Support**: Works seamlessly with global state management solutions.  
 - **Client-Side Rendering**: Supports standard React behavior for interactive applications.  
 
-##### Key Next.js Features  
+### Key Next.js Features  
 
 - **Hybrid Rendering**: Supports SSR, SSG, and incremental static regeneration (ISR).  
 - **API Routes**: Enables backend logic without a separate server.  
@@ -29,26 +29,26 @@ Next.js extends React while preserving its core functionality, including:
 - **Optimized Image Handling**: [`next/image`](https://nextjs.org/docs/pages/api-reference/components/image) provides built-in performance optimizations.  
 - **File-Based Routing & Middleware**: Simplifies navigation and request handling.  
 
-##### TypeScript Support 
+### TypeScript Support 
 
 Next.js integrates seamlessly with TypeScript, offering *static type checking*, *strong typing for props and state*, and *automatic configuration*, improving maintainability and reducing runtime errors.  
 
-##### Usage in Our Stack  
+### Usage in Our Stack  
 
 We use Next.js for its scalability, performance optimizations, and seamless integration with modern front-end workflows. It is widely adopted across the industry for building production-grade web applications.  
 
-##### Learning Resources
+### Learning Resources
 
 Here are some resources to help you learn Next.js, including official documentation, tutorials, and video courses. To ensure you get the most out of these tutorials, it is recommended that you have a basic understanding of HTML, CSS, and React. If you need to brush up on your React skills, check out Vercel's [React Foundations Course](https://nextjs.org/learn/react-foundations) or [react.dev/learn](https://react.dev/learn), which will introduce you to the fundamentals. 
 
-###### Interactive Tutorials
+#### Interactive Tutorials
 - **[Learn Next.js](https://nextjs.org/learn/dashboard-app?)** – An interactive course that walks you through building a full-stack web application, covering styling, routing, and data fetching.
 
-###### Written Tutorials
+#### Written Tutorials
 - **[Next.js Tutorial - GeeksforGeeks](https://www.geeksforgeeks.org/nextjs/?)** – Covers basic to advanced concepts such as routing, data fetching, environment variables, and static file serving.
 - **[Next.js Tutorial - TutorialsPoint](https://www.tutorialspoint.com/nextjs/index.htm?)** – Covers Next.js fundamentals, including installation, project setup, routing, route handlers, and authentication.
 
-###### Video Tutorials
+#### Video Tutorials
 - **[Next.js Tutorial for Beginners (User CRUD App)](https://www.youtube.com/watch?v=iJejohAs9EY&)** – Walks through building a CRUD application with image uploads.
 - **[Next.js 15 Crash Course](https://www.youtube.com/watch?v=Zq5fmkH0T78)** – A comprehensive crash course that guides you through building and deploying a production-ready application using Next.js 15.
 - **[Next.js Full Course for Beginners](https://www.youtube.com/watch?v=843nec-IvW0&)** – A 7-hour deep dive into Next.js 13, suitable for beginners.
