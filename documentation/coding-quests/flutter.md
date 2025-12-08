@@ -405,7 +405,7 @@ Good luck with Flutter!
 
 Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSetYuZqkLiXADH_NOjx3JCdx_V4Y_Z3Ncn52ZNHdh23fiez-Q/viewform) to finalize level one, then apply your knowledge by doing a Flutter Side Quest!  
 
-After completing that, you can create your own project with some guidelines.
+After completing that, you can create your own project with some guidelines for level three!
 
 ---
 
