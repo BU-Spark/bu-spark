@@ -2,7 +2,7 @@
 layout: default
 title: Git/Hub
 parent: Coding Quests
-nav_order: 2 # Order under the "Coding Quests" section
+nav_order: 1 # Order under the "Coding Quests" section
 permalink: /docs/coding-quests/git/
 ---
 
