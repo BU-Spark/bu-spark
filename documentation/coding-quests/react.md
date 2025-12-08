@@ -1,7 +1,7 @@
 ---
 layout: default
 title: React.js
-parent: Coding Quests
+parent: Code Quests
 nav_order: 2 # Order under the "Coding Quests" section
 permalink: /docs/coding-quests/about/
 ---
