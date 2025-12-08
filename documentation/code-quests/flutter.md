@@ -100,8 +100,10 @@ Flutter has three architectural layers: the **Framework**, **Engine**, and **Emb
 - The **Engine layer** is written mostly in C++, and supports the primitives necessary to support all Flutter applications. It’s responsible for rasterizing composited scenes whenever a new frame needs to be painted. It provides the low-level implementation of Flutter's core API, including graphics (through Impeller on iOS and coming to Android and macOS, and Skia on other platforms), executes Dart code, manages text rendering, and facilitates interaction with platform specific APIs.  
 - Finally, the **Embedder layer** interacts with the underlying OS using platform specific code. It sets up the rendering surface (a window on desktop, a view on mobile), allows for communication between the Flutter app and the underlying platform, and manages platform-specific AIs (think cameras, sensors, file systems, etc.)
 
-![Flutter architecture diagram](media/image11.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
-![Flutter architecture diagram](media/image8.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="media/image11.png" alt="Flutter architecture diagram" style="width:225px;" />
+  <img src="media/image8.png" alt="Flutter architecture diagram" style="width:225px;" />
+</div>
 
 ---
 
@@ -260,8 +262,10 @@ We’re going to look at this code step by step to try and understand what’s h
 
 For guidance, here is what the app is supposed to look like on run, and after the button on the bottom right has been pressed seven times.
 
-![Flutter App](media/image13.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
-![Flutter App](media/image9.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="media/image13.png" alt="Flutter App" style="width:225px;" />
+  <img src="media/image9.png" alt="Flutter App" style="width:225px;" />
+</div>
 
 
 

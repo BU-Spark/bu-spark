@@ -188,8 +188,8 @@ if necessary, and either navigate to the tab on the left, or to the
 window that appears when clicking your profile picture and clicking
 *your repositories.* Then, there will be a green box that reads *new.*
 
-<img src="./media/image1.jpg"
-style="width:2.375in;height:1.06699in" />
+![new repository button](media/image1.jpg){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
+
 
 At this point, you’ll be able to name your repository, fiddle with
 privacy settings, add a description, and initialize a *README* file. A
@@ -212,8 +212,8 @@ requires authentication (a key pair) to communicate with GitHub servers,
 while HTTPS provides secure communication over the internet. In this
 case, we’ll start with the HTTPS link.
 
-<img src="./media/image2.jpg"
-style="width:2.95951in;height:2.64672in" />
+![GitHub Code Dropdown](media/image2.jpg){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
+
 
 You’re going to want to press the green *Code* button. Here, you’ll be
 able to navigate over to HTTPS, and copy the link. To use this, we need
