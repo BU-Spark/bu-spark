@@ -129,9 +129,9 @@ Remember Stateless and Stateful—one declares it to stay the same, and the othe
 
 State gets managed and passed around the system. Since many widgets may contain state within the tree, it can get cumbersome to pass data down as we get deeper down the tree. In this case, we can utilize an **InheritedWidget**, which can grab data from a shared ancestor.  
 
-<div style="text-align:center">
-  <img src="../media/image12.png" alt="Flutter Widgets" width="225px" />
-</div>
+(react_pngs/react-badge.png)
+
+![flutterwidgets](media/image12.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
 
 
 ---
@@ -379,7 +379,7 @@ It takes a lot of playing around to get used to these kinds of widgets, but play
 
 Here is our app in the emulator! 
 <div style="text-align:center">
-  <img src="../media/image14.png" alt="Flutter Widgets" width="400px" />
+  <img src="./media/image14.png" alt="Flutter Widgets" width="400px" />
 </div>
 It includes the **AppBar** at the top, which has the title and uses the color theme (as does the button), the **Scaffold**, whose body is shown by the text and counter number, and then the button at the bottom right.  
 
