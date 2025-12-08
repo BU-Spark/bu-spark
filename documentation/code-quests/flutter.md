@@ -101,8 +101,9 @@ Flutter has three architectural layers: the **Framework**, **Engine**, and **Emb
 - Finally, the **Embedder layer** interacts with the underlying OS using platform specific code. It sets up the rendering surface (a window on desktop, a view on mobile), allows for communication between the Flutter app and the underlying platform, and manages platform-specific AIs (think cameras, sensors, file systems, etc.)
 
 
-  <img src="media/image11.png" alt="Flutter architecture diagram" style="width:225px;" />
-  <img src="media/image8.png" alt="Flutter architecture diagram" style="width:225px;" />
+![Flutter architecture diagram](media/image11.png){:style="width:225px; display:inline-block; margin-right:20px;"}
+![Flutter architecture diagram](media/image8.png){:style="width:225px; display:inline-block;"}
+
 
 
 ---
@@ -262,8 +263,9 @@ We’re going to look at this code step by step to try and understand what’s h
 
 For guidance, here is what the app is supposed to look like on run, and after the button on the bottom right has been pressed seven times.
 
-  <img src="media/image13.png" alt="Flutter App" style="width:225px;" />
-  <img src="media/image9.png" alt="Flutter App" style="width:225px;" />
+![Flutter App](media/image13.png){:style="width:225px; display:inline-block; margin-right:20px;"}
+![Flutter App](media/image9.png){:style="width:225px; display:inline-block;"}
+
 
 
 
