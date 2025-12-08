@@ -212,7 +212,7 @@ requires authentication (a key pair) to communicate with GitHub servers,
 while HTTPS provides secure communication over the internet. In this
 case, we’ll start with the HTTPS link.
 
-![GitHub Code Dropdown](media/image2.jpg){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
+![GitHub Code Dropdown](media/image2.jpg){:style="width:500px; display: block; margin-left: auto; margin-right: auto;"}
 
 
 You’re going to want to press the green *Code* button. Here, you’ll be

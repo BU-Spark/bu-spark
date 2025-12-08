@@ -140,7 +140,7 @@ shortcuts. You can do so by going into “Extensions” within VSCode,
 typing in “ES7+ React/Redux/React-Native snippets” and pressing
 “install”.
 
-![vscode extension](media/image3.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
+![vscode extension](media/image3.png){:style="width:800px; display: block; margin-left: auto; margin-right: auto;"}
 
 
 You will first need to understand what goes into a “boilerplate”
@@ -204,7 +204,7 @@ localhost url into your browser to get this</p></li>
 </tbody>
 </table>
 
-![app boilerplate](media/image2.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
+![app boilerplate](media/image2.png){:style="width:800px; display: block; margin-left: auto; margin-right: auto;"}
 
 
 I encourage you to poke around the various files and see what you find.
@@ -300,9 +300,9 @@ extension so we can use the special syntax.</p>
 <ol type="1">
 <li><p>Type rfce in the empty file and wait a couple seconds for the
 shortcut preview to come up, press tab to auto complete and you should
-get something like this<br />
-![code snippet](media/image4.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
-</p></li>
+get something like this<br /></p></li>
+![code snippet](media/image4.png){:style="width:800px; display: block; margin-left: auto; margin-right: auto;"}
+
 <li><p>Then import useEffect from ‘react’</p></li>
 <li><p>Next add a parameter into the method signature called
 ‘currNum’</p>
@@ -331,8 +331,8 @@ app!</p></li>
 <li><p>You should get the following. Once you click okay, count will
 change to the correct number</p></li>
 </ol>
-<p>![updated demo](media/image1.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
-</p>
+![updated demo](media/image1.png){:style="width:300px; display: block; margin-left: auto; margin-right: auto;"}
+
 <p><u>Explanation:</u> Our useEffect() listener triggers an alert once
 the currNum that we passed into our function equals favNum. This is
 called <strong>“passing down state”</strong> which we will use again
