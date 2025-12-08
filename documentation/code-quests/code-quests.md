@@ -1,22 +1,22 @@
 ---
 layout: default
-title: Coding Quests
+title: Code Quests
 has_children: true
 nav_order: 1 # Adjust according to your desired order
-permalink: /docs/coding-quests/
+permalink: /docs/code-quests/
 ---
 
 <p>~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~</p>
 
-# Coding Quests
+# Code Quests
 
-Coding quests are progressional curriculums intended to teach students tech topics they may not get exposure to in their classes.
+Code quests are progressional curriculums intended to teach students tech topics they may not get exposure to in their classes.
 
-Coding quests are made up of **three levels** to service complete understanding of each topic:
+Code quests are made up of **three levels** to service complete understanding of each topic:
 
-1. Exploration
-2. Development
-3. Application
+1. Learn
+2. Apply
+3. Create
 
 <!-- Progression Graphic here to visualize -->
 <!-- <div style="margin: 0 auto;">
