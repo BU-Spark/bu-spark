@@ -8,37 +8,52 @@ nav_order: 1
 
 # Front End Development
 
-## React.js + Typescript
+## Next.js 
 
-React.JS, commonly referred to as React, is an open-source library based on JavaScript and JSX (a PHP extension). It was released in 2013 by Facebook to create flexible, dynamic user interfaces. 
+We use Next.js, an industry-standard React framework, for front-end development. It provides built-in support for *server-side rendering (SSR)*, *static site generation (SSG)*, and *client-side rendering (CSR)*, optimizing performance, SEO, and scalability while maintaining React’s component-based architecture.  
 
-Two of React’s most useful features are:
+### Built on React  
 
-- use of the Virtual DOM (Document Object Model), which facilitates the creation of fast and responsive UIs while maintaining high app performance;
-- component-based architecture, which is easier to maintain than other architectures.
+Next.js extends React while preserving its core functionality, including:  
 
-TypeScript has gained immense popularity among frontend developers the past few years due to improved maintainability, code consistency, type checking, and future browser support. This trend can also be seen in the industry as well. React gives developers the freedom to choose between Typescript and Javascript. Typescript can natively be integrated with React. 
+- **JSX & Component-Based Architecture**: Uses the same declarative UI approach as React.  
+- **React Hooks & State Management**: Fully compatible with React’s hooks (`useState`, `useEffect`, etc.).  
+- **Context & Redux Support**: Works seamlessly with global state management solutions.  
+- **Client-Side Rendering**: Supports standard React behavior for interactive applications.  
 
-Strict typing allows for easy debugging and cleaner code for complex projects. Code also becomes more self descriptive because the types’ definitions also work as documentation. 
+### Key Next.js Features  
 
-As a result, when you come back to the code after a while it’s easier to remember what it does by just reading it.
+- **Hybrid Rendering**: Supports SSR, SSG, and incremental static regeneration (ISR).  
+- **API Routes**: Enables backend logic without a separate server.  
+- **Automatic Code Splitting**: Loads only required JavaScript for each page.  
+- **Optimized Image Handling**: [`next/image`](https://nextjs.org/docs/pages/api-reference/components/image) provides built-in performance optimizations.  
+- **File-Based Routing & Middleware**: Simplifies navigation and request handling.  
 
-However Typescript has a slightly higher learning curve - currently not taught by any CS courses right now in BU. Leveraging the Create React App(CRA) Typescript setup is easy to add to existing or new React.js projects. 
+### TypeScript Support 
 
-### Getting Started
+Next.js integrates seamlessly with TypeScript, offering *static type checking*, *strong typing for props and state*, and *automatic configuration*, improving maintainability and reducing runtime errors.  
 
-Create React App(CRA) is the easiest way to get started with React.js.
+### Usage in Our Stack  
 
-- [Getting Started with Create React App](https://create-react-app.dev/docs/getting-started)
+We use Next.js for its scalability, performance optimizations, and seamless integration with modern front-end workflows. It is widely adopted across the industry for building production-grade web applications.  
 
-- [CRA with Typescript](https://create-react-app.dev/docs/adding-typescript)
+### Learning Resources
 
+Here are some resources to help you learn Next.js, including official documentation, tutorials, and video courses. To ensure you get the most out of these tutorials, it is recommended that you have a basic understanding of HTML, CSS, and React. If you need to brush up on your React skills, check out Vercel's [React Foundations Course](https://nextjs.org/learn/react-foundations) or [react.dev/learn](https://react.dev/learn), which will introduce you to the fundamentals. 
 
-### Resources:
+#### Interactive Tutorials
+- **[Learn Next.js](https://nextjs.org/learn/dashboard-app?)** – An interactive course that walks you through building a full-stack web application, covering styling, routing, and data fetching.
 
-- https://programmingwithmosh.com/javascript/react-typescript/
-- https://insights.stackoverflow.com/survey/2020#most-popular-technologies 
-- https://insights.stackoverflow.com/survey/2020
+#### Written Tutorials
+- **[Next.js Tutorial - GeeksforGeeks](https://www.geeksforgeeks.org/nextjs/?)** – Covers basic to advanced concepts such as routing, data fetching, environment variables, and static file serving.
+- **[Next.js Tutorial - TutorialsPoint](https://www.tutorialspoint.com/nextjs/index.htm?)** – Covers Next.js fundamentals, including installation, project setup, routing, route handlers, and authentication.
+
+#### Video Tutorials
+- **[Next.js Tutorial for Beginners (User CRUD App)](https://www.youtube.com/watch?v=iJejohAs9EY&)** – Walks through building a CRUD application with image uploads.
+- **[Next.js 15 Crash Course](https://www.youtube.com/watch?v=Zq5fmkH0T78)** – A comprehensive crash course that guides you through building and deploying a production-ready application using Next.js 15.
+- **[Next.js Full Course for Beginners](https://www.youtube.com/watch?v=843nec-IvW0&)** – A 7-hour deep dive into Next.js 13, suitable for beginners.
+
+<hr/>
 
 ## Authentication
 
