@@ -234,7 +234,7 @@ Within `/src` create a new file called `FavoriteNumberAlert.jsx`. It is importan
    shortcut preview to come up, press tab to auto complete and you
    should get something like this:
 
-![code snippet](media/image4.png){:style="width:800px; display: block; margin-left: auto; margin-right: auto;"}
+![code snippet](media/image4.png){:style="width:300px; display: block; margin-left: auto; margin-right: auto;"}
 
 2. Then import `useEffect` from `'react'`.
 3. Next add a parameter into the method signature called `currNum`.
@@ -264,7 +264,7 @@ useEffect(() => {
 8. You should get the following. Once you click okay, `count` will
    change to the correct number:
 
-![updated demo](media/image1.png){:style="width:300px; display: block; margin-left: auto; margin-right: auto;"}
+![updated demo](media/image1.png){:style="width:800px; display: block; margin-left: auto; margin-right: auto;"}
 
 **Explanation:** Our `useEffect()` listener triggers an alert once the
 `currNum` that we passed into our function equals `favNum`. This is

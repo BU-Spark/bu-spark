@@ -134,7 +134,7 @@ State gets managed and passed around the system. Since many widgets may contain 
 
 
 
-![flutterwidgets](media/image12.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
+![flutterwidgets](media/image12.png){:style="width:300px; display: block; margin-left: auto; margin-right: auto;"}
 
 
 ---
