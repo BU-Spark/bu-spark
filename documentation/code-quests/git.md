@@ -3,7 +3,7 @@ layout: default
 title: Git/Hub
 parent: Code Quests
 nav_order: 1 # Order under the "Coding Quests" section
-permalink: /docs/coding-quests/git/
+permalink: /docs/code-quests/git/
 ---
 
 # Git/Hub Main Quest

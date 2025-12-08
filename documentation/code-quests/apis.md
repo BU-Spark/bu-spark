@@ -3,6 +3,6 @@ layout: default
 title: APIs
 parent: Code Quests
 nav_order: 3 # Order under the "Coding Quests" section
-permalink: /docs/coding-quests/apis/
+permalink: /docs/code-quests/apis/
 ---
 # APIs Main Quest: Coming Soon

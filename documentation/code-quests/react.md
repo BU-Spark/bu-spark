@@ -3,7 +3,7 @@ layout: default
 title: React.js
 parent: Code Quests
 nav_order: 2 # Order under the "Coding Quests" section
-permalink: /docs/coding-quests/about/
+permalink: /docs/code-quests/react
 ---
 # React Main Quest
 

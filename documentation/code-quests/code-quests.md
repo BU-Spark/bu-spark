@@ -3,7 +3,7 @@ layout: default
 title: Code Quests
 has_children: true
 nav_order: 1 # Adjust according to your desired order
-permalink: /docs/coding-quests/
+permalink: /docs/code-quests/
 ---
 
 <p>~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~</p>

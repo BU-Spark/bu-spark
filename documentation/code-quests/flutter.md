@@ -3,7 +3,7 @@ layout: default
 title: Flutter
 parent: Code Quests
 nav_order: 6 # Order under the "Coding Quests" section
-permalink: /docs/coding-quests/flutter/
+permalink: /docs/code-quests/flutter/
 ---
 
 # Flutter Main Quest
@@ -100,8 +100,8 @@ Flutter has three architectural layers: the **Framework**, **Engine**, and **Emb
 - The **Engine layer** is written mostly in C++, and supports the primitives necessary to support all Flutter applications. It’s responsible for rasterizing composited scenes whenever a new frame needs to be painted. It provides the low-level implementation of Flutter's core API, including graphics (through Impeller on iOS and coming to Android and macOS, and Skia on other platforms), executes Dart code, manages text rendering, and facilitates interaction with platform specific APIs.  
 - Finally, the **Embedder layer** interacts with the underlying OS using platform specific code. It sets up the rendering surface (a window on desktop, a view on mobile), allows for communication between the Flutter app and the underlying platform, and manages platform-specific AIs (think cameras, sensors, file systems, etc.)
   
-<img src="./media/image11.png" alt="Flutter architecture diagram" width="250px" />
-<img src="./media/image8.png" alt="Flutter architecture diagram" width="425px" />
+<img src="../media/image11.png" alt="Flutter architecture diagram" width="250px" />
+<img src="../media/image8.png" alt="Flutter architecture diagram" width="425px" />
 
 ---
 
@@ -130,7 +130,7 @@ Remember Stateless and Stateful—one declares it to stay the same, and the othe
 State gets managed and passed around the system. Since many widgets may contain state within the tree, it can get cumbersome to pass data down as we get deeper down the tree. In this case, we can utilize an **InheritedWidget**, which can grab data from a shared ancestor.  
 
 <div style="text-align:center">
-  <img src="./media/image12.png" alt="Flutter Widgets" width="225px" />
+  <img src="../media/image12.png" alt="Flutter Widgets" width="225px" />
 </div>
 
 
@@ -260,8 +260,8 @@ We’re going to look at this code step by step to try and understand what’s h
 
 For guidance, here is what the app is supposed to look like on run, and after the button on the bottom right has been pressed seven times.
 <div style="text-align:center">
-  <img src="./media/image13.png" alt="Flutter App" width="300px" />
-  <img src="./media/image9.png" alt="Flutter App" width="300px" />
+  <img src="../media/image13.png" alt="Flutter App" width="300px" />
+  <img src="../media/image9.png" alt="Flutter App" width="300px" />
 </div>
 
 
@@ -379,7 +379,7 @@ It takes a lot of playing around to get used to these kinds of widgets, but play
 
 Here is our app in the emulator! 
 <div style="text-align:center">
-  <img src="./media/image14.png" alt="Flutter Widgets" width="400px" />
+  <img src="../media/image14.png" alt="Flutter Widgets" width="400px" />
 </div>
 It includes the **AppBar** at the top, which has the title and uses the color theme (as does the button), the **Scaffold**, whose body is shown by the text and counter number, and then the button at the bottom right.  
 
