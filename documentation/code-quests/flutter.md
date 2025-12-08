@@ -57,7 +57,7 @@ Flutter is an open source UI software development kit (SDK) developed by Google 
 - **Gesture Detection**  
 
 ---
- 
+
 **Dart** — Dart is an open-source general-purpose programming language developed by Google. It supports application development in both client and server-side. But it is widely used for the development of android apps, iOS apps, IoT (Internet of Things), and web applications using the Flutter Framework.  
 **Widget** — Widgets are the basic building blocks of the UI—everything a user sees in an app created with Flutter is a widget, from simple elements like text boxes and buttons to layouts, carousels and the entire screen.  
 **State** — State refers to any data that can change over time and affects how a widget looks or behaves. State can change on a timer or on an input.  
@@ -99,9 +99,9 @@ Flutter has three architectural layers: the **Framework**, **Engine**, and **Emb
 - The **Framework layer** is the topmost layer and what you will be looking at the most as a developer. Using Dart code, you’ll be able to build a UI using widgets (we’ll get into these later), control the positioning and layout of these widgets, handle user input such as swiping, tapping, sliding and scaling, and even access APIs for animations and transitions.  
 - The **Engine layer** is written mostly in C++, and supports the primitives necessary to support all Flutter applications. It’s responsible for rasterizing composited scenes whenever a new frame needs to be painted. It provides the low-level implementation of Flutter's core API, including graphics (through Impeller on iOS and coming to Android and macOS, and Skia on other platforms), executes Dart code, manages text rendering, and facilitates interaction with platform specific APIs.  
 - Finally, the **Embedder layer** interacts with the underlying OS using platform specific code. It sets up the rendering surface (a window on desktop, a view on mobile), allows for communication between the Flutter app and the underlying platform, and manages platform-specific AIs (think cameras, sensors, file systems, etc.)
-  
-<img src="../media/image11.png" alt="Flutter architecture diagram" width="250px" />
-<img src="../media/image8.png" alt="Flutter architecture diagram" width="425px" />
+
+![Flutter architecture diagram](media/image11.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
+![Flutter architecture diagram](media/image8.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
 
 ---
 
@@ -129,7 +129,7 @@ Remember Stateless and Stateful—one declares it to stay the same, and the othe
 
 State gets managed and passed around the system. Since many widgets may contain state within the tree, it can get cumbersome to pass data down as we get deeper down the tree. In this case, we can utilize an **InheritedWidget**, which can grab data from a shared ancestor.  
 
-(react_pngs/react-badge.png)
+
 
 ![flutterwidgets](media/image12.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
 
@@ -259,10 +259,9 @@ class _MyHomePageState extends State<MyHomePage> {
 We’re going to look at this code step by step to try and understand what’s happening and why it does what it does.  
 
 For guidance, here is what the app is supposed to look like on run, and after the button on the bottom right has been pressed seven times.
-<div style="text-align:center">
-  <img src="../media/image13.png" alt="Flutter App" width="300px" />
-  <img src="../media/image9.png" alt="Flutter App" width="300px" />
-</div>
+
+![Flutter App](media/image13.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
+![Flutter App](media/image9.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
 
 
 
@@ -378,9 +377,7 @@ It takes a lot of playing around to get used to these kinds of widgets, but play
 `floatingActionButton` is a button, and includes the `onPressed` property, which calls the `incrementCounter` method, icons, and tooltip.  
 
 Here is our app in the emulator! 
-<div style="text-align:center">
-  <img src="./media/image14.png" alt="Flutter Widgets" width="400px" />
-</div>
+![Flutter Widgets](media/image14.png){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
 It includes the **AppBar** at the top, which has the title and uses the color theme (as does the button), the **Scaffold**, whose body is shown by the text and counter number, and then the button at the bottom right.  
 
 Each time the button is pressed, it increments the counter using the `_incrementCounter` method and the state is changed, meaning the Home page widget gets rebuilt to change the counter number.  
@@ -418,4 +415,3 @@ Seun - oademilo@bu.edu
 
 ### Author of this Code Quest:  
 Kaylin - kaylinvb@bu.edu  
-
