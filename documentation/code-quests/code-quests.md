@@ -6,11 +6,14 @@ nav_order: 1 # Adjust according to your desired order
 permalink: /docs/code-quests/
 ---
 
-<p>~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~</p>
+![Code Quests](media/header.png)
 
-# Code Quests
 
-Code quests are progressional curriculums intended to teach students tech topics they may not get exposure to in their classes.
+
+
+Need an easy, structured way to learn important tools and platforms necessary for your tech career or projects? Look no further than code quests!
+
+Designed to strengthen your skills, Code Quests offer hands-on experience with key frameworks and concepts often missed in traditional learning.
 
 Code quests are made up of **three levels** to service complete understanding of each topic:
 
@@ -18,22 +21,14 @@ Code quests are made up of **three levels** to service complete understanding of
 2. Apply
 3. Create
 
-<!-- Progression Graphic here to visualize -->
-<!-- <div style="margin: 0 auto;">
-<img src="https://www.shutterstock.com/image-vector/golden-silver-bronze-award-sport-600nw-2324606479.jpg" alt="badge progression graphic here" width='250px'/>
-</div> -->
-
-## LinkedIn Badges
-
-\*_Students can complete any level to receive a bronze, silver or gold badge on LinkedIn (or all three for a diamond badge)._
+After completion of a level, spark! staff will grade your work and you’ll be receive a linkedin badge (coming soon)
 
 ### 🥉 Level One
 
-Level one consists of a document and short quiz
+Level one consists of a document and short quiz.
 
 ### 🥈 Level Two
-
-level two is a Spark! Side Quest or workshop for select topics
+Level two is a Spark! Side Quest.
 
 ### 🥇 Level Three
 

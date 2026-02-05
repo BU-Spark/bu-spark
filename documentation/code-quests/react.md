@@ -322,7 +322,6 @@ After completing that, you can move on to level three where you'll create your o
 For any information or quality issues, please contact:
 
 Kaylin - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)  
-Seun - [<u>oademilo@bu.edu</u>](mailto:oademilo@bu.edu)
 
 ---
 

@@ -413,7 +413,6 @@ For any information or quality issues, please contact:
 
 Kaylin - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)
 
-Seun - [<u>oademilo@bu.edu</u>](mailto:oademilo@bu.edu)
 
 ---
 

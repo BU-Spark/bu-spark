@@ -414,7 +414,6 @@ After completing that, you can create your own project with some guidelines for 
 ### For any information or quality issues, please contact:  
 
 Kaylin - kaylinvb@bu.edu  
-Seun - oademilo@bu.edu  
 
 ---
 
