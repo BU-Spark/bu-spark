@@ -12,7 +12,7 @@ There are several key benefits of using an API for your project. APIs can help y
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ A hands-on API ques­t to practice fetching data, parsing responses, and displaying information from an external service.an accept the assignment [<u>here</u>](https://classroom.github.com/a/6zvc_FYg). 
+→ A hands-on API ques­t to practice fetching data, parsing responses, and displaying information from an external service. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/6zvc_FYg). 
 ### Level Three: 
 → Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/API-level-3).
 

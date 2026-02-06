@@ -6,7 +6,7 @@ nav_order: 5 # Order under the "Coding Quests" section
 permalink: /docs/code-quests/ml/
 ---
 
-# Machine Learning Main Quest: Coming Soon
+# Machine Learning Main Quest
 
 Machine learning is a system or branch of Artificial Intelligence within Computer Science that focuses on teaching computers to make predictions, create descriptions, and prescribe certain methods of action without being explicitly told to do so (The computer in a way is being trained by means of analyzing historical data to act on its own). Some examples of machine learning algorithms include Neural Networks (models inspired by the human brain that analyze data via layers of linked nodes), Clustering (grouping data points together based on similar characteristics), and Decision Trees (models that split data into branches based on decision rules to reach a prediction or classification).
 
@@ -18,7 +18,7 @@ Machine learning is a system or branch of Artificial Intelligence within Compute
 → Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/ML-level-3).
 
 ---
-# Machine Learning (Regresssion) Level One
+# Machine Learning (Regression) Level One
 ## Overview – what you should learn  
 
 ### Vocabulary  
@@ -252,7 +252,7 @@ exam scores based on the amount of hours they studied.
 
 ### Why understand Regression in Machine Learning?
 
-### Understanding regression as a Machine Learning algorithm has become increasing crucial not only for the purpose of excelling in a lot of the Data and Computer Science courses that BU has to offer, but also due to the fact that **such a field gives students the ability to assess and anticipate real-world data - a process becoming increasingly relevant in a variety of industries.** Whether in banking, economics, marketing, or technology, regression aids in data-driven decision-making, trend identification, and difficult issue resolution. **As more and more corporations begin to take a data and AI driven approach to operations and success analytics, knowing how to use regression enables students to properly evaluate data, make predictions, and obtain a competitive advantage in their jobs.** To further exemplify the importance of Regression, some amazing softwares out there that use it include Netflix (To predict user preferences and recommend movies or shows based on viewing history), Amazon (To forecast product demand, optimize inventory, and recommend products to customers), and Zillow (To estimate property values based on features like location, size, and recent sales data).
+Understanding regression as a Machine Learning algorithm has become increasing crucial not only for the purpose of excelling in a lot of the Data and Computer Science courses that BU has to offer, but also due to the fact that **such a field gives students the ability to assess and anticipate real-world data - a process becoming increasingly relevant in a variety of industries.** Whether in banking, economics, marketing, or technology, regression aids in data-driven decision-making, trend identification, and difficult issue resolution. **As more and more corporations begin to take a data and AI driven approach to operations and success analytics, knowing how to use regression enables students to properly evaluate data, make predictions, and obtain a competitive advantage in their jobs.** To further exemplify the importance of Regression, some amazing softwares out there that use it include Netflix (To predict user preferences and recommend movies or shows based on viewing history), Amazon (To forecast product demand, optimize inventory, and recommend products to customers), and Zillow (To estimate property values based on features like location, size, and recent sales data).
 
 ### Okay, what are the essentials?
 
@@ -294,9 +294,9 @@ you’ll be able to then name your newly created notebook and then import
 the necessary libraries you need to not only load your data set but also
 carry out analysis. This can be done as shown in the image below.
 
-![Jupyter Notebook](media/image24.png){:style="width:399px; height:218px; display:inline-block;"}
+![Jupyter Notebook](media/image24.png){:style="width:700px; display:inline-block;"}
 
-![Jupyter Notebook](media/image25.png){:style="width:383px; height:113px; display:inline-block;"}
+![Jupyter Notebook](media/image25.png){:style="width:700px; display:inline-block;"}
 
 
 At this point, you’ll now be able to find a data set that can be
@@ -309,7 +309,7 @@ categorical variables into numbers if needed. In order to effectively do
 this, I’d also recommend taking a look at our Level 1 Data Prep and
 Visualization document.
 
-![Describe](media/image26.png){:style="width:394px; height:309px; display:inline-block;"}
+![Describe](media/image26.png){:style="width:700px; display:inline-block;"}
 
 
 When selecting the variables you’d like to feature in your model, such
@@ -350,7 +350,7 @@ primarily do three things: calculate our MSE or RMSE, which was
 previously defined in the vocabulary section, calculate our R-Squared,
 and compare our Actual Y-Variable with the Y-Variable we’ve predicted.
 
-![Plot](media/image27.png){:style="width:513px; height:285px; display:inline-block;"}
+![Plot](media/image27.png){:style="width:700px; display:inline-block;"}
 
 
 **First**, when it comes to evaluating the MSE, we know that this is a
@@ -436,7 +436,7 @@ on careful model selection, evaluation, and feature engineering.
 
 ### HOW TO CONTINUE THIS MAIN QUEST?
 
-Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSdaWV6sIpCZvopCa7RITIbr3L-EeKWyD10-rIqBXrf2n5qTRg/viewform?usp=sf_link) to finalize level one, then apply your knowledge by doing a React Side Quest.
+Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSdaWV6sIpCZvopCa7RITIbr3L-EeKWyD10-rIqBXrf2n5qTRg/viewform?usp=sf_link) to finalize level one, then apply your knowledge by doing a Machine Learning Side Quest.
 
 After completing that, you can move on to level three where you'll create your own project with some guidelines.
 

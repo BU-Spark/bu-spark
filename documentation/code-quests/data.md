@@ -14,7 +14,7 @@ Data visualization, on the other hand, is all about making sense of the data by 
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ A beginner Side Quest for practicing data preparation and visualization using the Iris datasetYou can accept the assignment [<u>here</u>](https://classroom.github.com/a/lQWzLPSX). 
+→ A beginner Side Quest for practicing data preparation and visualization using the Iris dataset. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/lQWzLPSX). 
 ### Level Three: 
 → Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/data-level-3).
 
@@ -126,7 +126,7 @@ colors, types of animals).
 measurements</u> and can be either <u>continuous</u> (e.g., height,
 weight) or <u>discrete</u> (e.g., number of students).
 
-**Dimensionality Reductio**n - A process used to <u>reduce the number of
+**Dimensionality Reduction** - A process used to <u>reduce the number of
 input variables or features in a data set</u> by <u>obtaining a set of
 principal variables</u>. Think of principal variables like the most
 impactful or informative variables. Techniques like Principal Component
