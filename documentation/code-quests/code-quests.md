@@ -14,6 +14,8 @@ Need an easy, structured way to learn important tools and platforms necessary fo
 
 Designed to strengthen your skills, Code Quests offer hands-on experience with key frameworks and concepts often missed in traditional learning.
 
+![Code Quests](media/topics.png){:style="width:90%; display:block; margin:0 auto;"}
+
 Code quests are made up of **three levels** to ensure complete understanding of each topic:
   
 ### Level One: LEARN 📚
