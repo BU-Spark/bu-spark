@@ -29,7 +29,7 @@ Level two is a Google Classroom link to a small fill-in-the-blank style exercise
 Level three is a project! Your work is to be submitted to Learning Ambassadors for each level in order to receive your badge.
   </div>
   <div>
-    <img src="media/BOLT1.png" alt="Bolt Bot" style="width:100%; height:auto;">
+    ![Bolt Bot](media/BOLT1.png){:style="width:300px; display:block; margin:0 auto;"}
   </div>
 </div>
 
