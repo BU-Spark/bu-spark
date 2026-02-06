@@ -326,7 +326,7 @@ insights?
 data preparation might be needed? Do you need to go back and clean the
 data further or explore additional variables?
 
-##  
+
 
 ## Drawbacks and Limitations
 
@@ -361,9 +361,9 @@ After completing that, you can create your own project with some guidelines for 
 
 ### For any information or quality issues, please contact:  
 
-Kaylin - kaylinvb@bu.edu  
+Kaylin Von Bergen - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)  
 
 ---
 
 ### Author of this Code Quest:  
-Seun - oademilo@bu.edu  
+Seun - [<u>oademilo@bu.edu</u>](mailto:oademilo@bu.edu)  

@@ -411,7 +411,7 @@ After completing that, you can complete level three for some more self-guided wo
 
 For any information or quality issues, please contact:
 
-Kaylin - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)
+Kaylin Von Bergen - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)
 
 
 ---
@@ -422,4 +422,4 @@ Haji - [<u>iamhaji0@bu.edu</u>](mailto:iamhaji0@bu.edu)
 
 Sed - [<u>slomani@bu.edu</u>](mailto:slomani@bu.edu)
 
-Kaylin - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)
+Kaylin Von Bergen - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)

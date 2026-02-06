@@ -338,9 +338,9 @@ After completing that, you can create your own project with some guidelines for 
 
 ### For any information or quality issues, please contact:  
 
-Kaylin - kaylinvb@bu.edu  
+Kaylin Von Bergen - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)  
 
 ---
 
 ### Author of this Code Quest:  
-Catherine - cliu26@bu.edu
+Catherine - [<u>cliu26@bu.edu</u>](mailto:cliu26@bu.edu)
