@@ -19,78 +19,28 @@ React is a web development framework that is wildly popular and promotes a compo
 ---
 
 # React Level One
-## Overview – what you should learn  
+## VOCABULARY
+- **Web Development Framework** — A collection of tools, libraries, and conventions designed to simplify building web applications. It handles lower-level tasks (HTTP requests, routing, authentication) so developers can focus on creating features.
+- **State** — The current data of an application at a specific moment, including variables, user inputs, and component status.
+- **Component** — A self-contained, reusable piece of code that defines part of a user interface, including its structure (HTML/JSX), behavior (JavaScript logic), and often styling (CSS).
+- **Hook** — A special React function that lets functional components use features like state management and lifecycle behavior.
+- **JSX** — Stands for JavaScript XML. A syntax extension for JavaScript that looks like HTML and is used in React to describe UI components.
+- **Node.js** — An open-source runtime environment that allows JavaScript to run on the server side, enabling full-stack development using JavaScript.
+- **Vite** — A fast modern development server and build tool for web projects, used to create and run React apps locally.
+- **Next.js** — A React-based web framework that adds features such as server-side rendering and built-in routing to build scalable web applications.
 
-### Vocabulary
+## COMMANDS AND CONFIGURATION
+**`npm create vite@latest`** — Creates a new Vite project and generates the initial project structure.
 
-- Web Development Framework
-- State
-- Component
-- Hook
-- JSX
-- Node.js
-- Vite
-- Next.js
+**`npm install`** — Installs all required dependencies listed in `package.json`.
 
-### Specific Commands
+**`npm run dev`** — Starts the local development server so the website can be viewed in a browser.
 
-- ``npm create vite@latest``
-- ``npm install``
-- ``npm run dev``
+**`.env` + `.gitignore`** —  
+- `.env` stores environment variables such as API keys and secrets.  
+- `.gitignore` prevents sensitive or unnecessary files (like `.env` and `node_modules`) from being uploaded to GitHub.
 
-### Concepts
-
-- Web Development
-- State + Rendering
-- Frontend vs Backend
-- Client-Server Architecture
-- JSX vs HTML + JS
-- Component Libraries
-- .env + .gitignore
-
-> **Web Development Framework —** <span class="mark">a collection of
-> tools, libraries, and conventions designed to simplify the process of
-> building web applications. It handles all of the low level things
-> (HTTP requests, routing, user authentication) so that developers can
-> focus on making apps</span>
->
-> <span class="mark">**State —** the current condition or data of an
-> application at a specific point in time. Contains variables, user
-> inputs, and the status of various components in the application</span>
->
-> <span class="mark">**Component —** self-contained, reusable piece of
-> code that encapsulates both the structure (HTML or template), behavior
-> (JavaScript or logic), and often the styling (CSS) needed to render a
-> part of a web application's user interface (UI)</span>
->
-> <span class="mark">**Hook —** a special function that allows you to
-> "hook into" React features, such as state management and lifecycle
-> methods, directly within functional components. Hooks make it easier
-> to write and manage logic within these components</span>
->
-> <span class="mark">**JSX —** stands for JavaScript XML. It is a syntax
-> extension for JavaScript that looks similar to HTML or XML. JSX is
-> primarily used in React and is essentially a way to create components
-> with JS and HTML.</span>
->
-> <span class="mark">**[<u>Node.js</u>](http://node.js) —** an
-> open-source, cross-platform runtime environment that allows developers
-> to execute JavaScript code on the server side. This enables full-stack
-> development using a single programming language (JS) across both the
-> client and server sides.</span>
->
-> <span class="mark">**[<u>Vite</u>](http://vite) —** modern build tool
-> and development server for web projects, designed to be faster and
-> more efficient than traditional tools. We are using this as our build
-> tool since ``npm create-react-app`` is deprecated</span>
->
-> <span class="mark">**[<u>Next.js</u>](http://next.js) —** another web
-> development framework built on top of React. It is designed to make it
-> easier to build performant and scalable web applications by providing
-> a set of powerful features and tools out of the box. Its most notable
-> difference is that is has server-side-routing</span>
-
-### What is React.js?
+## WHAT IS REACT.JS?
 
 **React** is a web development framework that is wildly popular and
 promotes a component based architecture. It was created by Facebook to
@@ -211,7 +161,7 @@ this assigns important metadata that we can mess with.
 
 ---
 
-## Additions to the App
+## ADDITIONS TO THE APP
 
 We will now create our first component that makes use of one of the
 other most popular hooks: `useEffect()`.
@@ -278,13 +228,13 @@ themselves.
 
 ---
 
-## Wrap up
+## WRAP-UP
 
 Congrats! You now know the basics of React.js, a modern web development
 framework. You should be able to answer the following questions and
 accomplish the following tasks:
 
-### Questions
+## QUESTIONS (you should be able to answer)
 
 1. What is React.js? What is it used for?
 2. What makes React.js better than HTML, CSS, and Vanilla JS? Given
@@ -293,7 +243,7 @@ accomplish the following tasks:
 3. What is the role of Vite and Node.js in our React app?
 4. What is `useState()` used for? What about `useEffect()`?
 
-### Tasks
+## Tasks
 
 1. Make the tab preview have your name and an image from Google.
 2. Make a new Component called `BooleanButton.jsx`  
@@ -311,12 +261,9 @@ accomplish the following tasks:
 
 ---
 
-### HOW TO CONTINUE THIS MAIN QUEST?
+## HOW TO CONTINUE THIS MAIN QUEST?
 
-Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSfH1R2lsM85JQHq454_-SPmR3AWSCoQsoHEojo2M2k7bIJRoQ/viewform?usp=sf_link) to finalize level one, then apply your knowledge by doing a React Side Quest.
-
-After completing that, you can move on to level three where you'll create your own project with some guidelines.
-
+Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSfH1R2lsM85JQHq454_-SPmR3AWSCoQsoHEojo2M2k7bIJRoQ/viewform?usp=sf_link) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
 ---
 
 For any information or quality issues, please contact:

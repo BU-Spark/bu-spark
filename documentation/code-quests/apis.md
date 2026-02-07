@@ -7,7 +7,7 @@ permalink: /docs/code-quests/apis/
 ---
 # APIs Main Quest
 
-There are several key benefits of using an API for your project. APIs can help you to retrieve up to date data and enable external developers to (in a way) rely on a third party organization in order to add functionality to existing solutions. APIs allow for access to many online services for your project. The possibilities are endless because they simply provide data and can be used by nearly any programming language, allowing you to use the data in any way you see fit. APIs also play a strong role in terms of security governance, limiting access to any software that an application might not be allowed to use.
+There are several key benefits of using an API for your project. APIs can help you to retrieve up-to-date data and enable external developers to (in a way) rely on a third-party organization in order to add functionality to existing solutions. APIs allow for access to many online services for your project. The possibilities are endless because they simply provide data and can be used by nearly any programming language, allowing you to use the data in any way you see fit. APIs also play a strong role in terms of security governance, limiting access to any software that an application might not be allowed to use.
 
 ### Level One: 
 → Instructions shown below.
@@ -19,81 +19,70 @@ There are several key benefits of using an API for your project. APIs can help y
 ---
 
 # APIs Level One
-## Overview – what you should learn  
+## VOCABULARY
+### I. API Basics
+*(what an API is and why we use it)*
 
-### Vocabulary
+**REST API**  
+A web-based interface that allows programs to communicate over the internet using HTTP methods and standard URLs (endpoints).
 
-- HTTP methods
+**API Common Uses**  
+APIs are used to retrieve data (weather, maps, music, databases), send data (forms, uploads), or connect services together (logins, payments, integrations).
 
-- Request
+**Types of APIs**  
+Different categories of APIs such as public (open to anyone), private (internal use), and third-party (provided by external services like Spotify or Google).
 
-- Status code
+**Accessing API Endpoints**  
+Connecting to a specific URL provided by an API that represents a resource (for example: users, songs, or weather data).
 
-- Headers
+### II. Requests (Client → Server)
+*(what you send to the API)*
 
-- Body
+**Request**  
+A message sent from a client (your app) to a server asking it to perform an action or return data.
 
-- Authentication
+**HTTP Methods**  
+Also called HTTP verbs. They define the action being requested:
+- GET – retrieve data
+- POST – send new data
+- PUT/PATCH – update data
+- DELETE – remove data
 
-- JSON
+**Headers**  
+Key-value information sent with a request that tells the server details like content type, authentication tokens, or formatting.
 
-- API key
+**Body**  
+The main data included in a request, typically used when sending information (such as a form submission).
 
-- Query parameters
+**Query Parameters**  
+Extra values added to the end of a URL to filter or customize the response (e.g., search terms, limits, or sorting).
 
-- REST Api
+**Implementing Requests**  
+Writing code that sends a request to an API endpoint and handles the response.
 
-### Concepts
+### III. Authentication & Security
+*(proving your app is allowed to use the API)*
 
-- API common uses
+**Authentication**  
+The process of verifying the identity of a user or application before granting access to an API.
 
-- Implementing requests
+**API Key**  
+A unique code provided by an API service that identifies and authorizes your application when making requests.
 
-- Types of APIs
+### IV. Responses (Server → Client)
+*(what the API sends back)*
 
-- Reading and understanding status codes
+**Status Code**  
+A numeric code included in the server’s response indicating whether a request succeeded or failed (e.g., 200 = success, 404 = not found, 500 = server error).
 
-- Implementing query parameters
+**Reading and Understanding Status Codes**  
+Interpreting the meaning of response codes to determine if a request worked, failed, or needs to be retried.
 
-- Accessing API endpoints
+**JSON (JavaScript Object Notation)**  
+A lightweight data format commonly used by APIs to send structured data that programs can easily read and process.
 
-> **HTTP methods —** <span class="mark">also known as HTTP verbs: These
-> methods define the actions that can be performed on resources within a
-> server. A few of the most common methods includes GET, POST, PUT,
-> PATCH, etc</span>
->
-> **<span class="mark">Request</span> —** a message sent by the user to
-> the server which asks for an action to be performed. This includes but
-> is not limited to HTTP methods, headers, and more
->
-> **<span class="mark">Status code</span> —** a code that shows the
-> status or result of a request and are part of the HTTP response
->
-> **Headers —** Key-value pairs sent with both requests and responses
-> that provide additional information, such as content type,
-> authentication tokens, or caching instructions
->
-> **Body —** part of a request or response that contains the data being
-> sent
->
-> **Authentication —** the process of verifying the identity of a user
-> or system. APIs can require authentication so that only authorized
-> users can access certain endpoints
->
-> **JSON** **—** a data-interchange format that is easy for humans to
-> read and write, and easy for machines to parse and generate
->
-> **API key —** a unique identifier used to authenticate a client making
-> an API request
->
-> **Query parameters —** used to modify and change the behavior of the
-> request in order to customize the response
->
-> **REST API —** also known as RESTful API: the most common form of API
-> today. It's web-based, uses HTTP verbs, and thus is widely used for
-> designing networked applications
 
-## What are APIs?
+## WHAT ARE APIS?
 
 API stands for **Application Programming Interface.** It is a way for
 two software components to communicate with each other and is an
@@ -116,7 +105,6 @@ order to show you information about the weather.
 ![Diagram](media/image15.png){:style="width:720px; display:inline-block;"}
 
 ### What is the purpose of APIs?
-
 There are several key benefits of using an API for your project. APIs
 can help you to retrieve up to date data and enable external developers
 to (in a way) rely on a third party organization in order to add
@@ -128,7 +116,6 @@ play a strong role in terms of security governance, limiting access to
 any software that an application might not be allowed to use.
 
 ### What are the different types of APIs?
-
 There are 3 types of APIs: **private, partner** and **public**.
 
 Private APIs are designed to be used within an organization and thus are
@@ -143,23 +130,16 @@ organizations. These APIs are given access to select business partners
 to allow them to integrate their systems, exchange data, and collaborate
 together. A few examples include:
 
-> Facebook Login API: Third-party applications use this to enable user
-> authentication with Facebook credentials.
->
-> eBay APIs: eBay offers a number of APIs to users who join the eBay
-> Developers Program, including Sell APIs, Buy APIs, Commerce APIs, and
-> more.
+- **Facebook Login API:** Third-party applications use this to enable user authentication with Facebook credentials.
+- **eBay APIs:** eBay offers a number of APIs to users who join the eBay Developers Program, including Sell APIs, Buy APIs, Commerce APIs, and more.
 
 Public APIs are made available to the general public. They are
 accessible to any developer or user and have a broad usage from
 individuals to entire organizations. They can be either free or
 commercial. A few examples include:
 
-> Google Maps API: Integrates Google Maps into their apps to provide
-> access to mapping and location-based services.
->
-> OpenAI API: Allows users to connect the GPT-4o API and the Whisper API
-> with other apps.
+- **Google Maps API:** Integrates Google Maps into their apps to provide access to mapping and location-based services.
+- **OpenAI API:** Allows users to connect the GPT-4o API and the Whisper API with other apps.
 
 ### What is an API endpoint?
 
@@ -181,18 +161,11 @@ identifier.
 Before anything, you will need to pick an API to use. There are
 thousands of public APIs you can choose from, but a helpful place to
 start might be to consult pages like [<u>Google’s API
-Explorer</u>](https://developers.google.com/apis-explorer/) to find
-which one best fits your needs. Some popular AI APIs include:
+Explorer</u>](https://developers.google.com/apis-explorer/) or [<u>this repository of public APIs </u>](https://github.com/public-apis/public-apis) to find which one best fits your needs. Some popular AI APIs include:
 
-> OpenAI API: Offers access to powerful language models like GPT-4 for
-> natural language tasks such as text generation, completion, and
-> summarization.
->
-> Google Cloud AI APIs: A suite of APIs for integrating vision,
-> language, and conversation capabilities into applications.
->
-> IBM Watson API: Provides a range of AI services, including NLP,
-> sentiment analysis, and computer vision.
+- **OpenAI API:** Offers access to powerful language models like GPT-4 for natural language tasks such as text generation, completion, and summarization.
+- **Google Cloud AI APIs:** A suite of APIs for integrating vision, language, and conversation capabilities into applications.
+- **IBM Watson API:** Provides a range of AI services, including NLP, sentiment analysis, and computer vision.
 
 Next, locate the API documentation and understand how to interact with
 that API. Usually, there will be a reference section that provides the
@@ -202,7 +175,7 @@ what you can do with it, and some dependencies or requirements. Check
 the authentication requirements and see if you need to obtain certain
 credentials. From here, you can begin to dive into the API!
 
-### Getting started with API requests in Python
+## API REQUESTS IN PYTHON
 
 Before you start coding, you need to first figure out what type of API
 request you will need to be making. These request types, also known as
@@ -224,7 +197,7 @@ your choice and install and import the library using pip:
 ![Diagram](media/image17.png){:style="width:720px; height:48px; display:inline-block;"}
 
 
-### YOU’VE INSTALLED THE LIBRARY! WHAT’S NEXT?
+## YOU’VE INSTALLED THE LIBRARY! WHAT’S NEXT?
 
 After importing our library, we can proceed with making the GET request
 and analyzing the results. We will use the requests.get() function,
@@ -239,7 +212,7 @@ ensure that the request was successful. Ideally, 200 should be printed
 to show that it was successful but if you see a code like 404, that
 indicates that the server cannot find the requested file.
 
-### WHAT HAPPENS IF I GET A DIFFERENT STATUS CODE?
+## WHAT HAPPENS IF I GET A DIFFERENT STATUS CODE?
 
 Every status code indicates a different output that happened with the
 request. Look at the following for a guide to see what your status code
@@ -250,7 +223,7 @@ means:
 Run through these status codes and try to solve whatever issue is
 popping up.
 
-### I SUCCESSFULLY MADE THE REQUEST! WHAT NOW?
+## I SUCCESSFULLY MADE THE REQUEST! WHAT NOW?
 
 Most APIs return data in JSON format. You can use the response.json()
 method to view the data that you just received.
@@ -266,7 +239,7 @@ parameters you want to add. Multiple parameters are separated by an
 ampersand.
 
 
-### Should I implement query parameters?
+## Should I implement query parameters?
 
 There are many scenarios in which implementing a query parameter might
 be useful. Some common uses include filtering data, sorting data,
@@ -278,7 +251,7 @@ and cheese. These specifications are much like optional query
 parameters, allowing us to specify or filter the data from an API as we
 need.
 
-### How should I implement a query parameter?
+## How should I implement a query parameter?
 
 You can send query parameters using the ‘params’ argument as a
 dictionary to filter out the data you receive. Let’s see a basic setup
@@ -302,7 +275,7 @@ GET/weather/London. Path parameters are best used for identifying
 specific collections in an API URL whereas query parameters allow for
 multiple filterings.
 
-### NOW WHAT?
+## NOW WHAT?
 
 In most cases, if you need to send data to an API you should now
 implement a POST request. A POST request is one of the most common
@@ -312,7 +285,6 @@ resource. To do this, you will need to use requests.post(). Let’s see
 how to do this below:
 
 ![Code](media/image23.png){:style="width:629px; height:350px; display:inline-block;"}
-
 
 Here, we used json.dumps to convert the task\_data dictionary into a
 JSON-formatted string then send the request with requests.post().
@@ -330,9 +302,7 @@ leverage more of your APIs capabilities.
 
 ## HOW TO CONTINUE THIS MAIN QUEST?  
 
-Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSdrirR6caWeNXtfILYCv-RtfpRrp0GmiUAOyNb5Kp-yeGmjiw/viewform?usp=sf_link) to finalize level one, then apply your knowledge by doing a API Side Quest!  
-
-After completing that, you can create your own project with some guidelines for level three!
+Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSdrirR6caWeNXtfILYCv-RtfpRrp0GmiUAOyNb5Kp-yeGmjiw/viewform?usp=sf_link) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
 
 ---
 

@@ -19,211 +19,53 @@ Machine learning is a system or branch of Artificial Intelligence within Compute
 
 ---
 # Machine Learning (Regression) Level One
-## Overview – what you should learn  
+## Overview
+### I. What Machine Learning Is
+- **Algorithm —** In anything from mathematics to computer science, an algorithm refers to any set of instructions that are completed in a certain order to attain a particular goal/result. Algorithms are the main building blocks of machine learning models as they take in inputs and then run them through an ordered series of steps to classify data or make predictions.
+- **Model —** A program that uses multiple algorithms to identify patterns in data and then create prescriptions, descriptions, or predictions based on the nature of our system. A model is essentially the final result when you combine an ML algorithm with data.
+**Key Functions of Machine Learning (ML) Algorithms and Models**
+- **Descriptive —** Focused on understanding and recognizing patterns in historical data. Outputs summaries such as charts, tables, and graphs describing relationships and trends.
+- **Predictive —** Uses historical data to forecast future outcomes or values. Common techniques include regression and decision trees.
+- **Prescriptive —** Combines predictive and descriptive approaches to recommend actions or strategies that lead to desired outcomes.
 
-### Vocabulary  
+### II. Types of Machine Learning
+- **Supervised Machine Learning —** Training a model using labeled data where each input is paired with a known output. The model learns to map inputs to outputs and can then predict outcomes for new data.
+- **Unsupervised Machine Learning —** Training a model on unlabeled data so it discovers patterns or structure on its own, such as clustering similar items together.
 
-- Algorithm
+### III. How Models Learn (Datasets)
+- **Training Data —** The portion of data used to teach the model to recognize relationships between variables.
+- **Validation Data —** A separate dataset used during training to fine-tune the model and help prevent overfitting.
+- **Testing Data —** New, unseen data used after training to evaluate how well the model performs on real-world data.
 
-- Model
+### IV. Learning Tasks & Regression
+- **Classification —** Assigning inputs into categories (ex: spam vs not spam).
+- **Regression —** Predicting continuous numerical values (ex: predicting a house price).
+- **Linear, Multiple Linear, and Polynomial Regression —** Linear regression models the relationship between one input variable and one output using a straight line. Multiple regression uses several input variables. Polynomial regression models curved, non-linear relationships.
 
-- Test Data
+### V. Model Components
 
-- Training Data
+**Parameters vs Variables —** Variables (features) are the input characteristics used for prediction. Parameters are internal values learned by the model during training (such as regression coefficients or neural network weights).
 
-- Linear, Multiple Linear, and Polynomial Regression
+### VI. Evaluating Model Performance
+- **R-Squared and Adjusted R-Squared —** A measure of how well a regression model explains variation in the dependent variable. Adjusted R² accounts for the number of predictors used.
+- **Root Mean Squared Error (RMSE) —** The square root of the average squared difference between predicted and actual values. Lower RMSE indicates more accurate predictions.
 
-- Supervised ML
+### VII. Common Problems in Machine Learning
+- **Overfitting —** When a model learns the training data too closely and performs poorly on new data.
+- **Multicollinearity —** When predictor variables are highly correlated, making it difficult to determine each variable’s true impact.
+- **Regularization —** A technique that prevents overfitting by penalizing overly complex models.
 
-- Unsupervised ML
-
-- R-Squared and Adjusted R-Squared
-
-- Parameters vs Variables
-
-- Root Mean-Squared Error
-
-- Overfitting
-
-- Multicollinearity
-
-- Regularization
-
-### **Key Functions of Machine Learning (ML) Algorithms and Models:**
-
-- **Descriptive:** An ML algorithm focused on understanding, describing,
-  and recognizing patterns or relationships in past/historical data. The
-  output typically exists in the form of data summaries by means of
-  charts, tables, and graphs that are able to describe key features and
-  frequencies noticed in the data set. Common techniques include
-  clustering and dimensionality reduction analysis, and a potential
-  example could be using machine learning to help advertising firms
-  understand which forms of media lead to the great viewership among
-  consumers.
-
-- **Predictive:** This form of ML analytics revolves around using
-  historical data to make predictions or forecast future possibilities,
-  behaviors, or relationships among your variables. Two of the most
-  common applications of predictive analytics include ML Regression and
-  Decision Trees, which can be used to predict stock market movements
-  and give personalized recommendations to users of streaming services.
-  The output of such a technique include probability scores of a certain
-  event’s chance or an estimated value.
-
-- **Prescriptive:** Prescriptive analytics blends both predictive and
-  descriptive ML together to create a system that allows us to not only
-  forecast future outcomes but also understand the steps we should take
-  in order to create a certain successful outcome. The output is a
-  recommended strategy or action and an example of this is how data
-  scientists can use optimization algorithms to understand how best to
-  set up their spends across advertising campaigns with various forms of
-  media in order to get the best results.
-
-### **Questions You’ll Be Able to Answer:**
+### Questions You’ll Be Able to Answer
 
 - What are Machine Learning (ML) and Regression?
+- What software and prerequisite Python knowledge is required?
+- What are the steps in the ML process?
+- How do I train and evaluate ML models?
+- What metrics help evaluate models?
+- What are drawbacks of Machine Learning?
+- What are real-world applications of ML?
 
-- What are the softwares and the prerequisite python understanding I
-  require?
-
-- What are the steps to using ML and what is the process in which it
-  functions?
-
-- How do I train and evaluate the effectiveness of ML Models?
-
-- What key metrics allow me to evaluate ML models
-
-- What are some drawbacks of Machine learning?
-
-- What are real world applications of ML?
-
-> **Algorithm —** In anything from mathematics to computer science, an
-> algorithm refers to any set of instructions that are completed in a
-> certain order to attain a particular goal/result. Algorithms are the
-> main building blocks of machine learning models as they take in inputs
-> and then run them through an ordered series of steps to classify data
-> or make predictions.
->
-> <span class="mark">**Model —** A program that uses multiple algorithms
-> to identify patterns in data and then create prescriptions,
-> descriptions, or predictions based on the nature of our system. A
-> model is, essentially, the final result when you combine an ML
-> algorithm with data.</span>
->
-> <span class="mark">**Training Data —** The first subset of your data
-> that is used to teach the model, enabling it to find patterns and
-> relationships between variables and identify certain parameters on its
-> own. The overall goal of training data is to provide the model with
-> examples of correlations between independent and dependent variables,
-> so that the model can just adjust various parameters to maximize
-> predictive efficiency. A common practice is to allocate around 60-80%
-> of your total data for training, with the remaining 20-40% split
-> between validation and testing. The larger the training set, the
-> better the model can learn from the data.</span>
->
-> <span class="mark">**Testing Data** — A subset of data that is used to
-> evaluate the performance of a trained machine learning model. Unlike
-> training data, which the model learns from, testing data is new and
-> unseen by the model during training. It allows us to assess how well
-> the model generalizes to new, real-world data, providing an indication
-> of its accuracy and effectiveness in making prediction</span>
->
-> <span class="mark">**Validation Data** — A separate subset of data
-> used during model training to fine-tune the model and prevent
-> overfitting. It helps in adjusting the model’s hyperparameters and
-> determining when to stop training, ensuring that the model performs
-> well not only on the training data but also on unseen data. Validation
-> data provides an intermediate evaluation between training and
-> testing.</span>
->
-> <span class="mark">**Linear, Multiple, and Polynomial Regression —**
-> Mathematical models and applications of ML used to understand the
-> nature of the relationship between the variables being studied. Linear
-> models involve fitting the relationship between a single independent
-> variable and single dependent variable on a straight line, multiple
-> regression models extend this to fit the relationship between many
-> independent variables and a single dependent variable on a straight
-> line. Polynomial regression models fit the relationship between our
-> data on a curve to show more complex and non-linear
-> relationships.</span>
->
-> <span class="mark">**Supervised Machine Learning —** The process of
-> training a model on a data set that has labels and where every input
-> is matched to some sort of output. The model learns to map inputs to
-> outputs by reducing the gap between its predictions and the actual
-> labels during training. Once trained, the model can predict outcomes
-> for new, previously unseen data using the patterns acquired from
-> labeled instances. E.g. A model can be trained to predict a house's
-> price based on data about the house, such as its square footage,
-> number of rooms, and features, and its price.</span>
->
-> **<span class="mark">Classification -</span>**
->
-> <span class="mark">**Classification and Regression —** Both are types
-> of machine learning tasks, but they serve different purposes.
-> Classification involves assigning data points to predefined categories
-> or classes based on input features, such as identifying if an email is
-> "spam" or "not spam." It is used when the output is categorical. In
-> contrast, Regression is used to predict continuous numerical values,
-> such as estimating house prices or predicting temperatures. While
-> classification outputs discrete labels, regression deals with
-> predicting a range of possible numerical outcomes.</span>
->
-> <span class="mark">**Unsupervised Machine Learning —** Training a
-> model on a data set that does not have any labeled outputs, thereby,
-> prompting the model to act on its own and discover structures within
-> the data. An example is clustering where data is sorted into clusters
-> based on commonalities. For example, when evaluating customer data,
-> clustering may assign all women to one group and all males to
-> another.</span>
->
-> <span class="mark">**R-Squared and Adjusted R-Squared —** Known as the
-> coefficient of determination, it’s a metric that is used to determine
-> the effectiveness of your trained Machine Learning model. It assesses
-> how well the model fits the data by calculating the fraction of
-> variation in the dependent variable that can be explained by
-> independent variables. Adjusted R-Squared adjusts the number for the
-> amount of independent variables we have, therefore, telling us if
-> increasing or decreasing the amount of variables allows us to increase
-> our power. The higher the r-squared value the better.</span>
->
-> <span class="mark">**Parameters vs Variables —** ​​Variables in machine
-> learning are the characteristics or inputs used to create predictions,
-> which reflect the data properties analyzed by the model. Parameters,
-> on the other hand, are internal model variables learned during
-> training, such as neural network weights or regression model
-> coefficients.</span>
->
-> <span class="mark">**Root Mean Squared Error (RMSE) —** Metric that
-> assesses the accuracy of a regression model by taking the square root
-> of the average squared differences between predicted and actual
-> values. It indicates how far the predictions deviate from the real
-> values on average, with lower RMSE suggesting better model
-> performance.</span>
->
-> <span class="mark">**Overfitting —** A bias or problem that could
-> occur where your ML model uses the training data too greatly, causing
-> it to focus too much on specific patterns that aren’t part of the new,
-> unseen data it could take in. This causes poor performance on the test
-> data and can be improved by simplifying your model or through
-> regularization.</span>
->
-> <span class="mark">**Multicollinearity —** When two or more
-> independent variables in a regression model are significantly
-> connected, resulting in predictive redundancy. This might result in
-> incorrect coefficient estimates and exaggerated standard errors,
-> making it impossible to determine the individual influence of each
-> predictor.</span>
->
-> <span class="mark">**Regularization —** Regularization is a strategy
-> for preventing overfitting in machine learning models that involves
-> penalizing the model's complexity. It prevents the model from fitting
-> the training data too closely by limiting or regularizing the size of
-> the model's parameters.</span>
-
-###  
-
-### What are Machine Learning and Regression?
+## WHAT IS MACHINE LEARNING AND REGRESSION?
 
 **Machine learning** is a system or branch of Artificial Intelligence
 within Computer Science that focuses on teaching computers to make
@@ -282,11 +124,7 @@ notebook so you can then begin analyzing it. On this
 use the second method they mention to manually download the data set and
 import it.
 
-###  
-
-### LET'S GET STARTED!
-
-
+## LET'S GET STARTED!
 
 First, let’s work on loading up our Jupyter Notebook through the
 Anaconda Navigator and then creating a new Python Notebook. Post that,
@@ -341,7 +179,7 @@ that it’s much easier to visualize our data when it comes to actually
 talking about the efficiency of our model. If you followed the similar
 steps to the image below, we should now have the completed model.
 
-YOU’VE CREATED YOUR REGRESSION MODEL? WHAT NEXT?
+## YOU’VE CREATED YOUR REGRESSION MODEL? WHAT NEXT?
 
 Now that you’ve created your regression model, you have to take measures
 to evaluate your model and understand how well it actually is performing
@@ -384,20 +222,20 @@ variance in the target variable (house prices, in this case) based on
 the features you’ve included in the model. This can be improved by
 accounting for different factors, which we’ll explore!</span>
 
-### COOL! HOW CAN I NOW IMPROVE MY MODEL?
+## COOL! HOW CAN I NOW IMPROVE MY MODEL?
 
 You’re asking the right questions! As good practice, you’re going to
 want to explore some of the ways you can increase your r-squared score
 and lower your RMSE. Three possible ways include the following:
 
-- Explore Residuals: Investigate the residuals (the differences between
+- **Explore Residuals:** Investigate the residuals (the differences between
   actual and predicted values) to see if there are any patterns that
   your model isn’t capturing.
 
-- Feature Engineering: Consider adding or transforming features that
+- **Feature Engineering:** Consider adding or transforming features that
   might better capture the factors influencing house prices.
 
-- Model Complexity: Experiment with more complex models or
+- **Model Complexity:** Experiment with more complex models or
   regularization techniques to see if they improve the R-squared without
   overfitting.
 
@@ -405,8 +243,7 @@ Furthermore, you can also take advantage of the Ordinary Least Squares
 method to improve your model, as this is a more complex type of
 regression that allows for improved interpretability.
 
-
-### Drawbacks/Limitations and Real Life Applications
+## DRAWBACKS/LIMITATIONS AND REAL-LIFE APPLICATIONS
 
 While ML Regression algorithms are a great tool for the analysis of
 continuous variables and predictive processes, they do have limitations
@@ -436,10 +273,7 @@ on careful model selection, evaluation, and feature engineering.
 
 ### HOW TO CONTINUE THIS MAIN QUEST?
 
-Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSdaWV6sIpCZvopCa7RITIbr3L-EeKWyD10-rIqBXrf2n5qTRg/viewform?usp=sf_link) to finalize level one, then apply your knowledge by doing a Machine Learning Side Quest.
-
-After completing that, you can move on to level three where you'll create your own project with some guidelines.
-
+Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSdaWV6sIpCZvopCa7RITIbr3L-EeKWyD10-rIqBXrf2n5qTRg/viewform?usp=sf_link) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
 ---
 
 For any information or quality issues, please contact:
