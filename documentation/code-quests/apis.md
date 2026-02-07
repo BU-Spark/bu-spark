@@ -308,9 +308,9 @@ Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSdrirR6caWe
 
 ### For any information or quality issues, please contact:  
 
-Kaylin Von Bergen - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)  
+Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
 
 ---
 
 ### Author of this Code Quest:  
-Catherine - [<u>cliu26@bu.edu</u>](mailto:cliu26@bu.edu)
+Catherine Liu

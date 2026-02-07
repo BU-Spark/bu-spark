@@ -36,7 +36,7 @@ React is a web development framework that is wildly popular and promotes a compo
 
 **`npm run dev`** — Starts the local development server so the website can be viewed in a browser.
 
-**`.env` + `.gitignore`** —  
+**`.env` + `.gitignore`**: 
 - `.env` stores environment variables such as API keys and secrets.  
 - `.gitignore` prevents sensitive or unnecessary files (like `.env` and `node_modules`) from being uploaded to GitHub.
 
@@ -264,14 +264,15 @@ accomplish the following tasks:
 ## HOW TO CONTINUE THIS MAIN QUEST?
 
 Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSfH1R2lsM85JQHq454_-SPmR3AWSCoQsoHEojo2M2k7bIJRoQ/viewform?usp=sf_link) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
----
-
-For any information or quality issues, please contact:
-
-Kaylin Von Bergen  - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)  
 
 ---
 
-Author of this Code Quest:
+### For any information or quality issues, please contact:  
 
-Owen Mariani - [<u>omariani@bu.edu</u>](mailto:omariani@bu.edu)
+Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
+
+---
+
+### Author of this Code Quest:  
+
+Owen Mariani

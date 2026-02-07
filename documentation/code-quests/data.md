@@ -110,27 +110,27 @@ interpret.
 
 ### Essentials for Data Preparation:
 
-**Handle Missing Data**: Identify missing values and decide how to
+- **Handle Missing Data**: Identify missing values and decide how to
 address them (e.g., remove, fill, or interpolate).
 
-**Remove Outliers**: Detect outliers and decide if they should be
+- **Remove Outliers**: Detect outliers and decide if they should be
 removed or corrected.
 
-**Normalize/Standardize Data**: Ensure that your data is on a similar
+- **Normalize/Standardize Data**: Ensure that your data is on a similar
 scale for better comparison and analysis.
 
-**Transform Categorical Data**: Convert categorical data into numerical
+- **Transform Categorical Data**: Convert categorical data into numerical
 values using techniques like one-hot encoding.
 
 ### Creating Visualizations:
 
-**Import Libraries**: Start by importing libraries such as Matplotlib
+- **Import Libraries**: Start by importing libraries such as Matplotlib
 and Seaborn.
 
-**Create Plots**: Use functions like scatter(), hist(), boxplot(), and
+- **Create Plots**: Use functions like scatter(), hist(), boxplot(), and
 heatmap() to create visualizations.
 
-**Interpret Visualizations**: Analyze the visualizations to understand
+- **Interpret Visualizations**: Analyze the visualizations to understand
 the relationships and patterns in your data.
 
 
@@ -261,9 +261,9 @@ Take the quiz [<u>here</u>](https://forms.gle/mDvKYWSdcz4SuUhQ6) to finalize Lev
 
 ### For any information or quality issues, please contact:  
 
-Kaylin Von Bergen - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)  
+Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
 
 ---
 
 ### Author of this Code Quest:  
-Seun - [<u>oademilo@bu.edu</u>](mailto:oademilo@bu.edu)  
+Seun Ademiloye

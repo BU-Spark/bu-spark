@@ -34,7 +34,7 @@ access and revise other people's code.
 ## Vocabulary
 - **Repository —** A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
-- **Branch —** A branch is a parallel version of a repository. It is contained within the repository, but does not affect the primary or main branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the main branch to publish your changes (*note: the main branch used to be called master; read more [here](?tab=t.uh2g7kc4nmfw)*).
+- **Branch —** A branch is a parallel version of a repository. It is contained within the repository, but does not affect the primary or main branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the main branch to publish your changes (*note: the main branch used to be called master).
 
 - **Directory —** A folder containing one or more files or folders. You can create directories to organize the contents of a repository.
 
@@ -66,31 +66,31 @@ access and revise other people's code.
 
 ## Specific Commands
 
-- ``git clone &lt;https://name-of-the-repository-link&gt;``
+- ``git clone [https://name-of-the-repository-link]``
 
-- ``git branch &lt;branch-name&gt;``
+- ``git branch [branch-name]``
 
-- ``git push -u &lt;remote&gt; &lt;branch-name&gt;``
+- ``git push -u [remote] [branch-name]``
 
-- ``git branch -d &lt;branch-name&gt;``
+- ``git branch -d [branch-name]``
 
-- ``git checkout &lt;name-of-your-branch&gt;``
+- ``git checkout [name-of-your-branch]``
 
 - ``git status``
 
-- ``git add &lt;file&gt; / git add -A``
-``
+- ``git add [file]`` / ``git add -A`` / ``git add .``
+
 - ``git commit -m "commit message"``
 
-- ``git push &lt;remote&gt; &lt;branch-name&gt;``
+- ``git push [remote] [branch-name]``
 
-- ``git pull &lt;remote&gt;``
+- ``git pull [remote]``
 
-- ``git revert 3321844``
+- ``git revert``
 
 - ``git merge``
 
-- ``git clone -b &lt;branchname&gt; --single-branch &lt;repo-https&gt;``
+- ``git clone -b [branchname] --single-branch [repo-https]``
 
 ## WHAT IS GIT? WHAT IS GITHUB?
 **Git** is a free tool that developers install locally on their
@@ -99,6 +99,7 @@ maintain previous versions and create new versions of their projects.
 This concept is known as *version control* — the practice of managing
 changes to computer files and maintaining different versions of those
 files.  
+
 **GitHub** is an online service built to run Git in the cloud. Think of
 it as a combination of social media and a convenience tool for Git; it
 allows you to store your code online, collaborate with others, and
@@ -174,7 +175,7 @@ You’re going to want to press the green *Code* button. Here, you’ll be
 able to navigate over to HTTPS, and copy the link. To use this, we need
 to open some kind of terminal (either through your machines terminal or
 an IDE terminal, such as VSCode, Eclipse, or even the built-in
-*codespace*). From there, you’ll type ``git clone &lt;HTTPS link&gt;``. It
+*codespace*). From there, you’ll type ``git clone [HTTPS link]``. It
 will ask you where to place the files, and you’ll choose where you want
 to have your project stored. Now you have a *remote repository,* which
 is the repository on GitHub, and the *local* version, which is what you
@@ -197,8 +198,7 @@ here’s a general process:
 
 - You can type ``git status`` to determine which files have changes in them.
 
-- From here, you can add the specific file(s) using ``git add``
-  &lt;file&gt;, or you can add *all* the changed files using ``git add -A.``
+- From here, you can add the specific file(s) using ``git add [file]``, or you can add *all* the changed files using ``git add -A.``
 
 - Now, you’re going to *commit* these changes, by typing git commit -m
   "commit message". In the commit message, you’ll want to add a brief
@@ -208,8 +208,8 @@ here’s a general process:
   of our projects. Having frequent “saves” allows us the freedom to make
   mistakes and try new approaches without worrying about losing
   progress. Plus, it helps collaborators understand the changes made to
-  the program (note: you may be asked to identify yourself using the git
-  config --global user.email "&lt;email&gt;" command. Once you tell it
+  the program (note: you may be asked to identify yourself using the ``git
+  config --global user.email "[email]"`` command. Once you tell it
   your email, you can try to run ``git commit -m`` again and it should
   work!).
 
@@ -217,7 +217,7 @@ here’s a general process:
   Simply type ``git push``, and your changes will be reflected in GitHub!
 
 Now, let’s get back to GitHub. Right beneath that green *Code* button,
-you’ll see some text that reads *&lt;x&gt; commits.* You can click on
+you’ll see some text that reads *< x > commits.* You can click on
 this and scroll through all the commits, and look at every change made
 to your remote repository. In the box with the README file that was
 created, you should also see the files that you pushed.
@@ -226,8 +226,8 @@ created, you should also see the files that you pushed.
 If you want to work on your project from multiple machines or you have
 multiple people making commits to the repository, the local and remote
 version of the repository will often be out of sync. Luckily, there’s a
-way to make handling this situation more efficient. Use the git pull
-origin &lt;branch&gt; command. For now, the branch name is *main*. This
+way to make handling this situation more efficient. Use the ``git pull
+origin [branch]`` command. For now, the branch name is *main*. This
 will sync your local and remote repositories.
 
 ## BRANCHES? FORKS? 
@@ -263,7 +263,7 @@ changes. Now you can work freely within your fork without worrying about
 the changes becoming permanent or affecting the creator/s by cloning the
 repository
 
-Let’s look at branches. In the top left, you’ll have an *&lt;x&gt;
+Let’s look at branches. In the top left, you’ll have an *< x >
 branch/es* text button. You can click this, and it will take you to a
 new page that displays all the created branches. In the top right,
 you’ll see a *new branch* button and you can click that to create a new
@@ -353,16 +353,16 @@ Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLScLz-SI2qKE
 
 ---
 
-**For any information or quality issues, please contact:**
+### For any information or quality issues, please contact:  
 
-Kaylin Von Bergen - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)
+Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
 
 ---
 
-**Authors of this Code Quest**:
+### Authors of this Code Quest:  
 
-Haji - [<u>iamhaji0@bu.edu</u>](mailto:iamhaji0@bu.edu)
+Haji Abdi
 
-Sed - [<u>slomani@bu.edu</u>](mailto:slomani@bu.edu)
+Sed Lomani
 
-Kaylin Von Bergen - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)
+Kaylin Von Bergen

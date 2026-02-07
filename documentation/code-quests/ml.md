@@ -13,7 +13,7 @@ Machine learning is a system or branch of Artificial Intelligence within Compute
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ A beginner machine-learning challenge for practicing model building and evaluation on a real-world dataset.You can accept the assignment [<u>here</u>](https://classroom.github.com/a/pjAJqyVR). 
+→ A beginner machine-learning challenge for practicing model building and evaluation on a real-world dataset. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/pjAJqyVR). 
 ### Level Three: 
 → Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/ML-level-3).
 
@@ -212,15 +212,14 @@ represents the point where actual and anticipated values coincide. A
 large distribution of points suggests low prediction accuracy.
 
 **Third**, we must go into calculating our R-Squared value in order to
-evaluate our model as this will enable us to comprehend
-<span class="mark">how well the model fits the data by calculating the
+evaluate our model as this will enable us to comprehend how well the model fits the data by calculating the
 fraction of variation in the dependent variable (house prices) that can
 be explained by our independent variables. In order to do this, you can
-take additional calculations (r2 = r2\_score(y\_test, y\_pred)). An
+take additional calculations (``r2 = r2\_score(y\_test, y\_pred)``). An
 R-squared value of 0.66 indicates that our model explains 66% of the
 variance in the target variable (house prices, in this case) based on
 the features you’ve included in the model. This can be improved by
-accounting for different factors, which we’ll explore!</span>
+accounting for different factors, which we’ll explore!
 
 ## COOL! HOW CAN I NOW IMPROVE MY MODEL?
 
@@ -271,19 +270,21 @@ on careful model selection, evaluation, and feature engineering.
 
 ---
 
-### HOW TO CONTINUE THIS MAIN QUEST?
+## HOW TO CONTINUE THIS MAIN QUEST?
 
 Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSdaWV6sIpCZvopCa7RITIbr3L-EeKWyD10-rIqBXrf2n5qTRg/viewform?usp=sf_link) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
----
-
-For any information or quality issues, please contact:
-
-Kaylin Von Bergen  - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)  
 
 ---
+**For any information or quality issues, please contact:**
 
-Author of this Code Quest:
+### For any information or quality issues, please contact:  
 
-Aarnav - [<u>aarnavp@bu.edu</u>](mailto:aarnavp@bu.edu)
+Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
+
+---
+
+### Author of this Code Quest:  
+
+Aarnav Prakash
 
 

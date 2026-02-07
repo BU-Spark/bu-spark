@@ -61,7 +61,7 @@ Type `r` in the terminal running your application to hot reload.
 Flutter is an open source UI software development kit (SDK) developed by Google which is used for building applications for mobile, web, and desktop that compile natively. It uses Dart, an open-source programming language released by Google in 2011.  
 
 ### Why use Flutter over other resources?  
-Since it complies natively, it allows developers to create high-quality apps that work across multiple platforms without needing to rewrite code for each platform. Dart is relatively easy to learn for those familiar with languages like JS, Java, or C#. Flutter compiles to native ARM code on mobile, so apps have the performance, look and feel of native apps. For ease in development, it uses hot reload, a tool that allows developers to see the changes in their app in real-time each time they change the code. It has a large user-base (it’s the most popular cross-platform mobile framework worldwide as of 2022, after all), and therefore has an extensive library and good community support.  
+Since it compiles natively, it allows developers to create high-quality apps that work across multiple platforms without needing to rewrite code for each platform. Dart is relatively easy to learn for those familiar with languages like JS, Java, or C#. Flutter compiles to native ARM code on mobile, so apps have the performance, look and feel of native apps. For ease in development, it uses hot reload, a tool that allows developers to see the changes in their app in real-time each time they change the code. It has a large user-base (it’s the most popular cross-platform mobile framework worldwide as of 2022, after all), and therefore has an extensive library and good community support.  
 
 ### Why do I need to know anything about Flutter?  
 App development is a great skill for people in tech to have under their belt. Flutter makes app development easy and efficient. Most companies start with a cross-platform mobile dev framework but, as they get bigger, transition to developing separate, native apps for each platform (i.e., Swift for iOS and Java/Kotlin for Android), so it’s not uncommon for Flutter to be used in industry!  
@@ -367,9 +367,9 @@ Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSetYuZqkLiX
 
 ### For any information or quality issues, please contact:  
 
-Kaylin Von Bergen - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)  
+Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
 
 ---
 
 ### Author of this Code Quest:  
-Kaylin Von Bergen - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)  
+Kaylin Von Bergen
