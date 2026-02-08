@@ -23,7 +23,7 @@ access and revise other people's code.
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ A hands-on Git Side Ques­t for fine-tuning your version control skills: commit history, branching strategies and merge conflict resolution. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/S2rfJDU0). 
+→ A hands-on Git challenge for fine-tuning your version control skills: commit history, branching strategies and merge conflict resolution. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/S2rfJDU0). 
 ### Level Three: 
 → Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/git-level-3).
 
@@ -31,7 +31,7 @@ access and revise other people's code.
 
 
 # Git/Hub Level One
-## Vocabulary
+## VOCABULARY
 - **Repository —** A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
 - **Branch —** A branch is a parallel version of a repository. It is contained within the repository, but does not affect the primary or main branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the main branch to publish your changes (*note: the main branch used to be called master).

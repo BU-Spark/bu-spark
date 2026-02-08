@@ -7,7 +7,7 @@ permalink: /docs/code-quests/apis/
 ---
 # APIs Main Quest
 
-There are several key benefits of using an API for your project. APIs can help you to retrieve up-to-date data and enable external developers to (in a way) rely on a third-party organization in order to add functionality to existing solutions. APIs allow for access to many online services for your project. The possibilities are endless because they simply provide data and can be used by nearly any programming language, allowing you to use the data in any way you see fit. APIs also play a strong role in terms of security governance, limiting access to any software that an application might not be allowed to use.
+There are several key benefits of using an API for your project. APIs can help you to retrieve up-to-date data and enable external developers to (in a way) rely on a third-party organization in order to add functionality to existing solutions. APIs allow for access to many online services for your project. The possibilities are endless because they can return data or perform actions and can be used by nearly any programming language, allowing you to use the data in any way you see fit. APIs also improve security by controlling what data and actions an application is allowed to access on a server.
 
 ### Level One: 
 → Instructions shown below.
@@ -109,11 +109,7 @@ There are several key benefits of using an API for your project. APIs
 can help you to retrieve up to date data and enable external developers
 to (in a way) rely on a third party organization in order to add
 functionality to existing solutions. APIs allow for access to many
-online services for your project. The possibilities are endless because
-they simply provide data and can be used by nearly any programming
-language, allowing you to use the data in any way you see fit. APIs also
-play a strong role in terms of security governance, limiting access to
-any software that an application might not be allowed to use.
+online services for your project. The possibilities are endless because they can return data or perform actions and can be used by nearly any programming language, allowing you to use the data in any way you see fit. APIs also play a strong role in terms of security governance,limiting access to any software that an application might not be allowed to use.
 
 ### What are the different types of APIs?
 There are 3 types of APIs: **private, partner** and **public**.

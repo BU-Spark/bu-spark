@@ -14,7 +14,7 @@ Data visualization, on the other hand, is all about making sense of the data by 
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ A beginner Side Quest for practicing data preparation and visualization using the Iris dataset. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/lQWzLPSX). 
+→ A beginner challenge for practicing data preparation and visualization using the Iris dataset. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/lQWzLPSX). 
 ### Level Three: 
 → Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/data-level-3).
 

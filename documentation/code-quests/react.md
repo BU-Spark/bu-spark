@@ -64,13 +64,13 @@ React.js is an industry standard and has grown a massive community that
 continues to develop / maintain open source libraries which developers
 can leverage to use other people’s code. Examples of this include a UI
 Component Library called [<u>MUI</u>](https://mui.com/) and a modern
-build tool called [<u>Vite</u>](http://vite).
+build tool called [<u>Vite</u>](http://vite.dev).
 
 ### Okay, what are the essentials?
 
 #### <u>Prerequisites</u>: 
 
-You will need to first [<u>install Node.js</u>](http://node.js) which is defined above. This will allow us to work in JS for both frontend and backend development. You will also need an IDE, a popular one we recommend is [<u>VSCode</u>](https://code.visualstudio.com/download).
+You will need to first [<u>install Node.js</u>](https://nodejs.org/en/download) which is defined above. This will allow us to work in JS for both frontend and backend development. You will also need an IDE, a popular one we recommend is [<u>VSCode</u>](https://code.visualstudio.com/download).
 
 Within VSCode, install this extension which will let you use syntax
 shortcuts. You can do so by going into “Extensions” within VSCode,
@@ -151,9 +151,7 @@ this assigns important metadata that we can mess with.
 2. Find the `<title>` tag on line 8, change the text between the
    tags to your name
 3. Find the `<link>` tag and change the text inside the quotes
-   of `href`.  
-   [<u>Go to this link</u>](https://www.google.com/search?sca_esv=20a76472aa525adb&q=bu+spark+logo&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5MIFhvnvU242yFxzEEp3BcbXWGQjBp6XyyqfUu6Wz8hXsM0yT-UlYRgT5OS0dDqQmKSmdrFO_r2gR4_bMaNpFYwOEPG3VGROI4O1AFWaADqNeXEyGIp6QyPXEvENOfNURrv3IiuEQ_eMVKsmc2cJdKaPkPjDDABz8YR4APbR30p5vNWOw&sa=X&ved=2ahUKEwj48aOFrfaHAxWrGtAFHVPpMeQQtKgLegQIDxAB&biw=1280&bih=621&dpr=2#vhid=nnquR3BL7w6ueM&vssid=mosaic)  
-   and click *“Copy Image Address”* and paste it into the string.
+   of `href`. [<u>Go to this link</u>](https://share.google/7ydsxwWMqOqRkTPKm) and click *“Copy Image Address”* and paste it into the string.
 4. Check out the tab header and see what has changed
 
 > **Explanation:** You have set the metadata for your app so now it
