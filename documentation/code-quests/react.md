@@ -20,12 +20,12 @@ React is a web development framework that is wildly popular and promotes a compo
 
 # React Level One
 ## VOCABULARY
-- **Web Development Framework** — A collection of tools, libraries, and conventions designed to simplify building web applications. It handles lower-level tasks (HTTP requests, routing, authentication) so developers can focus on creating features.
+- **Web Development Framework** — A collection of tools, libraries, and conventions designed to simplify building web applications. It handles lower-level tasks (HTTP requests, routing, authentication, project structure) so developers can focus on creating features. Frameworks typically integrate multiple libraries together into a complete system. React itself is actually a library, while tools built around it (like Next.js) form a framework.
 - **State** — The current data of an application at a specific moment, including variables, user inputs, and component status.
 - **Component** — A self-contained, reusable piece of code that defines part of a user interface, including its structure (HTML/JSX), behavior (JavaScript logic), and often styling (CSS).
-- **Hook** — A special React function that lets functional components use features like state management and lifecycle behavior.
+- **Hook** — A special React function that lets functional components use features like state management and lifecycle behavior. They always start with ``use``.
 - **JSX** — Stands for JavaScript XML. A syntax extension for JavaScript that looks like HTML and is used in React to describe UI components.
-- **Node.js** — An open-source runtime environment that allows JavaScript to run on the server side, enabling full-stack development using JavaScript.
+- **Node.js** — An open-source runtime environment that allows JavaScript to run outside of a web browser. This makes it possible to build servers, command-line tools, and development tooling using JavaScript, enabling full-stack development in a single language.
 - **Vite** — A fast modern development server and build tool for web projects, used to create and run React apps locally.
 - **Next.js** — A React-based web framework that adds features such as server-side rendering and built-in routing to build scalable web applications.
 
@@ -62,7 +62,7 @@ UI’s)
 
 React.js is an industry standard and has grown a massive community that
 continues to develop / maintain open source libraries which developers
-can leverage to use other people’s code. Examples of this include a UI
+can leverage to use other people’s code. Examples of these libraries include a UI
 Component Library called [<u>MUI</u>](https://mui.com/) and a modern
 build tool called [<u>Vite</u>](http://vite.dev).
 
@@ -148,7 +148,7 @@ this assigns important metadata that we can mess with.
 
 1. Look at the tab header for your localhost, it should be the Vite
    logo and “Vite + React”
-2. Find the `<title>` tag on line 8, change the text between the
+2. Find the `<title>` tag on/around line 8, change the text between the
    tags to your name
 3. Find the `<link>` tag and change the text inside the quotes
    of `href`. [<u>Go to this link</u>](https://share.google/7ydsxwWMqOqRkTPKm) and click *“Copy Image Address”* and paste it into the string.
@@ -158,6 +158,27 @@ this assigns important metadata that we can mess with.
 > displays a personalized preview!
 
 ---
+
+## CREATING YOUR OWN COMPONENT
+
+Up to now, you have been *using* components — but you have not actually
+learned what a React component really is.
+
+### What is a Component?
+
+A **React component** is simply a JavaScript function that returns JSX
+(the UI). React repeatedly calls this function whenever the page needs
+to update.
+
+Example:
+
+```jsx
+function HelloWorld() {
+  return <h1>Hello world!</h1>
+}
+
+export default HelloWorld
+```
 
 ## ADDITIONS TO THE APP
 
