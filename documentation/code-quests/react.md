@@ -7,7 +7,7 @@ permalink: /docs/code-quests/react
 ---
 # React Main Quest
 
-React is a web development framework that is wildly popular and promotes a component based architecture. It was created by Facebook to address building and maintaining complex, dynamic user interfaces. React allows developers to build web applications that can update and render efficiently in response to data changes.
+React is a library that is wildly popular and promotes a component based architecture. It was created by Facebook to address building and maintaining complex, dynamic user interfaces. React allows developers to build web applications that can update and render efficiently in response to data changes.
 
 ### Level One: 
 → Instructions shown below.
@@ -20,10 +20,11 @@ React is a web development framework that is wildly popular and promotes a compo
 
 # React Level One
 ## VOCABULARY
-- **Web Development Framework** — A collection of tools, libraries, and conventions designed to simplify building web applications. It handles lower-level tasks (HTTP requests, routing, authentication, project structure) so developers can focus on creating features. Frameworks typically integrate multiple libraries together into a complete system. React itself is actually a library, while tools built around it (like Next.js) form a framework.
+- **Web Development Framework** — A collection of tools, libraries, and conventions designed to simplify building web applications. It handles lower-level tasks (HTTP requests, routing, authentication, project structure) so developers can focus on creating features. Frameworks typically integrate multiple libraries together into a complete system. React itself is a library, while tools built around it (like Next.js) form a framework.
 - **State** — The current data of an application at a specific moment, including variables, user inputs, and component status.
 - **Component** — A self-contained, reusable piece of code that defines part of a user interface, including its structure (HTML/JSX), behavior (JavaScript logic), and often styling (CSS).
 - **Hook** — A special React function that lets functional components use features like state management and lifecycle behavior. They always start with ``use``.
+- **Prop (Property)** — A value passed from a parent component to a child component that allows the child to receive data and customize its behavior or display. Props are read-only and cannot be changed by the child component.
 - **JSX** — Stands for JavaScript XML. A syntax extension for JavaScript that looks like HTML and is used in React to describe UI components.
 - **Node.js** — An open-source runtime environment that allows JavaScript to run outside of a web browser. This makes it possible to build servers, command-line tools, and development tooling using JavaScript, enabling full-stack development in a single language.
 - **Vite** — A fast modern development server and build tool for web projects, used to create and run React apps locally.
@@ -42,7 +43,7 @@ React is a web development framework that is wildly popular and promotes a compo
 
 ## WHAT IS REACT.JS?
 
-**React** is a web development framework that is wildly popular and
+**React** is a library that is wildly popular and
 promotes a component based architecture. It was created by Facebook to
 address building and maintaining complex, dynamic user interfaces. React
 allows developers to build web applications that can update and render

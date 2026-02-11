@@ -23,63 +23,48 @@ There are several key benefits of using an API for your project. APIs can help y
 ### I. API Basics
 *(what an API is and why we use it)*
 
-**REST API**  
-A web-based interface that allows programs to communicate over the internet using HTTP methods and standard URLs (endpoints).
+- **REST API**: A web-based interface that allows programs to communicate over the internet using HTTP methods and standard URLs (endpoints).
 
-**API Common Uses**  
-APIs are used to retrieve data (weather, maps, music, databases), send data (forms, uploads), or connect services together (logins, payments, integrations).
+- **API Common Uses**: APIs are used to retrieve data (weather, maps, music, databases), send data (forms, uploads), or connect services together (logins, payments, integrations).
 
-**Types of APIs**  
-Different categories of APIs such as public (open to anyone), private (internal use), and third-party (provided by external services like Spotify or Google).
+- **Types of APIs**: Different categories of APIs such as public (open to anyone), private (internal use), and third-party (provided by external services like Spotify or Google).
 
-**Accessing API Endpoints**  
-Connecting to a specific URL provided by an API that represents a resource (for example: users, songs, or weather data).
+- **Accessing API Endpoints**: Connecting to a specific URL provided by an API that represents a resource (for example: users, songs, or weather data).
 
 ### II. Requests (Client → Server)
 *(what you send to the API)*
 
-**Request**  
-A message sent from a client (your app) to a server asking it to perform an action or return data.
+- **Request**: A message sent from a client (your app) to a server asking it to perform an action or return data.
 
-**HTTP Methods**  
-Also called HTTP verbs. They define the action being requested:
-- GET – retrieve data
-- POST – send new data
-- PUT/PATCH – update data
-- DELETE – remove data
+- **HTTP Methods**: Also called HTTP verbs. They define the action being requested:
+    - GET – retrieve data
+    - POST – send new data
+    - PUT/PATCH – update data
+    - DELETE – remove data
 
-**Headers**  
-Key-value information sent with a request that tells the server details like content type, authentication tokens, or formatting.
+- **Headers**: Key-value information sent with a request that tells the server details like content type, authentication tokens, or formatting.
 
-**Body**  
-The main data included in a request, typically used when sending information (such as a form submission).
+- **Body**: The main data included in a request, typically used when sending information (such as a form submission).
 
-**Query Parameters**  
-Extra values added to the end of a URL to filter or customize the response (e.g., search terms, limits, or sorting).
+- **Query Parameters**: Extra values added to the end of a URL to filter or customize the response (e.g., search terms, limits, or sorting).
 
-**Implementing Requests**  
-Writing code that sends a request to an API endpoint and handles the response.
+- **Implementing Requests**: Writing code that sends a request to an API endpoint and handles the response.
 
 ### III. Authentication & Security
 *(proving your app is allowed to use the API)*
 
-**Authentication**  
-The process of verifying the identity of a user or application before granting access to an API.
+- **Authentication**: The process of verifying the identity of a user or application before granting access to an API.
 
-**API Key**  
-A unique code provided by an API service that identifies and authorizes your application when making requests.
+- **API Key**: A unique code provided by an API service that identifies and authorizes your application when making requests.
 
 ### IV. Responses (Server → Client)
 *(what the API sends back)*
 
-**Status Code**  
-A numeric code included in the server’s response indicating whether a request succeeded or failed (e.g., 200 = success, 404 = not found, 500 = server error).
+- **Status Code**: A numeric code included in the server’s response indicating whether a request succeeded or failed (e.g., 200 = success, 404 = not found, 500 = server error).
 
-**Reading and Understanding Status Codes**  
-Interpreting the meaning of response codes to determine if a request worked, failed, or needs to be retried.
+- **Reading and Understanding Status Codes**: Interpreting the meaning of response codes to determine if a request worked, failed, or needs to be retried.
 
-**JSON (JavaScript Object Notation)**  
-A lightweight data format commonly used by APIs to send structured data that programs can easily read and process.
+- **JSON (JavaScript Object Notation)**: A lightweight data format commonly used by APIs to send structured data that programs can easily read and process.
 
 
 ## WHAT ARE APIS?
