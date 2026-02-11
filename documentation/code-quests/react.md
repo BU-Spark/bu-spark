@@ -7,92 +7,43 @@ permalink: /docs/code-quests/react
 ---
 # React Main Quest
 
-React is a web development framework that is wildly popular and promotes a component based architecture. It was created by Facebook to address building and maintaining complex, dynamic user interfaces. React allows developers to build web applications that can update and render efficiently in response to data changes.
+React is a library that is wildly popular and promotes a component based architecture. It was created by Facebook to address building and maintaining complex, dynamic user interfaces. React allows developers to build web applications that can update and render efficiently in response to data changes.
 
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ Create your own weather app for the United States! You can accept the assignment [<u>here</u>](https://classroom.github.com/a/1QZf8t1T).
+→ Create your own weather app for the United States! You can accept the assignment <a href="https://classroom.github.com/a/1QZf8t1T" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 ### Level Three: 
-→ Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/react-level-3).
+→ Creating your own project. The instructions can be found <a href="https://github.com/BU-Spark-Learning-Ambassadors/react-level-3" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 
 ---
 
 # React Level One
-## Overview – what you should learn  
+## VOCABULARY
+- **Web Development Framework** — A collection of tools, libraries, and conventions designed to simplify building web applications. It handles lower-level tasks (HTTP requests, routing, authentication, project structure) so developers can focus on creating features. Frameworks typically integrate multiple libraries together into a complete system. React itself is a library, while tools built around it (like Next.js) form a framework.
+- **State** — The current data of an application at a specific moment, including variables, user inputs, and component status.
+- **Component** — A self-contained, reusable piece of code that defines part of a user interface, including its structure (HTML/JSX), behavior (JavaScript logic), and often styling (CSS).
+- **Hook** — A special React function that lets functional components use features like state management and lifecycle behavior. They always start with ``use``.
+- **Prop (Property)** — A value passed from a parent component to a child component that allows the child to receive data and customize its behavior or display. Props are read-only and cannot be changed by the child component.
+- **JSX** — Stands for JavaScript XML. A syntax extension for JavaScript that looks like HTML and is used in React to describe UI components.
+- **Node.js** — An open-source runtime environment that allows JavaScript to run outside of a web browser. This makes it possible to build servers, command-line tools, and development tooling using JavaScript, enabling full-stack development in a single language.
+- **Vite** — A fast modern development server and build tool for web projects, used to create and run React apps locally.
+- **Next.js** — A React-based web framework that adds features such as server-side rendering and built-in routing to build scalable web applications.
 
-### Vocabulary
+## COMMANDS AND CONFIGURATION
+**`npm create vite@latest`** — Creates a new Vite project and generates the initial project structure.
 
-- Web Development Framework
-- State
-- Component
-- Hook
-- JSX
-- Node.js
-- Vite
-- Next.js
+**`npm install`** — Installs all required dependencies listed in `package.json`.
 
-### Specific Commands
+**`npm run dev`** — Starts the local development server so the website can be viewed in a browser.
 
-- ``npm create vite@latest``
-- ``npm install``
-- ``npm run dev``
+**`.env` + `.gitignore`**: 
+- `.env` stores environment variables such as API keys and secrets.  
+- `.gitignore` prevents sensitive or unnecessary files (like `.env` and `node_modules`) from being uploaded to GitHub.
 
-### Concepts
+## WHAT IS REACT.JS?
 
-- Web Development
-- State + Rendering
-- Frontend vs Backend
-- Client-Server Architecture
-- JSX vs HTML + JS
-- Component Libraries
-- .env + .gitignore
-
-> **Web Development Framework —** <span class="mark">a collection of
-> tools, libraries, and conventions designed to simplify the process of
-> building web applications. It handles all of the low level things
-> (HTTP requests, routing, user authentication) so that developers can
-> focus on making apps</span>
->
-> <span class="mark">**State —** the current condition or data of an
-> application at a specific point in time. Contains variables, user
-> inputs, and the status of various components in the application</span>
->
-> <span class="mark">**Component —** self-contained, reusable piece of
-> code that encapsulates both the structure (HTML or template), behavior
-> (JavaScript or logic), and often the styling (CSS) needed to render a
-> part of a web application's user interface (UI)</span>
->
-> <span class="mark">**Hook —** a special function that allows you to
-> "hook into" React features, such as state management and lifecycle
-> methods, directly within functional components. Hooks make it easier
-> to write and manage logic within these components</span>
->
-> <span class="mark">**JSX —** stands for JavaScript XML. It is a syntax
-> extension for JavaScript that looks similar to HTML or XML. JSX is
-> primarily used in React and is essentially a way to create components
-> with JS and HTML.</span>
->
-> <span class="mark">**[<u>Node.js</u>](http://node.js) —** an
-> open-source, cross-platform runtime environment that allows developers
-> to execute JavaScript code on the server side. This enables full-stack
-> development using a single programming language (JS) across both the
-> client and server sides.</span>
->
-> <span class="mark">**[<u>Vite</u>](http://vite) —** modern build tool
-> and development server for web projects, designed to be faster and
-> more efficient than traditional tools. We are using this as our build
-> tool since ``npm create-react-app`` is deprecated</span>
->
-> <span class="mark">**[<u>Next.js</u>](http://next.js) —** another web
-> development framework built on top of React. It is designed to make it
-> easier to build performant and scalable web applications by providing
-> a set of powerful features and tools out of the box. Its most notable
-> difference is that is has server-side-routing</span>
-
-### What is React.js?
-
-**React** is a web development framework that is wildly popular and
+**React** is a library that is wildly popular and
 promotes a component based architecture. It was created by Facebook to
 address building and maintaining complex, dynamic user interfaces. React
 allows developers to build web applications that can update and render
@@ -112,15 +63,15 @@ UI’s)
 
 React.js is an industry standard and has grown a massive community that
 continues to develop / maintain open source libraries which developers
-can leverage to use other people’s code. Examples of this include a UI
-Component Library called [<u>MUI</u>](https://mui.com/) and a modern
-build tool called [<u>Vite</u>](http://vite).
+can leverage to use other people’s code. Examples of these libraries include a UI
+Component Library called <a href="https://mui.com/" target="_blank" rel="noopener noreferrer"><u>MUI</u></a> and a modern
+build tool called <a href="http://vite.dev" target="_blank" rel="noopener noreferrer"><u>Vite</u></a>.
 
 ### Okay, what are the essentials?
 
 #### <u>Prerequisites</u>: 
 
-You will need to first [<u>install Node.js</u>](http://node.js) which is defined above. This will allow us to work in JS for both frontend and backend development. You will also need an IDE, a popular one we recommend is [<u>VSCode</u>](https://code.visualstudio.com/download).
+You will need to first <a href="https://nodejs.org/en/download" target="_blank" rel="noopener noreferrer"><u>install Node.js</u></a> which is defined above. This will allow us to work in JS for both frontend and backend development. You will also need an IDE, a popular one we recommend is <a href="https://code.visualstudio.com/download" target="_blank" rel="noopener noreferrer"><u>VSCode</u></a>.
 
 Within VSCode, install this extension which will let you use syntax
 shortcuts. You can do so by going into “Extensions” within VSCode,
@@ -198,12 +149,10 @@ this assigns important metadata that we can mess with.
 
 1. Look at the tab header for your localhost, it should be the Vite
    logo and “Vite + React”
-2. Find the `<title>` tag on line 8, change the text between the
+2. Find the `<title>` tag on/around line 8, change the text between the
    tags to your name
 3. Find the `<link>` tag and change the text inside the quotes
-   of `href`.  
-   [<u>Go to this link</u>](https://www.google.com/search?sca_esv=20a76472aa525adb&q=bu+spark+logo&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J5MIFhvnvU242yFxzEEp3BcbXWGQjBp6XyyqfUu6Wz8hXsM0yT-UlYRgT5OS0dDqQmKSmdrFO_r2gR4_bMaNpFYwOEPG3VGROI4O1AFWaADqNeXEyGIp6QyPXEvENOfNURrv3IiuEQ_eMVKsmc2cJdKaPkPjDDABz8YR4APbR30p5vNWOw&sa=X&ved=2ahUKEwj48aOFrfaHAxWrGtAFHVPpMeQQtKgLegQIDxAB&biw=1280&bih=621&dpr=2#vhid=nnquR3BL7w6ueM&vssid=mosaic)  
-   and click *“Copy Image Address”* and paste it into the string.
+   of `href`. <a href="https://share.google/7ydsxwWMqOqRkTPKm" target="_blank" rel="noopener noreferrer"><u>Go to this link</u></a> and click *“Copy Image Address”* and paste it into the string.
 4. Check out the tab header and see what has changed
 
 > **Explanation:** You have set the metadata for your app so now it
@@ -211,14 +160,38 @@ this assigns important metadata that we can mess with.
 
 ---
 
-## Additions to the App
+## CREATING YOUR OWN COMPONENT
+
+Up to now, you have been *using* components — but you have not actually
+learned what a React component really is.
+
+### What is a Component?
+
+A **React component** is simply a JavaScript function that returns JSX
+(the UI). React repeatedly calls this function whenever the page needs
+to update.
+
+Example:
+
+```jsx
+function HelloWorld() {
+  return <h1>Hello world!</h1>
+}
+
+export default HelloWorld
+```
+
+## ADDITIONS TO THE APP
 
 We will now create our first component that makes use of one of the
 other most popular hooks: `useEffect()`.
 
-**useEffect( )** – essentially acts as a listener that contains a block
-of code that it executes only when a variable (in its dependency array)
-changes.
+**useEffect( )** – runs a block of code after React updates the screen. It can be thought of as a “listener” that reacts to state changes. The behavior depends on the dependency array:
+
+- No dependency array → runs after **every render**
+- Empty array `[]` → runs **once when the page first loads** (component mount)
+- `[variable]` → runs whenever that specific variable changes
+
 
 ### Implementing a Favorite Number Alert
 
@@ -278,13 +251,13 @@ themselves.
 
 ---
 
-## Wrap up
+## WRAP-UP
 
 Congrats! You now know the basics of React.js, a modern web development
 framework. You should be able to answer the following questions and
 accomplish the following tasks:
 
-### Questions
+## QUESTIONS (you should be able to answer)
 
 1. What is React.js? What is it used for?
 2. What makes React.js better than HTML, CSS, and Vanilla JS? Given
@@ -293,7 +266,7 @@ accomplish the following tasks:
 3. What is the role of Vite and Node.js in our React app?
 4. What is `useState()` used for? What about `useEffect()`?
 
-### Tasks
+## Tasks
 
 1. Make the tab preview have your name and an image from Google.
 2. Make a new Component called `BooleanButton.jsx`  
@@ -311,21 +284,18 @@ accomplish the following tasks:
 
 ---
 
-### HOW TO CONTINUE THIS MAIN QUEST?
+## HOW TO CONTINUE THIS MAIN QUEST?
 
-Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSfH1R2lsM85JQHq454_-SPmR3AWSCoQsoHEojo2M2k7bIJRoQ/viewform?usp=sf_link) to finalize level one, then apply your knowledge by doing a React Side Quest.
-
-After completing that, you can move on to level three where you'll create your own project with some guidelines.
+Take the quiz <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH1R2lsM85JQHq454_-SPmR3AWSCoQsoHEojo2M2k7bIJRoQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><u>here</u></a> to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
 
 ---
 
-For any information or quality issues, please contact:
+### For any information or quality issues, please contact:  
 
-Kaylin - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)  
-Seun - [<u>oademilo@bu.edu</u>](mailto:oademilo@bu.edu)
+Kaylin Von Bergen (Spark! Code Quest Lead) via <a href="https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A" target="_blank" rel="noopener noreferrer"><u>GitHub issue</u></a>
 
 ---
 
-Author of this Code Quest:
+### Author of this Code Quest:  
 
-Owen Mariani - [<u>omariani@bu.edu</u>](mailto:omariani@bu.edu)
+Owen Mariani

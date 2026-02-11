@@ -23,92 +23,18 @@ access and revise other people's code.
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ A hands-on Git Side Ques­t for fine-tuning your version control skills: commit history, branching strategies and merge conflict resolution. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/S2rfJDU0). 
+→ A hands-on Git challenge for fine-tuning your version control skills: commit history, branching strategies and merge conflict resolution. You can accept the assignment <a href="https://classroom.github.com/a/S2rfJDU0" target="_blank" rel="noopener noreferrer"><u>here</u></a>. 
 ### Level Three: 
-→ Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/git-level-3).
+→ Creating your own project. The instructions can be found <a href="https://github.com/BU-Spark-Learning-Ambassadors/git-level-3" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 
 ---
 
 
 # Git/Hub Level One
-## Overview – what you should learn
-
-### Vocabulary
-
-- Repository (repo)
-
-- Branch
-
-- Directory
-
-- Commit
-
-- Pull/pull request
-
-- Push
-
-- Fetch
-
-- Fork
-
-- Clone
-
-- Access token
-
-- Local
-
-- Remote
-
-### Specific Commands
-
-- ``git clone &lt;https://name-of-the-repository-link&gt;``
-
-- ``git branch &lt;branch-name&gt;``
-
-- ``git push -u &lt;remote&gt; &lt;branch-name&gt;``
-
-- ``git branch -d &lt;branch-name&gt;``
-
-- ``git checkout &lt;name-of-your-branch&gt;``
-
-- ``git status``
-
-- ``git add &lt;file&gt; / git add -A``
-``
-- ``git commit -m "commit message"``
-
-- ``git push &lt;remote&gt; &lt;branch-name&gt;``
-
-- ``git pull &lt;remote&gt;``
-
-- ``git revert 3321844``
-
-- ``git merge``
-
-- ``git clone -b &lt;branchname&gt; --single-branch &lt;repo-https&gt;``
-
-- 
-
-### Concepts
-
-- Initializing
-
-- Version control
-
-- Commits
-
-- Pull, push, & merge requests
-
-- Branches
-
-- Conflicts
-
-- Presentation and documentation: ReadMe, etc.
-
-- Large file storage
+## VOCABULARY
 - **Repository —** A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files (including documentation), and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
-- **Branch —** A branch is a parallel version of a repository. It is contained within the repository, but does not affect the primary or main branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the main branch to publish your changes (*note: the main branch used to be called master; read more [here](?tab=t.uh2g7kc4nmfw)*).
+- **Branch —** A branch is a parallel version of a repository. It is contained within the repository, but does not affect the primary or main branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the main branch to publish your changes (*note: the main branch used to be called master).
 
 - **Directory —** A folder containing one or more files or folders. You can create directories to organize the contents of a repository.
 
@@ -117,6 +43,8 @@ access and revise other people's code.
 - **Pull/pull requests —** Pull refers to when you are fetching changes and merging them. For instance, if someone has edited the remote file you're both working on, you'll want to pull in those changes to your local copy so that it's up to date. Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators. *Like issues, pull requests each have their own discussion forum.*
 
 - **Push —** To push means to send your committed changes to a remote repository on GitHub.com. For instance, if you change something locally, you can push those changes so that others may access them.
+
+- **Conflicts —** Errors that occur when Git cannot automatically combine changes because the same lines of a file were edited differently in two places.
 
 - **Fetch —** When you use git fetch, you're adding changes from the remote repository to your local working branch without committing them. Unlike git pull, fetching allows you to review changes before committing them to your local branch.
 
@@ -130,22 +58,54 @@ access and revise other people's code.
 
 - **Local —** The version that lives on your computer.
 
+- **Large file storage (Git LFS) —** An extension to Git that stores large files (like images, videos, or datasets) outside the normal repository to keep the repo fast and manageable.
 
-### What is Git? What is GitHub?
+- **Version control —** A system that records changes to files over time so you can view history, revert mistakes, and collaborate safely.
 
+- **Presentation and documentation (README, etc.) —** Files that explain what the project is, how it works, and how to install or use it. The README is the main project description shown on GitHub.
+
+## Specific Commands
+
+- ``git clone [https://name-of-the-repository-link]``
+
+- ``git branch [branch-name]``
+
+- ``git push -u [remote] [branch-name]``
+
+- ``git branch -d [branch-name]``
+
+- ``git checkout [name-of-your-branch]``
+
+- ``git status``
+
+- ``git add [file]`` / ``git add -A`` / ``git add .``
+
+- ``git commit -m "commit message"``
+
+- ``git push [remote] [branch-name]``
+
+- ``git pull [remote]``
+
+- ``git revert``
+
+- ``git merge``
+
+- ``git clone -b [branchname] --single-branch [repo-https]``
+
+## WHAT IS GIT? WHAT IS GITHUB?
 **Git** is a free tool that developers install locally on their
 computers. It tracks changes made to files and allows developers to
 maintain previous versions and create new versions of their projects.
 This concept is known as *version control* — the practice of managing
 changes to computer files and maintaining different versions of those
 files.  
+
 **GitHub** is an online service built to run Git in the cloud. Think of
 it as a combination of social media and a convenience tool for Git; it
 allows you to store your code online, collaborate with others, and
 access and revise other people's code.
 
 ### Why do I need to know anything about Git and Github?
-
 Version control is an essential tool in software development. When
 Instagram, for example, updates their app, do you think they completely
 overwrite their previous code every time they want to test something? Do
@@ -157,7 +117,6 @@ also allows developers to create new solutions without overwriting the
 current version. Plus, it makes collaboration a million times easier.
 
 ### Okay, what are the essentials?
-
 First, you need to understand the most basic terminology and commands.
 Then, you’ll need to know how to transition your projects from just
 living in IDEs and files on your computer to GitHub, as well as creating
@@ -171,11 +130,10 @@ control, moving your projects to the cloud, grabbing projects from the
 cloud, and collaborating efficiently with other developers while
 maintaining version control.
 
-### LET'S GET STARTED!
-
+## LET'S GET STARTED!
 To start, make sure you have Git installed on your computer by following
 the steps outlined
-[<u>here</u>](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 After that, we’ll begin by creating our own project using a
 *repository*. A repository is the “capsule” of your project on GitHub.
 Think of it as a folder that holds all the directories and files of your
@@ -190,7 +148,6 @@ window that appears when clicking your profile picture and clicking
 
 ![new repository button](media/image1.jpg){:style="width:225px; display: block; margin-left: auto; margin-right: auto;"}
 
-
 At this point, you’ll be able to name your repository, fiddle with
 privacy settings, add a description, and initialize a *README* file. A
 *README* file is a file that most repositories contain, which is written
@@ -198,8 +155,7 @@ in Markdown, and provides context or necessary information for the
 project. Once you’re happy with the settings, you can click *create
 repository*, and you’ll have a new repository!
 
-### YOU’VE CREATED YOUR REPOSITORY ON GITHUB! WHAT NEXT?
-
+## YOU’VE CREATED YOUR REPOSITORY ON GITHUB! WHAT NEXT?
 It’s important to remember that you’ve only created the *remote
 repository*. This means that it’s hosted on GitHub, and you don’t have
 access to it locally on your machine. Luckily, there are plenty of
@@ -219,15 +175,14 @@ You’re going to want to press the green *Code* button. Here, you’ll be
 able to navigate over to HTTPS, and copy the link. To use this, we need
 to open some kind of terminal (either through your machines terminal or
 an IDE terminal, such as VSCode, Eclipse, or even the built-in
-*codespace*). From there, you’ll type ``git clone &lt;HTTPS link&gt;``. It
+*codespace*). From there, you’ll type ``git clone [HTTPS link]``. It
 will ask you where to place the files, and you’ll choose where you want
 to have your project stored. Now you have a *remote repository,* which
 is the repository on GitHub, and the *local* version, which is what you
 have stored in files in your computer.
 
 
-### COOL! HOW DO I START MAKING CHANGES TO MY PROJECT?
-
+## COOL! HOW DO I START MAKING CHANGES TO MY PROJECT?
 You’re asking the right questions! As good practice, you’re not *really*
 going to want to make any changes directly through GitHub. Instead,
 you’ll want to make changes locally in your IDE, and then *commit* and
@@ -243,8 +198,7 @@ here’s a general process:
 
 - You can type ``git status`` to determine which files have changes in them.
 
-- From here, you can add the specific file(s) using ``git add``
-  &lt;file&gt;, or you can add *all* the changed files using ``git add -A.``
+- From here, you can add the specific file(s) using ``git add [file]``, or you can add *all* the changed files using ``git add -A.``
 
 - Now, you’re going to *commit* these changes, by typing git commit -m
   "commit message". In the commit message, you’ll want to add a brief
@@ -254,8 +208,8 @@ here’s a general process:
   of our projects. Having frequent “saves” allows us the freedom to make
   mistakes and try new approaches without worrying about losing
   progress. Plus, it helps collaborators understand the changes made to
-  the program (note: you may be asked to identify yourself using the git
-  config --global user.email "&lt;email&gt;" command. Once you tell it
+  the program (note: you may be asked to identify yourself using the ``git
+  config --global user.email "[email]"`` command. Once you tell it
   your email, you can try to run ``git commit -m`` again and it should
   work!).
 
@@ -263,22 +217,20 @@ here’s a general process:
   Simply type ``git push``, and your changes will be reflected in GitHub!
 
 Now, let’s get back to GitHub. Right beneath that green *Code* button,
-you’ll see some text that reads *&lt;x&gt; commits.* You can click on
+you’ll see some text that reads *< x > commits.* You can click on
 this and scroll through all the commits, and look at every change made
 to your remote repository. In the box with the README file that was
 created, you should also see the files that you pushed.
 
-### PULLING
-
+## PULLING
 If you want to work on your project from multiple machines or you have
 multiple people making commits to the repository, the local and remote
 version of the repository will often be out of sync. Luckily, there’s a
-way to make handling this situation more efficient. Use the git pull
-origin &lt;branch&gt; command. For now, the branch name is *main*. This
+way to make handling this situation more efficient. Use the ``git pull
+origin [branch]`` command. For now, the branch name is *main*. This
 will sync your local and remote repositories.
 
-### BRANCHES? FORKS? 
-
+## BRANCHES? FORKS? 
 When collaborating with other programmers within the same repository,
 there are multiple ways to structure it so that unauthorized changes
 cannot be made to the files, and outside programmers can suggest their
@@ -311,7 +263,7 @@ changes. Now you can work freely within your fork without worrying about
 the changes becoming permanent or affecting the creator/s by cloning the
 repository
 
-Let’s look at branches. In the top left, you’ll have an *&lt;x&gt;
+Let’s look at branches. In the top left, you’ll have an *< x >
 branch/es* text button. You can click this, and it will take you to a
 new page that displays all the created branches. In the top right,
 you’ll see a *new branch* button and you can click that to create a new
@@ -321,11 +273,9 @@ branch, give it a name, and then create it.
 In the overview, you’ll be able to see stats about your branch, for
 example, the time of last update, how many commits it is behind or ahead
 of its parent branch, and its *rules*. rules can be created and updated
-in the settings of the repository.
+in the settings of the repository. 
 
-### 
-
-### UPSTREAM/DOWNSTREAM
+## UPSTREAM/DOWNSTREAM
 
 Often, when you create forks or manually copy repositories, you’ll want
 a way to keep it updated and synced with the original repositories. To
@@ -341,8 +291,7 @@ downstream repository makes improvements or fixes, they can propose
 these changes back to the upstream repository via pull requests or
 patches.
 
-### GIT MERGE VS REBASE VS FAST FORWARD VS SQUASH COMMIT
-
+## GIT MERGE VS REBASE VS FAST FORWARD VS SQUASH COMMIT
 **Git Merge**: Combines changes from one branch into another. It creates
 a new "merge commit" that has two parent commits, representing the two
 branches being merged. Typically used when integrating changes from a
@@ -367,13 +316,11 @@ to simplify commit history, often before merging a feature branch, by
 squashing all commits into one. This is helpful when you want to avoid
 clutter in the commit history with many small, incremental commits.
 
-### LARGE FILE STORAGE (LFS)
-
+## LARGE FILE STORAGE (LFS)
 LFS is an extension to Git that helps manage large files in a
 repository. <u>You need to install Git LFS separately</u> since it’s not
 included by default with Git. You can install it using a package manager
-or by downloading it from the [<u>Git LFS
-website</u>](https://git-lfs.github.com/). When you use Git LFS, instead
+or by downloading it from the <a href="https://git-lfs.github.com/" target="_blank" rel="noopener noreferrer"><u>Git LFS website</u></a>. When you use Git LFS, instead
 of storing the actual large file in the Git repository, a small pointer
 file is stored. This pointer file references the large file stored in a
 separate LFS server. They are stored on a remote LFS server, which can
@@ -383,8 +330,7 @@ configured, or they may encounter issues with large files. Git LFS is
 particularly useful in projects involving large media files or datasets
 that would otherwise bloat a standard Git repository.
 
-### CAREER AND CONCLUSION
-
+## CAREER AND CONCLUSION
 These were the basics on Git and GitHub! Now that you know what you’re
 doing, we have one final note about making your personal GitHub page
 appeal to other people—such as employers.
@@ -401,26 +347,21 @@ projects, collaborate effectively in teams, and manage your own code
 with version control. These skills are not just good to have—they’re
 essential in modern software development. Happy coding :)
 
-### HOW TO CONTINUE THIS MAIN QUEST?
-
-Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLScLz-SI2qKEbl5DHijomOo7CNzecWbGDw1oUS74y6FqrglwyQ/viewform?usp=sf_link) to finalize level one, then apply your knowledge by doing a Git Side Quest.
-
-After completing that, you can complete level three for some more self-guided work with Git with instructions.
+## HOW TO CONTINUE THIS MAIN QUEST?
+Take the quiz <a href="https://docs.google.com/forms/d/e/1FAIpQLScLz-SI2qKEbl5DHijomOo7CNzecWbGDw1oUS74y6FqrglwyQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><u>here</u></a> to finalize Level One, then apply your knowledge with Level Two. After completing that, you can complete Level Three for some more self-guided Git practice with instructions.
 
 ---
 
-For any information or quality issues, please contact:
+### For any information or quality issues, please contact:  
 
-Kaylin - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)
-
-Seun - [<u>oademilo@bu.edu</u>](mailto:oademilo@bu.edu)
+Kaylin Von Bergen (Spark! Code Quest Lead) via <a href="https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A" target="_blank" rel="noopener noreferrer"><u>GitHub issue</u></a>
 
 ---
 
-Authors of this Code Quest:
+### Authors of this Code Quest:  
 
-Haji - [<u>iamhaji0@bu.edu</u>](mailto:iamhaji0@bu.edu)
+Haji Abdi
 
-Sed - [<u>slomani@bu.edu</u>](mailto:slomani@bu.edu)
+Sed Lomani
 
-Kaylin - [<u>kaylinvb@bu.edu</u>](mailto:kaylinvb@bu.edu)
+Kaylin Von Bergen

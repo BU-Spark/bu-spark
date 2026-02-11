@@ -5,36 +5,26 @@ has_children: true
 nav_order: 1 # Adjust according to your desired order
 permalink: /docs/code-quests/
 ---
+![Code Quests](media/header.png)
 
-<p>~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~~~º~~</p>
 
-# Code Quests
 
-Code quests are progressional curriculums intended to teach students tech topics they may not get exposure to in their classes.
 
-Code quests are made up of **three levels** to service complete understanding of each topic:
+Need an easy, structured way to learn important tools and platforms necessary for your tech career or projects? Look no further than code quests!
 
-1. Learn
-2. Apply
-3. Create
+Designed to strengthen your skills, Code Quests offer hands-on experience with key frameworks and concepts often missed in traditional learning.
 
-<!-- Progression Graphic here to visualize -->
-<!-- <div style="margin: 0 auto;">
-<img src="https://www.shutterstock.com/image-vector/golden-silver-bronze-award-sport-600nw-2324606479.jpg" alt="badge progression graphic here" width='250px'/>
-</div> -->
+![Code Quests](media/topics.png){:style="width:90%; display:block; margin:0 auto;"}
 
-## LinkedIn Badges
+Code quests are made up of **three levels** to ensure complete understanding of each topic:
+  
+### Level One: LEARN 📚
+Level one consists of a document and short quiz.
 
-\*_Students can complete any level to receive a bronze, silver or gold badge on LinkedIn (or all three for a diamond badge)._
+### Level Two: APPLY ✏️
+Level two is a Google Classroom link to a small fill-in-the-blank style exercise!
 
-### 🥉 Level One
-
-Level one consists of a document and short quiz
-
-### 🥈 Level Two
-
-level two is a Spark! Side Quest or workshop for select topics
-
-### 🥇 Level Three
-
+### Level Three: CREATE ✨
 Level three is a project! Your work is to be submitted to Learning Ambassadors for each level in order to receive your badge.
+
+![Bolt Bot](media/BOLT1.png){:style="width:300px; display:block; margin:0 auto;"}
