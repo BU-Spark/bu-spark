@@ -12,9 +12,9 @@ React is a web development framework that is wildly popular and promotes a compo
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ Create your own weather app for the United States! You can accept the assignment [<u>here</u>](https://classroom.github.com/a/1QZf8t1T).
+→ Create your own weather app for the United States! You can accept the assignment <a href="https://classroom.github.com/a/1QZf8t1T" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 ### Level Three: 
-→ Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/react-level-3).
+→ Creating your own project. The instructions can be found <a href="https://github.com/BU-Spark-Learning-Ambassadors/react-level-3" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 
 ---
 
@@ -63,14 +63,14 @@ UI’s)
 React.js is an industry standard and has grown a massive community that
 continues to develop / maintain open source libraries which developers
 can leverage to use other people’s code. Examples of these libraries include a UI
-Component Library called [<u>MUI</u>](https://mui.com/) and a modern
-build tool called [<u>Vite</u>](http://vite.dev).
+Component Library called <a href="https://mui.com/" target="_blank" rel="noopener noreferrer"><u>MUI</u></a> and a modern
+build tool called <a href="http://vite.dev" target="_blank" rel="noopener noreferrer"><u>Vite</u></a>.
 
 ### Okay, what are the essentials?
 
 #### <u>Prerequisites</u>: 
 
-You will need to first [<u>install Node.js</u>](https://nodejs.org/en/download) which is defined above. This will allow us to work in JS for both frontend and backend development. You will also need an IDE, a popular one we recommend is [<u>VSCode</u>](https://code.visualstudio.com/download).
+You will need to first <a href="https://nodejs.org/en/download" target="_blank" rel="noopener noreferrer"><u>install Node.js</u></a> which is defined above. This will allow us to work in JS for both frontend and backend development. You will also need an IDE, a popular one we recommend is <a href="https://code.visualstudio.com/download" target="_blank" rel="noopener noreferrer"><u>VSCode</u></a>.
 
 Within VSCode, install this extension which will let you use syntax
 shortcuts. You can do so by going into “Extensions” within VSCode,
@@ -151,7 +151,7 @@ this assigns important metadata that we can mess with.
 2. Find the `<title>` tag on/around line 8, change the text between the
    tags to your name
 3. Find the `<link>` tag and change the text inside the quotes
-   of `href`. [<u>Go to this link</u>](https://share.google/7ydsxwWMqOqRkTPKm) and click *“Copy Image Address”* and paste it into the string.
+   of `href`. <a href="https://share.google/7ydsxwWMqOqRkTPKm" target="_blank" rel="noopener noreferrer"><u>Go to this link</u></a> and click *“Copy Image Address”* and paste it into the string.
 4. Check out the tab header and see what has changed
 
 > **Explanation:** You have set the metadata for your app so now it
@@ -282,13 +282,13 @@ accomplish the following tasks:
 
 ## HOW TO CONTINUE THIS MAIN QUEST?
 
-Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSfH1R2lsM85JQHq454_-SPmR3AWSCoQsoHEojo2M2k7bIJRoQ/viewform?usp=sf_link) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
+Take the quiz <a href="https://docs.google.com/forms/d/e/1FAIpQLSfH1R2lsM85JQHq454_-SPmR3AWSCoQsoHEojo2M2k7bIJRoQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><u>here</u></a> to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
 
 ---
 
 ### For any information or quality issues, please contact:  
 
-Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
+Kaylin Von Bergen (Spark! Code Quest Lead) via <a href="https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A" target="_blank" rel="noopener noreferrer"><u>GitHub issue</u></a>
 
 ---
 
