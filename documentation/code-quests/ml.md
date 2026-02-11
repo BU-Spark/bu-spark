@@ -14,18 +14,13 @@ Machine learning is a system or branch of Artificial Intelligence within Compute
 → Instructions shown below.
 ### Level Two: 
 → A beginner machine-learning challenge for practicing model building and evaluation on a real-world dataset. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/pjAJqyVR). 
-### Level Two: 
-→ A beginner machine-learning challenge for practicing model building and evaluation on a real-world dataset. You can accept the assignment <a href="https://classroom.github.com/a/pjAJqyVR" target="_blank" rel="noopener noreferrer"><u>here</u></a>. 
-### Level Three: 
-→ Creating your own project. The instructions can be found <a href="https://github.com/BU-Spark-Learning-Ambassadors/ML-level-3" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 ### Level Three: 
 → Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/ML-level-3).
-The link
-<a href="https://www.geeksforgeeks.org/ml-linear-regression/" target="_blank" rel="noopener noreferrer"><u>here</u></a> is a
+
 ---
-[<a href="https://mas-dse.github.io/startup/anaconda-macosx-install/" target="_blank" rel="noopener noreferrer"><u>here</u></a>]
+# Machine Learning (Regression) Level One
 ## Overview
-[<a href="https://www.geeksforgeeks.org/how-to-download-kaggle-datasets-into-jupyter-notebook/" target="_blank" rel="noopener noreferrer"><u>link</u></a>,
+### I. What Machine Learning Is
 - **Algorithm —** In anything from mathematics to computer science, an algorithm refers to any set of instructions that are completed in a certain order to attain a particular goal/result. Algorithms are the main building blocks of machine learning models as they take in inputs and then run them through an ordered series of steps to classify data or make predictions.
 - **Model —** A program that uses multiple algorithms to identify patterns in data and then create prescriptions, descriptions, or predictions based on the nature of our system. A model is essentially the final result when you combine an ML algorithm with data.
 **Key Functions of Machine Learning (ML) Algorithms and Models**
@@ -277,19 +272,16 @@ on careful model selection, evaluation, and feature engineering.
 
 ## HOW TO CONTINUE THIS MAIN QUEST?
 
-Take the quiz <a href="https://docs.google.com/forms/d/e/1FAIpQLSdaWV6sIpCZvopCa7RITIbr3L-EeKWyD10-rIqBXrf2n5qTRg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><u>here</u></a> to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
+Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSdaWV6sIpCZvopCa7RITIbr3L-EeKWyD10-rIqBXrf2n5qTRg/viewform?usp=sf_link) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
 
 ---
-**For any information or quality issues, please contact:**
 
 ### For any information or quality issues, please contact:  
 
-Kaylin Von Bergen (Spark! Code Quest Lead) via <a href="https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A" target="_blank" rel="noopener noreferrer"><u>GitHub issue</u></a>
+Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
 
 ---
 
 ### Author of this Code Quest:  
 
 Aarnav Prakash
-
-
