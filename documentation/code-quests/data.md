@@ -14,9 +14,9 @@ Data visualization, on the other hand, is all about making sense of the data by 
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ A beginner challenge for practicing data preparation and visualization using the Iris dataset. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/lQWzLPSX). 
+→ A beginner challenge for practicing data preparation and visualization using the Iris dataset. You can accept the assignment <a href="https://classroom.github.com/a/lQWzLPSX" target="_blank" rel="noopener noreferrer"><u>here</u></a>. 
 ### Level Three: 
-→ Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/data-level-3).
+→ Creating your own project. The instructions can be found <a href="https://github.com/BU-Spark-Learning-Ambassadors/data-level-3" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 
 ---
 
@@ -255,13 +255,13 @@ outcomes, treatment effectiveness, and more.
 
 ## HOW TO CONTINUE THIS MAIN QUEST?  
 
-Take the quiz [<u>here</u>](https://forms.gle/mDvKYWSdcz4SuUhQ6) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
+Take the quiz <a href="https://forms.gle/mDvKYWSdcz4SuUhQ6" target="_blank" rel="noopener noreferrer"><u>here</u></a> to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
 
 ---
 
 ### For any information or quality issues, please contact:  
 
-Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
+Kaylin Von Bergen (Spark! Code Quest Lead) via <a href="https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A" target="_blank" rel="noopener noreferrer"><u>GitHub issue</u></a>
 
 ---
 

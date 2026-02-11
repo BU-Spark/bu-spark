@@ -12,9 +12,9 @@ There are several key benefits of using an API for your project. APIs can help y
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ A hands-on API ques­t to practice fetching data, parsing responses, and displaying information from an external service. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/6zvc_FYg). 
+→ A hands-on API ques­t to practice fetching data, parsing responses, and displaying information from an external service. You can accept the assignment <a href="https://classroom.github.com/a/6zvc_FYg" target="_blank" rel="noopener noreferrer"><u>here</u></a>. 
 ### Level Three: 
-→ Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/API-level-3).
+→ Creating your own project. The instructions can be found <a href="https://github.com/BU-Spark-Learning-Ambassadors/API-level-3" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 
 ---
 
@@ -145,7 +145,7 @@ where information is sent and received between two systems. Endpoints
 are essential to APIs because they are the point where the client and
 the server communicate. Let's see an example!
 
-[<u>Spotify</u>](https://developer.spotify.com/documentation/web-api)
+<a href="https://developer.spotify.com/documentation/web-api" target="_blank" rel="noopener noreferrer"><u>Spotify</u></a>
 has an API that gives information about albums, playlists, songs, and
 more. If you, for example, wanted to access a specific album, you can
 gain access through Spotify’s catalog with the endpoint
@@ -156,8 +156,7 @@ identifier.
 
 Before anything, you will need to pick an API to use. There are
 thousands of public APIs you can choose from, but a helpful place to
-start might be to consult pages like [<u>Google’s API
-Explorer</u>](https://developers.google.com/apis-explorer/) or [<u>this repository of public APIs </u>](https://github.com/public-apis/public-apis) to find which one best fits your needs. Some popular AI APIs include:
+start might be to consult pages like <a href="https://developers.google.com/apis-explorer/" target="_blank" rel="noopener noreferrer"><u>Google’s API Explorer</u></a> or <a href="https://github.com/public-apis/public-apis" target="_blank" rel="noopener noreferrer"><u>this repository of public APIs</u></a> to find which one best fits your needs. Some popular AI APIs include:
 
 - **OpenAI API:** Offers access to powerful language models like GPT-4 for natural language tasks such as text generation, completion, and summarization.
 - **Google Cloud AI APIs:** A suite of APIs for integrating vision, language, and conversation capabilities into applications.
@@ -214,7 +213,7 @@ Every status code indicates a different output that happened with the
 request. Look at the following for a guide to see what your status code
 means:
 
-[<u>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status</u>](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" target="_blank" rel="noopener noreferrer"><u>https://developer.mozilla.org/en-US/docs/Web/HTTP/Status</u></a>
 
 Run through these status codes and try to solve whatever issue is
 popping up.
@@ -298,13 +297,13 @@ leverage more of your APIs capabilities.
 
 ## HOW TO CONTINUE THIS MAIN QUEST?  
 
-Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSdrirR6caWeNXtfILYCv-RtfpRrp0GmiUAOyNb5Kp-yeGmjiw/viewform?usp=sf_link) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
+Take the quiz <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrirR6caWeNXtfILYCv-RtfpRrp0GmiUAOyNb5Kp-yeGmjiw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><u>here</u></a> to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
 
 ---
 
 ### For any information or quality issues, please contact:  
 
-Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
+Kaylin Von Bergen (Spark! Code Quest Lead) via <a href="https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A" target="_blank" rel="noopener noreferrer"><u>GitHub issue</u></a>
 
 ---
 

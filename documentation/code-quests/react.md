@@ -185,9 +185,12 @@ export default HelloWorld
 We will now create our first component that makes use of one of the
 other most popular hooks: `useEffect()`.
 
-**useEffect( )** – essentially acts as a listener that contains a block
-of code that it executes only when a variable (in its dependency array)
-changes.
+**useEffect( )** – runs a block of code after React updates the screen. It can be thought of as a “listener” that reacts to state changes. The behavior depends on the dependency array:
+
+- No dependency array → runs after **every render**
+- Empty array `[]` → runs **once when the page first loads** (component mount)
+- `[variable]` → runs whenever that specific variable changes
+
 
 ### Implementing a Favorite Number Alert
 

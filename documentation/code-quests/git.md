@@ -23,9 +23,9 @@ access and revise other people's code.
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ A hands-on Git challenge for fine-tuning your version control skills: commit history, branching strategies and merge conflict resolution. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/S2rfJDU0). 
+→ A hands-on Git challenge for fine-tuning your version control skills: commit history, branching strategies and merge conflict resolution. You can accept the assignment <a href="https://classroom.github.com/a/S2rfJDU0" target="_blank" rel="noopener noreferrer"><u>here</u></a>. 
 ### Level Three: 
-→ Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/git-level-3).
+→ Creating your own project. The instructions can be found <a href="https://github.com/BU-Spark-Learning-Ambassadors/git-level-3" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 
 ---
 
@@ -133,7 +133,7 @@ maintaining version control.
 ## LET'S GET STARTED!
 To start, make sure you have Git installed on your computer by following
 the steps outlined
-[<u>here</u>](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 After that, we’ll begin by creating our own project using a
 *repository*. A repository is the “capsule” of your project on GitHub.
 Think of it as a folder that holds all the directories and files of your
@@ -320,8 +320,7 @@ clutter in the commit history with many small, incremental commits.
 LFS is an extension to Git that helps manage large files in a
 repository. <u>You need to install Git LFS separately</u> since it’s not
 included by default with Git. You can install it using a package manager
-or by downloading it from the [<u>Git LFS
-website</u>](https://git-lfs.github.com/). When you use Git LFS, instead
+or by downloading it from the <a href="https://git-lfs.github.com/" target="_blank" rel="noopener noreferrer"><u>Git LFS website</u></a>. When you use Git LFS, instead
 of storing the actual large file in the Git repository, a small pointer
 file is stored. This pointer file references the large file stored in a
 separate LFS server. They are stored on a remote LFS server, which can
@@ -349,13 +348,13 @@ with version control. These skills are not just good to have—they’re
 essential in modern software development. Happy coding :)
 
 ## HOW TO CONTINUE THIS MAIN QUEST?
-Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLScLz-SI2qKEbl5DHijomOo7CNzecWbGDw1oUS74y6FqrglwyQ/viewform?usp=sf_link) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can complete Level Three for some more self-guided Git practice with instructions.
+Take the quiz <a href="https://docs.google.com/forms/d/e/1FAIpQLScLz-SI2qKEbl5DHijomOo7CNzecWbGDw1oUS74y6FqrglwyQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer"><u>here</u></a> to finalize Level One, then apply your knowledge with Level Two. After completing that, you can complete Level Three for some more self-guided Git practice with instructions.
 
 ---
 
 ### For any information or quality issues, please contact:  
 
-Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
+Kaylin Von Bergen (Spark! Code Quest Lead) via <a href="https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A" target="_blank" rel="noopener noreferrer"><u>GitHub issue</u></a>
 
 ---
 

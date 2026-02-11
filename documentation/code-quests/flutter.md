@@ -13,9 +13,9 @@ Flutter is an open source UI software development kit (SDK) developed by Google 
 ### Level One: 
 → Instructions shown below.
 ### Level Two: 
-→ A short Flutter exercise where you implement a color picker UI and manage a dynamic list of user-selected colors. You can accept the assignment [<u>here</u>](https://classroom.github.com/a/RtnzKd4X). 
+→ A short Flutter exercise where you implement a color picker UI and manage a dynamic list of user-selected colors. You can accept the assignment <a href="https://classroom.github.com/a/RtnzKd4X" target="_blank" rel="noopener noreferrer"><u>here</u></a>. 
 ### Level Three: 
-→ Creating your own project. The instructions can be found [<u>here</u>](https://github.com/BU-Spark-Learning-Ambassadors/flutter-level-3).
+→ Creating your own project. The instructions can be found <a href="https://github.com/BU-Spark-Learning-Ambassadors/flutter-level-3" target="_blank" rel="noopener noreferrer"><u>here</u></a>.
 
 ---
 
@@ -120,9 +120,9 @@ State gets managed and passed around the system. Since many widgets may contain 
 
 ## LET'S GET STARTED!  
 
-The first thing we have to do is install it from [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install).  
+The first thing we have to do is install it from <a href="https://docs.flutter.dev/get-started/install" target="_blank" rel="noopener noreferrer">https://docs.flutter.dev/get-started/install</a>.  
 
-Installing Flutter and optimizing settings can be more complicated than you’re used to, so here’s a walkthrough for [Windows](https://www.youtube.com/watch?v=DvZuJeTHWaw), and here is a walkthrough for [Mac](https://www.youtube.com/watch?v=BwKfjzxTGXI).  
+Installing Flutter and optimizing settings can be more complicated than you’re used to, so here’s a walkthrough for <a href="https://www.youtube.com/watch?v=DvZuJeTHWaw" target="_blank" rel="noopener noreferrer">Windows</a>, and here is a walkthrough for <a href="https://www.youtube.com/watch?v=BwKfjzxTGXI" target="_blank" rel="noopener noreferrer">Mac</a>.  
 
 We’re going to get you started with Android Studio development, but it only takes a couple extra steps to develop on Apple too that you can take later. There may be slight differences in versions and such, but they should be easy to figure out.  
 
@@ -349,7 +349,7 @@ Each time the button is pressed, it increments the counter using the `_increment
 
 These are the basics of Flutter. Since there are so many different widgets, we can’t go over each and every one in this document, but this gets you started on understanding the architecture of Flutter and its code.  
 
-Documentation can be found at [https://flutter.dev/](https://flutter.dev/), and whenever you want to learn something new, do so through there.  
+Documentation can be found at <a href="https://flutter.dev/" target="_blank" rel="noopener noreferrer">https://flutter.dev/</a>, and whenever you want to learn something new, do so through there.  
 
 Additionally, forums and LLMs (such as ChatGPT) can be a great resource.  
 
@@ -361,13 +361,13 @@ Good luck with Flutter!
 
 ## HOW TO CONTINUE THIS MAIN QUEST?  
 
-Take the quiz [<u>here</u>](https://docs.google.com/forms/d/e/1FAIpQLSetYuZqkLiXADH_NOjx3JCdx_V4Y_Z3Ncn52ZNHdh23fiez-Q/viewform) to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
+Take the quiz <a href="https://docs.google.com/forms/d/e/1FAIpQLSetYuZqkLiXADH_NOjx3JCdx_V4Y_Z3Ncn52ZNHdh23fiez-Q/viewform" target="_blank" rel="noopener noreferrer"><u>here</u></a> to finalize Level One, then apply your knowledge with Level Two. After completing that, you can create your own project with some guidelines for Level Three!
 
 ---
 
 ### For any information or quality issues, please contact:  
 
-Kaylin Von Bergen (Spark! Code Quest Lead) via [<u>GitHub issue</u>](https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A)
+Kaylin Von Bergen (Spark! Code Quest Lead) via <a href="https://github.com/BU-Spark/bu-spark/issues/new?title=Issue%20with%20Code%20Quest%20%E2%80%94%20%5BINSERT%20SPECIFIC%20CODE%20QUEST%5D&body=%40kaylinvonbergen%20%40langdon%0A%0APlease%20describe%20the%20issue%20below%3A%0A" target="_blank" rel="noopener noreferrer"><u>GitHub issue</u></a>
 
 ---
 
