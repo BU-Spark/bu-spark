@@ -7,7 +7,7 @@ nav_order: 1
 
 # FAQs
 
-**How can I apply for a job?"**
+**How can I apply for a job?**
 
 Please go to [https://www.bu.edu/spark/students/work/](https://www.bu.edu/spark/students/work/), where you will find the "Spark\! Employment Opportunities" tab. Please reach out to [buspark@bu.edu](mailto:buspark@bu.edu) if you have any further questions or concerns.
 
