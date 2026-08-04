@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Notion Task Tracking
+title: Notion
 parent: Spark! Project Organization
 nav_order: 2
 ---
@@ -31,12 +31,4 @@ Updating task status should be part of each developer's normal workflow rather t
 
 ## Why This Matters
 
-The Notion board serves as the team's single source of truth for project planning and progress. Keeping it up to date enables PMs, TPMs, and developers to:
-
-- Monitor project progress at a glance.
-- Identify blockers and dependencies early.
-- Plan upcoming sprint work effectively.
-- Coordinate code reviews and testing.
-- Ensure the entire team has visibility into ongoing work.
-
-Maintaining an accurate Notion board is an expected responsibility for all project contributors and is an important part of effective team communication.
+The Notion board serves as the team's single source of truth for project planning and progress. Keeping it up to date enables Spark! team members and students to maintain project history, monitor progress, identify blockers, coordinate code reviews, and plan effectively. 
