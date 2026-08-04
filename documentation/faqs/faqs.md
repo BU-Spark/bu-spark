@@ -36,7 +36,7 @@ Please go to [https://www.bu.edu/spark/students/work/](https://www.bu.edu/spark/
 
 **I am a freshman or a sophomore, can I get hired for an internship?**
 
-We have select opportunities for sophomores in our Summer internship program. We highly suggest freshmen and sophomores to attend our TechTalks and to participate in our MicroChallenges. TechTalks and MicroChallenges help students to build skills in different areas including software engineering, data science, and machine learning. Typically, internship openings during the semester are for project support roles (Technical Project Manager). Usually preference is given to juniors/seniors or students who have worked on an X-Lab project previously in one of our practicum courses. 
+We have select opportunities for sophomores in our Summer internship program. We highly suggest freshmen and sophomores attend our TechTalks and participate in our [Code Quests]({% link documentation/code-quests/code-quests.md %}). TechTalks and Code Quests help students to build skills in different areas including software engineering, data science, and machine learning. Typically, internship openings during the semester are for project support roles (Technical Project Manager). Usually preference is given to juniors/seniors or students who have worked on an X-Lab project previously in one of our practicum courses. 
 
 **What’s the difference between a technical intern and technical project manager (TPM)?**
 
