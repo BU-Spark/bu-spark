@@ -26,7 +26,7 @@ Please go to [https://www.bu.edu/spark/students/work/](https://www.bu.edu/spark/
 
 *Project Manager:* Usually preference is given to students who have worked on an X-Lab project previously in one of our practicum courses, but generally someone who is proactive, has strong project management and communication skills with basic understanding of data science, or software engineering projects. For students seeking project or product management experience, we encourage them to take Introduction to Product Management for Data Science (CDS DS 719), a 2-credit course where students will learn about scoping and managing a technical feature from concept to launch, identifying and tracking success metrics, and ensuring customer satisfaction and smooth team collaboration. 
 
-*Spark\! Ambassador:* Passion for technology, but no technical skills required, proactive, organized, ability to work independently takes initiative, cares about building community, committed to inclusive practices, ideas oriented, strong communication skills. Ambassador tracks include: 
+*Spark\! Ambassador:* Passion for technology, but no technical skills required, proactive, organized, ability to work independently takes initiative, cares about building community, committed to inclusive practices, ideas oriented, strong communication skills.
 
 **I am a freshman or a sophomore, can I get hired for an internship?**
 
