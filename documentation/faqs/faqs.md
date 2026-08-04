@@ -7,7 +7,7 @@ nav_order: 1
 
 # FAQs
 
-**How can I apply for a job?"**
+**How can I apply for a job?**
 
 Please go to [https://www.bu.edu/spark/students/work/](https://www.bu.edu/spark/students/work/), where you will find the "Spark\! Employment Opportunities" tab. Please reach out to [buspark@bu.edu](mailto:buspark@bu.edu) if you have any further questions or concerns.
 
@@ -26,17 +26,11 @@ Please go to [https://www.bu.edu/spark/students/work/](https://www.bu.edu/spark/
 
 *Project Manager:* Usually preference is given to students who have worked on an X-Lab project previously in one of our practicum courses, but generally someone who is proactive, has strong project management and communication skills with basic understanding of data science, or software engineering projects. For students seeking project or product management experience, we encourage them to take Introduction to Product Management for Data Science (CDS DS 719), a 2-credit course where students will learn about scoping and managing a technical feature from concept to launch, identifying and tracking success metrics, and ensuring customer satisfaction and smooth team collaboration. 
 
-*Spark\! Ambassador:* Passion for technology, but no technical skills required, proactive, organized, ability to work independently takes initiative, cares about building community, committed to inclusive practices, ideas oriented, strong communication skills. Ambassador tracks include: 
-
-* **Community:** Organize social events and activities aimed at connecting students and promoting wellness and community.   
-* **Learning:** Recruit speakers and set topics for Spark\! TechTalks, organize MicroChallenges, and support with career development initiatives.   
-* **Hackathon:** Organize hackathons throughout the school year and support students at all levels of computing and data science.   
-* **Ignite:** Support tech-focused clubs through promotion, training, recruitment, and more.   
-* **JEDI:** Support Spark\!’s efforts to advance justice, diversity, equity, and inclusion, including the DEI in Tech Collective, DEI training, and the DEI in Tech course. 
+*Spark\! Ambassador:* Passion for technology, but no technical skills required, proactive, organized, ability to work independently takes initiative, cares about building community, committed to inclusive practices, ideas oriented, strong communication skills.
 
 **I am a freshman or a sophomore, can I get hired for an internship?**
 
-We have select opportunities for sophomores in our Summer internship program. We highly suggest freshmen and sophomores to attend our TechTalks and to participate in our MicroChallenges. TechTalks and MicroChallenges help students to build skills in different areas including software engineering, data science, and machine learning. Typically, internship openings during the semester are for project support roles (Technical Project Manager). Usually preference is given to juniors/seniors or students who have worked on an X-Lab project previously in one of our practicum courses. 
+We have select opportunities for sophomores in our Summer internship program. We highly suggest freshmen and sophomores attend our TechTalks and participate in our [Code Quests]({% link documentation/code-quests/code-quests.md %}). TechTalks and Code Quests help students to build skills in different areas including software engineering, data science, and machine learning. Typically, internship openings during the semester are for project support roles (Technical Project Manager). Usually preference is given to juniors/seniors or students who have worked on an X-Lab project previously in one of our practicum courses. 
 
 **What’s the difference between a technical intern and technical project manager (TPM)?**
 

@@ -362,6 +362,6 @@ Kaylin Von Bergen (Spark! Code Quest Lead) via <a href="https://github.com/BU-Sp
 
 Haji Abdi
 
-Sed Lomani
+Sed Lomami
 
 Kaylin Von Bergen

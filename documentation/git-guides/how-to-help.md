@@ -2,7 +2,7 @@
 layout: default
 title: How to Help
 parent: Spark! Guidelines
-nav_order: 5
+nav_order: 4
 ---
 
 # Want to help?!?!?!
