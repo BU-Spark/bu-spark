@@ -11,3 +11,4 @@ Spark! provides a number of tools to support project teams to be as effective as
 # Tools
 
 - [Slack]({% link documentation/project-organization/slack.markdown %})
+- [Notion]({% link documentation/project-organization/notion.md %})
