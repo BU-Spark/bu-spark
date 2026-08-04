@@ -28,12 +28,6 @@ Please go to [https://www.bu.edu/spark/students/work/](https://www.bu.edu/spark/
 
 *Spark\! Ambassador:* Passion for technology, but no technical skills required, proactive, organized, ability to work independently takes initiative, cares about building community, committed to inclusive practices, ideas oriented, strong communication skills. Ambassador tracks include: 
 
-* **Community:** Organize social events and activities aimed at connecting students and promoting wellness and community.   
-* **Learning:** Recruit speakers and set topics for Spark\! TechTalks, organize MicroChallenges, and support with career development initiatives.   
-* **Hackathon:** Organize hackathons throughout the school year and support students at all levels of computing and data science.   
-* **Ignite:** Support tech-focused clubs through promotion, training, recruitment, and more.   
-* **JEDI:** Support Spark\!’s efforts to advance justice, diversity, equity, and inclusion, including the DEI in Tech Collective, DEI training, and the DEI in Tech course. 
-
 **I am a freshman or a sophomore, can I get hired for an internship?**
 
 We have select opportunities for sophomores in our Summer internship program. We highly suggest freshmen and sophomores attend our TechTalks and participate in our [Code Quests]({% link documentation/code-quests/code-quests.md %}). TechTalks and Code Quests help students to build skills in different areas including software engineering, data science, and machine learning. Typically, internship openings during the semester are for project support roles (Technical Project Manager). Usually preference is given to juniors/seniors or students who have worked on an X-Lab project previously in one of our practicum courses. 
