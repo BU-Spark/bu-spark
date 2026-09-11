@@ -8,7 +8,7 @@ nav_order: 2
 
 # Compute and AI Resources
 
-Spark! has several compute and AI resources available for student projects. Student’s should not be creating hosted resources on their own personal accounts(AWS, GCP etc) instead they should use the Spark! accounts unless specifically told otherwise by Spark! staff. Please go [here](/docs/compute-resources/request/) to request any resource.
+Spark! has several compute and AI resources available for student projects. Students should not create hosted resources on personal accounts (AWS, GCP, etc.). Use Spark! accounts unless Spark! staff tells you otherwise. [Request a resource](/docs/compute-resources/request/).
 
 # Resources Offered
 
