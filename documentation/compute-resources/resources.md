@@ -1,16 +1,22 @@
 ---
 layout: default
-title: Compute Resources
+title: Compute and AI Resources
 has_children: true
 permalink: /docs/compute-resources/
 nav_order: 2
 ---
 
-# Compute Resources
+# Compute and AI Resources
 
-Spark! has several compute resources available for student projects. Student’s should not be creating hosted resources on their own personal accounts(AWS, GCP etc) instead they should use the Spark! accounts unless specifically told otherwise by Spark! staff. Please go [here](/docs/compute-resources/request/) to request any resource.
+Spark! has several compute and AI resources available for student projects. Students should not create hosted resources on personal accounts (AWS, GCP, etc.). Use Spark! accounts unless Spark! staff tells you otherwise. [Request a resource](/docs/compute-resources/request/).
 
 # Resources Offered
+
+## AI API keys
+
+Spark! has accounts for OpenRouter, Anthropic, and OpenAI. Request a key through Spark! when your project needs to call a model from code. Do not open a personal paid account for a Spark! project.
+
+Request a key the same way you request any other resource. On the [request page](/docs/compute-resources/request/), name the provider and model, and describe how the project will use it.
 
 ## Google Cloud Platform(GCP)
 
