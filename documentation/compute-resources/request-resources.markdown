@@ -24,7 +24,7 @@ Follow these steps:
 
 3. Make sure to **tag** the correct person in the comment based on your project type or else they won't be notified of your request:
    - **Software Engineering**: Tag **@oeaugustin** (Omar)
-   - **Data Science / Machine Learning**: Tag **@oeaugustin** (Omar)
+   - **Data Science / Machine Learning**: Tag **@danoh07** (Daniel)
 
 4. Submit the issue and wait for approval. You will be notified once the requested resources are available.
 
