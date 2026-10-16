@@ -12,7 +12,7 @@ This guide will walk you through the process of requesting access to resources a
 
 ## 1. Request Tech Resources
 
-If your project requires any technical resources (such as OpenRouter, Anthropic, or OpenAI API keys, servers, or datasets), you will need to submit a request.
+If your project requires any technical resources (such as OpenRouter, Anthropic, or OpenAI API keys, servers, datasets, GitHub Apps, or AI agents), you will need to submit a request. This includes tools such as Cursor, GitHub Copilot, Claude Code, and CodeRabbit, and any other third-party app or agent that will access a BU-Spark project repository. Spark reviews these requests individually; do not install an app or request broader repository permissions without approval.
 
 Follow these steps:
 
@@ -20,11 +20,11 @@ Follow these steps:
 
    [Request Tech Resources](https://github.com/BU-Spark/bu-spark/issues/new?assignees=&labels=tech+resource+request&projects=&template=request-tech-resources.yml&title=Request+for+Spark%21+Tech+Resources+for+%5Byour+project+name%5D)
 
-2. Fill out the form, providing details about your project, team members, and the specific resources you need.
+2. Fill out the form, providing details about your project, team members, and the specific resources you need. For a GitHub App or agent, name the tool, describe how the project will use it, and list the repository permissions it requests.
 
 3. Make sure to **tag** the correct person in the comment based on your project type or else they won't be notified of your request:
    - **Software Engineering**: Tag **@oeaugustin** (Omar)
-   - **Data Science / Machine Learning**: Tag **@danoh07** (Daniel)
+   - **Data Science / Machine Learning**: Tag **@oeaugustin** (Omar), **@danoh07** (Daniel Oh), and **@aidansmith459** (Aidan Smith)
 
 4. Submit the issue and wait for approval. You will be notified once the requested resources are available.
 

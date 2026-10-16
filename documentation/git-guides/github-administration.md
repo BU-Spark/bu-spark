@@ -15,11 +15,15 @@ Spark! utilizes Github.com to store and manage all code produced from our variou
 
 # Quick Summary
 
-To add users to a repository utilize the `COLLABORATORS` file located in the root of the repository. Put a single Github username per line and commit to `main` or `master`. In the case that either branch is protected you can commit to `dev`. A Github Action will run automatically and send invites to the new users and remove users who are no longer on the list.
+To add users to a repository utilize the `COLLABORATORS` file located in the root of the repository. Put a single Github username per line and commit to `main` or `master`. In the case that either branch is protected you can commit to `dev`. A Github Action will run automatically and send invites to the new users and remove users who are no longer on the list. Installing a GitHub App or AI agent, or changing an app's repository permissions, requires a separate resource request.
 
 # In depth
 
 This part will go over in more detail the process and intricacies of adding and managing users.
+
+## GitHub Apps and AI agents
+
+GitHub Apps and AI agents can request access to repository contents, issues, pull requests, or other organization data. Before adding an app or agent to a BU-Spark project repository, or approving a change to its permissions, submit a [Request Tech Resources](https://buspark.io/docs/compute-resources/request/) issue and wait for Spark approval. Include the app or agent name, how the team plans to use it, and the permissions it requests. This applies to tools such as Cursor, GitHub Copilot, Claude Code, and CodeRabbit, as well as other third-party apps and agents. Requests are reviewed individually; BU-Spark does not approve app installations or expanded permissions across the organization by default.
 
 ## Types of Repositories
 
