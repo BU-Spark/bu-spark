@@ -29,11 +29,11 @@ body:
       required: true
 
   - type: textarea
-    id: team_members
+    id: Spark Slack Channel
     attributes:
-      label: "Team Members + Emails"
-      description: "Enter the names and emails of all team members that need access"
-      placeholder: "e.g., John Doe (johndoe@bu.edu)"
+      label: "Spark Slack Channel"
+      description: "Enter the url of the Slack Channel your team is using"
+      placeholder: "e.g., https://slack.com/app_redirect?channel=SlackChannelName"
     validations:
       required: true
 
