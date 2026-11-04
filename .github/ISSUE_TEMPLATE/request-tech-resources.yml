@@ -29,7 +29,7 @@ body:
       required: true
 
   - type: textarea
-    id: Spark Slack Channel
+    id: spark_slack_channel
     attributes:
       label: "Spark Slack Channel"
       description: "Enter the url of the Slack Channel your team is using"
